@@ -1,0 +1,200 @@
+<testcase name='SeleniumTest_2.2_14' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+
+<dpl filename="" exectype="" errorhandling="stop"/>
+
+<step action="navigateTo" value="&quot;http://www.seleniumhq.org/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Download&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;Get Selenium&quot;)" selected="false"/>
+		<accessor type="click" value="link(4)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.seleniumhq.org/download/&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Download')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='menu_download']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/download/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[4]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="assertExists" value="link(&quot;Browser Automation&quot;)" selected="true"/>
+		<accessor type="assertExists" value="link(&quot;Return to Selenium home page&quot;)" selected="false"/>
+		<accessor type="assertExists" value="link(0)" selected="false"/>
+		<accessor type="assertExists" value="link(&quot;http://www.seleniumhq.org/&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Browser Automation')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[@id='header']/h1/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a&quot;" selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type="assertExists" attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="assertExists" value="heading2(&quot;Downloads&quot;)" selected="true"/>
+		<accessor type="assertExists" value="heading2(0)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='mainContent']/h2&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//h2&quot;" selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type="assertExists" attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Documentation&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;Technical references and guides&quot;)" selected="false"/>
+		<accessor type="click" value="link(3)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.seleniumhq.org/docs/&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Documentation')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='menu_documentation']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/docs/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="assertExists" value="heading1(&quot;Selenium Documentation¶&quot;)" selected="true"/>
+		<accessor type="assertExists" value="heading1(1)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='selenium-documentation']/h1&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/div/div/h1&quot;" selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type="assertExists" attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="assertExists" value="imageSubmitButton(&quot;python.png&quot;)" selected="true"/>
+		<accessor type="assertExists" value="imageSubmitButton(3)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@value='python']&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[@id='codeLanguagePreference']/ul/li[3]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/input&quot;" selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type="assertExists" attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Support&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;Get help with Selenium&quot;)" selected="false"/>
+		<accessor type="click" value="link(2)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.seleniumhq.org/support/&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Support')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='menu_support']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/support/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;About&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;Overview of Selenium&quot;)" selected="false"/>
+		<accessor type="click" value="link(1)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.seleniumhq.org/about/&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'About')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='menu_about']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/about/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[1]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="click" value="heading3(&quot;Documentation&quot;)" selected="true"/>
+		<accessor type="click" value="heading3(9)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='mainContent']/h3[8]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//h3[8]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;edit this page&quot;)" selected="true"/>
+		<accessor type="click" value="link(6)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://github.com/SeleniumHQ/www.seleniumhq.org/edit/master/src/main/webapp/about/index.jsp&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'edit this page')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='editPage']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://github.com/SeleniumHQ/www.seleniumhq.org/edit/master/src/main/webapp/about/index.jsp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="11">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;edit this page&quot;)" selected="true"/>
+		<accessor type="click" value="link(6)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://github.com/SeleniumHQ/www.seleniumhq.org/edit/master/src/main/webapp/about/index.jsp&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'edit this page')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='editPage']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://github.com/SeleniumHQ/www.seleniumhq.org/edit/master/src/main/webapp/about/index.jsp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>

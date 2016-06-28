@@ -1,0 +1,171 @@
+<testcase name='Cisco_14' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+
+<dpl filename="" exectype="" errorhandling="stop"/>
+
+<step action="navigateTo" value="&quot;http://www.cisco.com/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Products &amp; Services&quot;)" selected="true"/>
+		<accessor type="click" value="link(9)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.cisco.com/c/en/us/products/index.html&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Products &amp; Services')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='products-mm-item']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/c/en/us/products/index.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//nav[2]/ul/li[1]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Analytics and Automation Software&quot;)" selected="true"/>
+		<accessor type="click" value="link(33)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.cisco.com/c/en/us/products/software/analytics-automation-software.html[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Analytics and Automation Software')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='fw-content']/div[5]/div[1]/div/div/div/div[1]/ul/li[1]/div[2]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[1]/div[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;How to Buy&quot;)" selected="true"/>
+		<accessor type="click" value="link(13)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.cisco.com/web/ordering/root/index.html&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'How to Buy')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='ordering-mm-item']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/web/ordering/root/index.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//nav[2]/ul/li[3]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Support&quot;)" selected="true"/>
+		<accessor type="click" value="link(11)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.cisco.com/c/en/us/support/index.html&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Support')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='support-mm-item']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/c/en/us/support/index.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//nav[2]/ul/li[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="click" value="span(&quot;Select a Product&quot;)" selected="true"/>
+		<accessor type="click" value="span(7)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='fw-content']/div[3]/div[1]/div/div[2]/div/a/span&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div/a/span&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="listItem(&quot;1 10/100 Ethernet 1 4/16 Token-Ring 2 WAN Card Slot Network Module&quot;)" selected="false"/>
+		<accessor type="click" value="listItem(&quot;active-result&quot;)" selected="false"/>
+		<accessor type="click" value="listItem(19)" selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='fw-content']/div[3]/div[1]/div/div[2]/div/div/ul/li[1]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[2]/div/div/ul/li[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Training &amp; Events&quot;)" selected="true"/>
+		<accessor type="click" value="link(15)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.cisco.com/web/learning/index.html&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Training &amp; Events')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[@onclick='s_objectID=\&quot;http://www.cisco.com/web/learning/index.html_1\&quot;;return this.s_oc?this.s_oc(e):true']&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[@id='training-mm-item']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/web/learning/index.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[4]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Partners&quot;)" selected="true"/>
+		<accessor type="click" value="link(13)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.cisco.com/web/partners/index.html&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;mm-link[4]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Partners')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//td[@id='partner-mm-item']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/web/partners/index.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//td[5]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Set up a sandbox to test your application&quot;)" selected="true"/>
+		<accessor type="click" value="link(53)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://developer.cisco.com/sandbox&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Set up a sandbox to test your application')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='framework-content-main']/div/div/div/div[2]/div[1]/div[1]/div/div[2]/div/ul[2]/li[2]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://developer.cisco.com/sandbox')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//ul[2]/li[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="click" value="listItem(&quot;Developer support&quot;)" selected="true"/>
+		<accessor type="click" value="listItem(24)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='framework-content-main']/div/div/div/div[2]/div[1]/div[1]/div/div[2]/div/ul[2]/li[3]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//ul[2]/li[3]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>

@@ -1,0 +1,115 @@
+<testcase name='w3_14' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+
+<dpl filename="" exectype="" errorhandling="stop"/>
+
+<step action="navigateTo" value="&quot;http://www.w3schools.com/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Learn HTML[1]&quot;)" selected="true"/>
+		<accessor type="click" value="link(86)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.w3schools.com/html/default.asp[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='sidemenu']/a[2]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//nav[6]/a[2]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;HTML Basic&quot;)" selected="true"/>
+		<accessor type="click" value="link(22)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.w3schools.com/html/html_basic.asp&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'HTML Basic')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='leftmenuinnerinner']/a[5]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'html_basic.asp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[1]/div/div/a[5]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;JAVASCRIPT&quot;)" selected="true"/>
+		<accessor type="click" value="link(5)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.w3schools.com/js/default.asp&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;w3-hide-small[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'JAVASCRIPT')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='topnav']/div[1]/div[1]/a[5]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/js/default.asp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[5]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;JS Scope&quot;)" selected="true"/>
+		<accessor type="click" value="link(33)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.w3schools.com/js/js_scope.asp&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'JS Scope')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='leftmenuinnerinner']/a[16]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'js_scope.asp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[16]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;JQUERY&quot;)" selected="true"/>
+		<accessor type="click" value="link(9)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.w3schools.com/jquery/default.asp&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;w3-hide-small[5]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'JQUERY')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='topnav']/div[1]/div[1]/a[9]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/jquery/default.asp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[9]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;BOOTSTRAP&quot;)" selected="true"/>
+		<accessor type="click" value="link(8)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.w3schools.com/bootstrap/default.asp&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;w3-hide-small[5]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'BOOTSTRAP')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='topnav']/div[1]/div[1]/a[8]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/bootstrap/default.asp')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[8]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>

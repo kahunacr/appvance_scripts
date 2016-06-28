@@ -1,0 +1,271 @@
+<testcase name='Sahidemo_Thinktime_enabled Tue Jan 13 2015 10:56:24' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+
+<dpl filename="" exectype="runspecificstep-3" errorhandling="stop"/>
+
+<step action="navigateTo" value="&quot;http://sahitest.com/demo&quot;" type="web" desc="This step is used to login to the application" isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="10041" type="web" desc='' isThinkTime="true" isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Link Test&quot;)" selected="true"/>
+		<accessor type="click" value="link(0)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://sahitest.com/demo/linkTest.htm&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;a x&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Link Test')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'linkTest.htm')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="3946" type="web" desc='' isThinkTime="true" isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;linkByHtml&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;linkByHtml&quot;)" selected="false"/>
+		<accessor type="click" value="link(1)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://sahitest.com/demo/linkByHtml.htm&quot;)" selected="false"/>
+		<accessor type="click" value="bold(&quot;linkByHtml&quot;)" selected="false"/>
+		<accessor type="click" value="bold(0)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[@id='linkByHtml']/b&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//b&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="2976" type="web" desc='' isThinkTime="true" isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Back&quot;)" selected="true"/>
+		<accessor type="click" value="link(0)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://sahitest.com/demo/linkTest.htm&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Back')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'linkTest.htm')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="2918" type="web" desc='' isThinkTime="true" isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;link with return true&quot;)" selected="true"/>
+		<accessor type="click" value="link(3)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://sahitest.com/demo/formTest.htm&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'link with return true')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[@onclick=\&quot;document.getElementById('t1').value='formTest link with return true';return true;\&quot;]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'formTest.htm')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[4]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="3955" type="web" desc='' isThinkTime="true" isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;t1&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;t1&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(0)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;bordercheck&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@name='t1']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="1921" type="web" desc='' isThinkTime="true" isCommented='false' sequence="11">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;t2&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="12">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(1)" selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//tr[3]/td[2]/input&quot;" selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="1922" type="web" desc='' isThinkTime="true" isCommented='false' sequence="13">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;name&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="14">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;name&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(2)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@name='name']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//tr[4]/td[2]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="1911" type="web" desc='' isThinkTime="true" isCommented='false' sequence="15">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;dollar&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="16">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;$a_dollar&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(3)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@name='$a_dollar']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//tr[5]/td[2]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="6959" type="web" desc='' isThinkTime="true" isCommented='false' sequence="17">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="18">
+	<dialect type="sahi">
+		<accessor type="click" value="reset(&quot;Button Three&quot;)" selected="true"/>
+		<accessor type="click" value="reset(&quot;buttonId&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@id='buttonId' and @type='reset']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//button[3]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="2870" type="web" desc='' isThinkTime="true" isCommented='false' sequence="19">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="20">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Back&quot;)" selected="true"/>
+		<accessor type="click" value="link(0)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://sahitest.com/demo/index.htm&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Back')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'index.htm')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>

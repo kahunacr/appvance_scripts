@@ -1,0 +1,106 @@
+<testcase name='FoxNews' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+
+<dpl filename="" exectype="" errorhandling=""/>
+
+<step action="navigateTo" value="&quot;http://www.foxnews.com/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Entertainment&quot;)" selected="true"/>
+		<accessor type="click" value="link(18)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.foxnews.com/entertainment?intcmp=hpnav&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Entertainment')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//nav[@id='menu']/ul/li[6]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/entertainment?intcmp=hpnav')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//nav/ul/li[6]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="span(15)" selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//header[@id='top']/a/span/span&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//header/a/span/span&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Trending&quot;)" selected="true"/>
+		<accessor type="click" value="link(3)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.foxnews.com/trending/?intcmp=subnav&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Trending')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='drawer']/nav/ul/li[3]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '//www.foxnews.com/trending/?intcmp=subnav')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="span(15)" selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//header[@id='top']/a/span/span&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//header/a/span/span&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Fox News Home&quot;)" selected="true"/>
+		<accessor type="click" value="link(1)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.foxnews.com/?intcmp=subnav&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Fox News Home')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='drawer']/nav/ul/li[1]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '//www.foxnews.com/?intcmp=subnav')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[1]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;World&quot;)" selected="true"/>
+		<accessor type="click" value="link(24)" selected="false"/>
+		<accessor type="click" value="link(&quot;http://www.foxnews.com/world&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'World')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//nav[@id='menu']/ul/li[12]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/world')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[12]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>
