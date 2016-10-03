@@ -136,7 +136,8 @@
 		<accessor type="click" value="link(5)" selected="false"/>
 		<accessor type="click" value="link(&quot;http://www.apple.com/mac/&quot;)" selected="false"/>
 		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-mac&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ipad&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;ipad&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;iPad&quot;)" selected="true"/>
 	</dialect>
 	<dialect type="selenium">
 		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[2]/a&quot;" selected="true"/>
