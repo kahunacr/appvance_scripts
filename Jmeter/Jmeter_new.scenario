@@ -114,7 +114,15 @@
     <testcase name="Testcase1" users="1"/>
   </iteration>
 </execution>
-<logs/>
+<logs>
+  <log type="database">
+    <opt name="hibernate.connection.username" value="utp"/>
+    <opt name="hibernate.connection.password" value="utp"/>
+    <opt name="hibernate.connection.url" value="jdbc:mysql://jdbc:mysql://innodb.c7nn5t4czzya.us-west-2.rds.amazonaws.com:3306/utp:3306/utp?useSSL=false"/>
+    <opt name="hibernate.default_schema" value="utp"/>
+    <opt name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+  </log>
+</logs>
 <integrations xmlns="www.pushtotest.com/tm5"/>
 <notifications/>
 </testscenario>
