@@ -41,7 +41,6 @@
   <bundle name="ds" version="2.0"/>
   <bundle name="seleniumrc" version="2.53"/>
   <bundle name="htmlunit" version="2.15.2648"/>
-  <bundle name="ajt" version="1.0"/>
   <bundle name="jmeter" version="2.13"/>
 </bundles>
 <datasources/>
