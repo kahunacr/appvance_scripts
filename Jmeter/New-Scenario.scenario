@@ -29,7 +29,6 @@
     <links/>
   </basics>
   <resources>
-    <resource name="Sedo-Script.ds" type="ds" path="{scenario}/../../../SERVER/NETWORK/SUDHARANI/Users/hp-pc/Desktop/MyScripts_AjaxTime/Sedo-Script.ds"/>
     <resource name="Jmeter_script_2.13_HttpRequests.jmx" type="jmx" path="{scenario}/Jmeter_script_2.13_HttpRequests.jmx"/>
   </resources>
   <testnodes>
