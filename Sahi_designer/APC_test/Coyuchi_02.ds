@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase name='Coyuchi_02' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+<accessorprefs values=""/>
+<dpl filename="" exectype="" errorhandling="stop"/>
+
+<step action="navigateTo" value="&quot;https://www.coyuchi.com/&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="click" value="span(&quot;My Account&quot;)" selected="true"/>
+		<accessor type="click" value="span(5)" selected="false"/>
+		<accessor type="click" value="span(&quot;label[2]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//header[@id='header']/div/div[2]/a[3]/span[2]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[3]/span[2]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Log In&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;Log In&quot;)" selected="false"/>
+		<accessor type="click" value="link(84)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://www.coyuchi.com/customer/account/login/referer/aHR0cHM6Ly93d3cuY295dWNoaS5jb20v/&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Log In')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='header-account']/div/ul/li[6]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://www.coyuchi.com/customer/account/login/referer/aHR0cHM6Ly93d3cuY295dWNoaS5jb20v/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/ul/li[6]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;testappvance04@yahoo.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="setValue" value="emailbox(&quot;login[username]&quot;)" selected="true"/>
+		<accessor type="setValue" value="emailbox(0)" selected="false"/>
+		<accessor type="setValue" value="emailbox(&quot;input-text required-entry validate-email validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='email']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='login-form']/div/div[2]/div[1]/ul/li[1]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[1]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;Appvance@123&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="setValue" value="password(&quot;login[password]&quot;)" selected="true"/>
+		<accessor type="setValue" value="password(&quot;pass&quot;)" selected="false"/>
+		<accessor type="setValue" value="password(0)" selected="false"/>
+		<accessor type="setValue" value="password(&quot;input-text required-entry validate-password validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='pass']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='login-form']/div/div[2]/div[1]/ul/li[2]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[2]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="click" value="submit(&quot;Login&quot;)" selected="true"/>
+		<accessor type="click" value="submit(&quot;send&quot;)" selected="false"/>
+		<accessor type="click" value="submit(&quot;send2&quot;)" selected="false"/>
+		<accessor type="click" value="submit(&quot;button&quot;)" selected="false"/>
+		<accessor type="click" value="submit(1)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@id='send2']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='login-form']/div/div[2]/div[2]/button&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Men's&quot;)" selected="true"/>
+		<accessor type="click" value="link(71)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://www.coyuchi.com/organic-robes-pajamas/organic-loungewear-mens.html&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;level1 [31]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='nav']/ol/li[6]/ul/li[3]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://www.coyuchi.com/organic-robes-pajamas/organic-loungewear-mens.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[6]/ul/li[3]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Bed&quot;)" selected="true"/>
+		<accessor type="click" value="link(17)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://www.coyuchi.com/organic-bedding.html&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;level0 has-children[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Bed')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//nav[@id='nav']/ol/li[2]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://www.coyuchi.com/organic-bedding.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//ol/li[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="click" value="image(&quot;Lost Coast Collection&quot;)" selected="true"/>
+		<accessor type="click" value="image(&quot;product-collection-image-9549&quot;)" selected="false"/>
+		<accessor type="click" value="image(&quot;sp17_lostcoast_hero_3.jpg&quot;)" selected="false"/>
+		<accessor type="click" value="image(13)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//img[@alt='Lost Coast Collection']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//img[@id='product-collection-image-9549']&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//html[@id='top']/body/div[2]/div/div[1]/div/div[2]/div[3]/ul/li[7]/a/img&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[7]/a/img&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="click" value="span(15)" selected="true"/>
+		<accessor type="click" value="span(&quot;dd-pointer dd-pointer-down&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//div[@id='bundle-option-303']/div/span&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div/div/div/span&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;New&quot;)" selected="true"/>
+		<accessor type="click" value="link(14)" selected="false"/>
+		<accessor type="click" value="link(&quot;https://www.coyuchi.com/new.html&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;level0 has-children&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'New')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//nav[@id='nav']/ol/li[1]/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://www.coyuchi.com/new.html')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//ol/li[1]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="11">
+	<dialect type="sahi">
+		<accessor type="click" value="image(&quot;Pacifica Oven Mitt&quot;)" selected="true"/>
+		<accessor type="click" value="image(&quot;product-collection-image-9345&quot;)" selected="false"/>
+		<accessor type="click" value="image(&quot;pacifica_oven_mitt_back_sp17.jpg&quot;)" selected="false"/>
+		<accessor type="click" value="image(178)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//img[@alt='Pacifica Oven Mitt']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//img[@id='product-collection-image-9345']&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//html[@id='top']/body/div[2]/div/div[1]/div/div[2]/div[3]/ul/li[42]/a/img&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[42]/a/img&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="12">
+	<dialect type="sahi">
+		<accessor type="click" value="button(&quot;Add to Cart&quot;)" selected="true"/>
+		<accessor type="click" value="button(&quot;button btn-cart&quot;)" selected="false"/>
+		<accessor type="click" value="button(0)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@type='button']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='product_addtocart_form']/div[3]/div[6]/div/div[2]/button&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="13">
+	<dialect type="sahi">
+		<accessor type="click" value="span(&quot;My Cart&quot;)" selected="true"/>
+		<accessor type="click" value="span(7)" selected="false"/>
+		<accessor type="click" value="span(&quot;label[3]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//header[@id='header']/div/div[2]/div/a/span[2]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[2]/div/a/span[2]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;California&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="14">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;region_id&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;region_id&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(1)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;required-entry validate-select validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='region_id']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='shipping-zip-form']/ul/li[2]/div/select&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[2]/div/select&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="15">
+	<dialect type="sahi">
+		<accessor type="click" value="button(&quot;Proceed to Checkout[1]&quot;)" selected="true"/>
+		<accessor type="click" value="button(&quot;button btn-proceed-checkout btn-checkout[1]&quot;)" selected="false"/>
+		<accessor type="click" value="button(6)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//html[@id='top']/body/div[2]/div/div[2]/div/div/div/div[4]/div/ul/li[1]/button&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[4]/div/ul/li[1]/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;Appvance&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="16">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;billing[company]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;billing:company&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(5)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='billing:company']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='billing-new-address-form']/div/ul/li[2]/div/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[2]/div/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;Appvance Worldwide 1735 Technology drive &quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="17">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;billing[street][]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;billing:street1&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(6)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text  required-entry validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='billing:street1']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='billing-new-address-form']/div/ul/li[3]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;Suite 820&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="18">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;billing[street][][1]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;billing:street2&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(7)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text validation-passed[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='billing:street2']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='billing-new-address-form']/div/ul/li[4]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[4]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;San Jose&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="19">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;billing[city]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;billing:city&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(8)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text  required-entry validation-passed[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='billing:city']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='billing-new-address-form']/div/ul/li[5]/div[1]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[5]/div[1]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;California&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="20">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;billing[region_id]&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;billing:region_id&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(0)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;validate-select required-entry validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='billing:region_id']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='billing-new-address-form']/div/ul/li[5]/div[2]/div/select&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//select&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;9511&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="21">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;billing[postcode]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;billing:postcode&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(10)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text validate-zip-international  required-entry validation-passed&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='billing:postcode']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='billing-new-address-form']/div/ul/li[6]/div[1]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[6]/div[1]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="22">
+	<dialect type="sahi">
+		<accessor type="click" value="button(&quot;Continue&quot;)" selected="false"/>
+		<accessor type="click" value="button(&quot;button&quot;)" selected="false"/>
+		<accessor type="click" value="button(0)" selected="false"/>
+		<accessor type='' value='' selected="false"/>
+		<accessor type="span(&quot;Continue&quot;)" value="span(&quot;Continue&quot;)" selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@type='button']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='billing-buttons-container']/button&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/div/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="23">
+	<dialect type="sahi">
+		<accessor type="click" value="radio(&quot;s_method_matrixrate_matrixrate_37&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;shipping_method[1]&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;matrixrate_matrixrate_37&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;radio[1]&quot;)" selected="true"/>
+		<accessor type="click" value="radio(3)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='s_method_matrixrate_matrixrate_37']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='checkout-shipping-method-load']/dl/dd[1]/ul/li[2]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//dd[1]/ul/li[2]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="24">
+	<dialect type="sahi">
+		<accessor type="click" value="button(&quot;Continue[2]&quot;)" selected="true"/>
+		<accessor type="click" value="button(&quot;button[1]&quot;)" selected="false"/>
+		<accessor type="click" value="button(3)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@type='button' and @onclick='shippingMethod.notifyAndSave()']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='shipping-method-buttons-container']/button&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[3]/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="25">
+	<dialect type="sahi">
+		<accessor type="click" value="radio(&quot;p_method_authorizenetcim&quot;)" selected="true"/>
+		<accessor type="click" value="radio(&quot;payment[method]&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;authorizenetcim&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;radio&quot;)" selected="false"/>
+		<accessor type="click" value="radio(6)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='p_method_authorizenetcim']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//dl[@id='checkout-payment-method-load']/dt[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//dt[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;American Express&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="26">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;payment[cc_type]&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;authorizenetcim_cc_type&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(4)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;required-entry validate-cc-type-select&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='authorizenetcim_cc_type']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_new_card_form']/ul/li[1]/div/select&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[1]/div/select&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;Month&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="27">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;payment[cc_exp_month]&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;authorizenetcim_expiration&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(5)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;month validate-cc-exp required-entry&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='authorizenetcim_expiration']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_type_exp_div']/div/select[1]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/div/select[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;156788888888888888&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="28">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;payment[cc_number]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;authorizenetcim_cc_number&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(23)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text validate-cc-duplicate validate-cc-number validate-cc-type&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='authorizenetcim_cc_number']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_new_card_form']/ul/li[2]/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[2]/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;Month&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="29">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;payment[cc_exp_month]&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;authorizenetcim_expiration&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(5)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;month validate-cc-exp required-entry&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='authorizenetcim_expiration']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_type_exp_div']/div/select[1]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/div/select[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;01 - January&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="30">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;payment[cc_exp_month]&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;authorizenetcim_expiration&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(5)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;month validate-cc-exp required-entry&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='authorizenetcim_expiration']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_type_exp_div']/div/select[1]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[3]/div/select[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;2020&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="31">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;payment[cc_exp_year]&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;authorizenetcim_expiration_yr&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(6)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;year required-entry&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='authorizenetcim_expiration_yr']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_type_exp_div']/div/select[2]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//select[2]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="32">
+	<dialect type="sahi">
+		<accessor type="click" value="button(&quot;Continue[3]&quot;)" selected="true"/>
+		<accessor type="click" value="button(&quot;button[1]&quot;)" selected="false"/>
+		<accessor type="click" value="button(5)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@type='button' and @onclick='payment.save()']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='payment-buttons-container']/button&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;0000&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="33">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;payment[cc_cid]&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;authorizenetcim_cc_cid&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(24)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;input-text cvv required-entry validate-cc-cvn&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='authorizenetcim_cc_cid']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//li[@id='authorizenetcim_cc_type_cvv_div']/div/div/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[4]/div/div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="34">
+	<dialect type="sahi">
+		<accessor type="click" value="button(&quot;Continue[3]&quot;)" selected="true"/>
+		<accessor type="click" value="button(&quot;button[1]&quot;)" selected="false"/>
+		<accessor type="click" value="button(5)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@type='button' and @onclick='payment.save()']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='payment-buttons-container']/button&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/button&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>
