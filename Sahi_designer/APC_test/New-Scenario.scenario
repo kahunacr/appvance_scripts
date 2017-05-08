@@ -104,7 +104,9 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round totalexecutions="1" name="1 Executions Controller"/>
+      <round name="Executions per User">
+        <testcase name="Testcase1" executions="3"/>
+      </round>
     </controller>
     <testcase name="Testcase1">
       <test>
@@ -116,8 +118,8 @@
   </templates>
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="loadtest" subtype="performance">
-    <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
-      <testcase name="Testcase1" users="1"/>
+    <iteration name="Iteration1" controller="Iteration1" completiontype="exacttestcaseexecutions">
+      <testcase name="Testcase1" users="5"/>
     </iteration>
   </execution>
   <logs/>
