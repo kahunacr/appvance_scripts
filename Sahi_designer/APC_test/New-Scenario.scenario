@@ -122,7 +122,7 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="loadtest" subtype="performance">
     <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
-      <testcase name="Testcase1" users="5"/>
+      <testcase name="Testcase1" users="4"/>
     </iteration>
     <iteration name="Iteration2" controller="Iteration2" completiontype="exacttestcaseexecutions">
       <testcase name="Testcase1" users="1"/>
