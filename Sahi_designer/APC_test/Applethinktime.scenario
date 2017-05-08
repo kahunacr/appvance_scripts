@@ -54,7 +54,9 @@
     <options type="apc">
       <opt name="SummaryStepIsEmpty" value="false"/>
       <opt name="DynamicIpAddress" value="false"/>
+      <opt name="EnableSavingLogs" value="true"/>
       <opt name="PercentageLogsSaved" value="0"/>
+      <opt name="AlwaysSaveLogOnFailure" value="true"/>
       <opt name="maxSizeReponseSavings" value="true"/>
       <opt name="sizeValueResponseSavings" value="0"/>
       <opt name="SleepTime" value="0"/>
@@ -83,6 +85,9 @@
     </options>
     <options type="commandline">
       <opt name="async" value="false"/>
+    </options>
+    <options type="ds3">
+      <opt name="optionsTimings" value="actionDuration"/>
     </options>
     <options type="sahi">
       <opt name="clearCache" value="true"/>
