@@ -29,7 +29,7 @@
     <links>  </links>
   </basics>
   <resources>
-    <resource name="Apple_thinktime.ds" type="ds" path="REPOSITORY/HOME/Apple_thinktime.ds"/>
+    <resource name="Apple_thinktime.ds" type="ds" path="SERVER/C:/Karthik work/All_scripts/DS/Apple_thinktime.ds"/>
   </resources>
   <testnodes>
     <cloud name="Cloud-1" type="EC2" instantiate="startAll" terminate="stopAll" reboot="never" amount="1" config="AppvanceCloud.cloud" username="appvance" password="appvance"/>
