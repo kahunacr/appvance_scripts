@@ -134,7 +134,7 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="loadtest" subtype="performance">
     <iteration name="Iteration1" controller="Iteration1" completiontype="duration">
-      <testcase name="Testcase1" users="10"/>
+      <testcase name="Testcase1" users="5"/>
       <testcase name="Testcase2" users="5">
         <options xmlns="www.pushtotest.com/tm5">
           <opt name="RampUpUsers" value="0"/>
