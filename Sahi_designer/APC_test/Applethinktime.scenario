@@ -30,6 +30,7 @@
   </basics>
   <resources>
     <resource name="Apple_thinktime.ds" type="ds" path="SERVER/C:/Karthik work/All_scripts/DS/Apple_thinktime.ds"/>
+    <resource name="Apple_generalized_script.ds" type="ds" path="SERVER/C:/Karthik work/All_scripts/DS/Apple_generalized_script.ds"/>
   </resources>
   <testnodes>
     <node name="localhost-1" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -122,6 +123,11 @@
         <run name="Untitled1" langtype="ds" resource="Apple_thinktime.ds" testclass="Sahi" method="chrome"/>
       </test>
     </testcase>
+    <testcase name="Testcase2" runtimeState="true">
+      <test>
+        <run name="Untitled1" langtype="ds" resource="Apple_generalized_script.ds" testclass="Sahi" method="firefox"/>
+      </test>
+    </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
@@ -129,6 +135,23 @@
   <execution type="loadtest" subtype="performance">
     <iteration name="Iteration1" controller="Iteration1" completiontype="duration">
       <testcase name="Testcase1" users="10"/>
+      <testcase name="Testcase2" users="5">
+        <options xmlns="www.pushtotest.com/tm5">
+          <opt name="RampUpUsers" value="0"/>
+          <opt name="RampUpSeconds" value="0"/>
+          <opt name="MaxRampUpTime" value="0"/>
+          <opt name="RampDownUsers" value="0"/>
+          <opt name="RampDownSeconds" value="0"/>
+          <opt name="MaxRampDownTime" value="0"/>
+          <opt name="InitialRampUpDelay" value="60"/>
+          <opt name="IntervalTime" value="0"/>
+          <opt name="MinIntervalTime" value="0"/>
+          <opt name="MaxIntervalTime" value="0"/>
+          <opt name="SleepTime" value="0"/>
+          <opt name="MinSleepTime" value="0"/>
+          <opt name="MaxSleepTime" value="0"/>
+        </options>
+      </testcase>
     </iteration>
   </execution>
   <logs/>
