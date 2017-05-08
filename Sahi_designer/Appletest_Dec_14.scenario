@@ -20,16 +20,16 @@
 -->
 <testscenario xmlns="www.pushtotest.com/tm5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd" version="2.0">
   <basics>
-    <name>Untitled Load Test</name>
-    <defaultdirectory>{scenario}</defaultdirectory>
+    <name>Appletest_Dec_14.scenario</name>
+    <defaultdirectory/>
     <basicName/>
     <creator/>
-    <links/>
     <versions/>
     <categorization/>
+    <links>          </links>
   </basics>
   <resources>
-    <resource name="AppleTest_Dec_14.ds" type="ds" path="{scenario}/AppleTest_Dec_14.ds" cache="false"/>
+    <resource name="AppleTest_Dec_14.ds" type="ds" path="{scenario}/AppleTest_Dec_14.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -44,61 +44,92 @@
   </bundles>
   <datasources/>
   <options>
+    <options type="global">
+      <opt name="trustAllSSLCertificates" value="false"/>
+      <opt name="ntlmEnabled" value="false"/>
+      <opt name="EnableHttpTimingDetailsLogging" value="false"/>
+      <opt name="ConsoleAsProxy" value="false"/>
+    </options>
     <options type="apc">
-      <opt name="SleepTime" value="0"/>
-      <opt name="testnode_concurrent_users" value="0"/>
-      <opt name="global_concurrent_users" value="0"/>
-      <opt name="SleepTime" value="0"/>
-      <opt name="RampUpUsers" value="0"/>
-      <opt name="RampUpSeconds" value="0"/>
-      <opt name="RampDownUsers" value="0"/>
-      <opt name="RampDownSeconds" value="0"/>
-      <opt name="ThinkTimeMin" value="0"/>
-      <opt name="ThinkTimeMax" value="0"/>
-      <opt name="MinSleepTime" value="0"/>
-      <opt name="MaxSleepTime" value="0"/>
-      <opt name="MinIntervalTime" value="0"/>
-      <opt name="MaxIntervalTime" value="0"/>
-      <opt name="PercentageLogsSaved" value="0"/>
-      <opt name="ThinkTime" value="0"/>
-      <opt name="IntervalTime" value="0"/>
+      <opt name="SummaryStepIsEmpty" value="false"/>
       <opt name="DynamicIpAddress" value="false"/>
       <opt name="EnableSavingLogs" value="true"/>
+      <opt name="PercentageLogsSaved" value="0"/>
       <opt name="AlwaysSaveLogOnFailure" value="true"/>
+      <opt name="maxSizeReponseSavings" value="false"/>
+      <opt name="sizeValueResponseSavings" value="0"/>
+      <opt name="SleepTime" value="0"/>
+      <opt name="FixedSleepTime" value="0"/>
+      <opt name="MinSleepTime" value="0"/>
+      <opt name="MaxSleepTime" value="0"/>
+      <opt name="ThinkTime" value="default"/>
+      <opt name="FixedThinkTime" value="0"/>
+      <opt name="StandardDeviation" value="0"/>
+      <opt name="ThinkTimeMin" value="0"/>
+      <opt name="ThinkTimeMax" value="0"/>
+      <opt name="IntervalTime" value="0"/>
+      <opt name="FixedIntervalTime" value="0"/>
+      <opt name="MinIntervalTime" value="0"/>
+      <opt name="MaxIntervalTime" value="0"/>
+      <opt name="RampUpUsers" value="0"/>
+      <opt name="RampUpSeconds" value="0"/>
+      <opt name="MaxRampUpTime" value="0"/>
+      <opt name="RampDownUsers" value="0"/>
+      <opt name="RampDownSeconds" value="0"/>
+      <opt name="MaxRampDownTime" value="0"/>
+      <opt name="ReportThinkTime" value="true"/>
       <opt name="AddThinkTimeToStep" value="false"/>
+      <opt name="global_concurrent_users" value="0"/>
+      <opt name="testnode_concurrent_users" value="0"/>
     </options>
-    <options type="selenium">
-      <opt name="loglevel" value="INFO"/>
-      <opt name="throwExceptionOnScriptError" value="false"/>
-      <opt name="throwExceptionOnFailingStatusCode" value="false"/>
+    <options type="commandline">
+      <opt name="async" value="false"/>
+    </options>
+    <options type="ds3">
+      <opt name="reuseBrowser" value="false"/>
+      <opt name="optionsTimings" value="actionDuration"/>
     </options>
     <options type="sahi">
       <opt name="clearCache" value="true"/>
       <opt name="takeSnapshot" value="false"/>
+      <opt name="debugModeSahi" value="false"/>
+      <opt name="domComplete" value="true"/>
+      <opt name="replaceNextStepReady" value="true"/>
+      <opt name="ajaxTimeout" value="10"/>
+      <opt name="InitialURL" value="http://www.apple.com"/>
+    </options>
+    <options type="har">
+      <opt name="connectionResetMarksTestcaseFailure" value="false"/>
+      <opt name="markRequestAsSteps" value="false"/>
+      <opt name="useHarResponses" value="false"/>
+      <opt name="printDebugInfo" value="false"/>
+      <opt name="doNotStopOnFailure" value="false"/>
+    </options>
+    <options type="selenium">
+      <opt name="rc" value="true"/>
+      <opt name="synchronized" value="false"/>
     </options>
     <options type="seleniumrc">
       <opt name="listenport" value="6543"/>
-      <opt name="port" value="5555"/>
+      <opt name="serverport" value="5555"/>
     </options>
   </options>
   <templates>
     <controller name="Untitled1">
-      <round name="Untitled1" totalusers="2" testtype="users" totaliterations="2">
-        <testcase name="Untitled1" executions="2"/>
-      </round>
+      <round testtype="users" totalexecutions="1" name="1 Executions Controller"/>
     </controller>
-    <testcase name="Untitled1" expand="yes">
+    <testcase name="Untitled1">
       <test>
-        <run name="Untitled1" testclass="sahi" method="firefox" langtype="ds" resource="AppleTest_Dec_14.ds"/>
+        <run name="Untitled1" langtype="ds" resource="AppleTest_Dec_14.ds" testclass="sahi" method="firefox"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
   <monitoring enablednodes="true" enabledtarget="false"/>
-  <execution type="loadtest">
-    <iteration controller="Untitled1" name="Untitled1">
-      <testcase name="Untitled1" totalexecutions="2" users="2"/>
+  <execution type="loadtest" subtype="load">
+    <iteration name="Untitled1" controller="Untitled1" completiontype="totalexecutions">
+      <testcase name="Untitled1" users="2"/>
     </iteration>
   </execution>
   <logs>
@@ -110,10 +141,8 @@
       <opt name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
     </log>
   </logs>
-  <integrations>
-    <integration type="RQM">
-      <opt name="Enabled" value="false"/>
-    </integration>
+  <integrations xmlns="www.pushtotest.com/tm5">
+    <integration type="RQM"/>
   </integrations>
   <notifications/>
 </testscenario>
