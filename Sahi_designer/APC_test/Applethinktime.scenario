@@ -56,7 +56,7 @@
       <opt name="SummaryStepIsEmpty" value="false"/>
       <opt name="DynamicIpAddress" value="false"/>
       <opt name="EnableSavingLogs" value="true"/>
-      <opt name="PercentageLogsSaved" value="0"/>
+      <opt name="PercentageLogsSaved" value="100"/>
       <opt name="AlwaysSaveLogOnFailure" value="true"/>
       <opt name="maxSizeReponseSavings" value="true"/>
       <opt name="sizeValueResponseSavings" value="0"/>
@@ -88,6 +88,7 @@
       <opt name="async" value="false"/>
     </options>
     <options type="ds3">
+      <opt name="reuseBrowser" value="false"/>
       <opt name="optionsTimings" value="actionDuration"/>
     </options>
     <options type="sahi">
@@ -116,7 +117,7 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round time="10" name="10 Minutes"/>
+      <round time="5" name="5 Minutes"/>
     </controller>
     <testcase name="Testcase1">
       <test>
