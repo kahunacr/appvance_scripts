@@ -26,7 +26,7 @@
     <creator/>
     <versions/>
     <categorization/>
-    <links/>
+    <links>    </links>
   </basics>
   <resources>
     <resource name="Approval_DPL.ds" type="ds" path="SERVER/C:/DPL_withoutwait/Approval_DPL.ds"/>
@@ -97,6 +97,7 @@
       <opt name="domComplete" value="true"/>
       <opt name="replaceNextStepReady" value="true"/>
       <opt name="ajaxTimeout" value="10"/>
+      <opt name="InitialURL" value="https://rdcval2.ppdi.com/rdcadfsrnd/faces/Login?setUpDone=Y&amp;db=jdbc/rdcppdoclv4.biopharm.comDS&amp;display_descpId=Y&amp;display_docnum=Y"/>
     </options>
     <options type="har">
       <opt name="connectionResetMarksTestcaseFailure" value="false"/>
@@ -123,7 +124,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds" resource="Approval_DPL.ds" testclass="Sahi" method="firefox"/>
+        <run name="Untitled1" langtype="ds" resource="Approval_DPL.ds" testclass="Sahi" method="chrome"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
