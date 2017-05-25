@@ -131,7 +131,7 @@
     <testcase name="Testcase1">
       <test>
         <run name="Untitled1" langtype="sahi" resource="Multivariate_Discrepancy_DPL_25_04.sah" method="Internet Explorer">
-          <argument name="Untitled1" method="getNextData" dpl="Untitled1"/>
+          <argument name="Untitled1" method="getData" dpl="Untitled1"/>
         </run>
       </test>
     </testcase>
