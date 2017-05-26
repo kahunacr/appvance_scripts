@@ -124,7 +124,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds" resource="Approval_DPL.ds" testclass="Sahi" method="chrome"/>
+        <run name="Untitled1" langtype="ds" resource="Approval_DPL.ds" testclass="Sahi" method="opera"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
