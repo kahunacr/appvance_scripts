@@ -131,7 +131,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds" resource="Approval_01_DPL.ds" testclass="Sahi" method="chrome">
+        <run name="Untitled1" langtype="ds" resource="Approval_01_DPL.ds" testclass="Sahi" method="Internet Explorer">
           <argument name="Untitled1" method="getNextData" dpl="Untitled1"/>
         </run>
       </test>
