@@ -26,7 +26,7 @@
     <creator/>
     <versions/>
     <categorization/>
-    <links/>
+    <links>    </links>
   </basics>
   <resources>
     <resource name="Approval_01_DPL.ds" type="ds" path="SERVER/C:/DPL/Approval_01_DPL.ds"/>
@@ -104,6 +104,7 @@
       <opt name="domComplete" value="true"/>
       <opt name="replaceNextStepReady" value="true"/>
       <opt name="ajaxTimeout" value="10"/>
+      <opt name="InitialURL" value="https://rdcval2.ppdi.com/rdcadfsrnd/faces/Login?setUpDone=Y&amp;db=jdbc/rdcppdoclv4.biopharm.comDS&amp;display_descpId=Y&amp;display_docnum=Y"/>
     </options>
     <options type="har">
       <opt name="connectionResetMarksTestcaseFailure" value="false"/>
