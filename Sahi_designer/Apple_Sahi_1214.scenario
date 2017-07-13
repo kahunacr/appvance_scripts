@@ -138,7 +138,7 @@
     <log type="database">
       <opt name="hibernate.connection.username" value="apc"/>
       <opt name="hibernate.connection.password" value="apc"/>
-      <opt name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/apc"/>
+      <opt name="hibernate.connection.url" value="jdbc:mysql://ec2-34-212-175-49.us-west-2.compute.amazonaws.com:3306/apc"/>
       <opt name="hibernate.default_schema" value="apc"/>
       <opt name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
     </log>
