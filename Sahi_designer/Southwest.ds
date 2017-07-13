@@ -4,7 +4,7 @@
 <metainfo>
 </metainfo>
 <accessorprefs values=""/>
-<dpl filename="" exectype="" errorhandling=""/>
+<dpl filename="" exectype="" errorhandling="stop"/>
 
 <step action="navigateTo" value="&quot;http://www.southwest.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
 	<dialect type="sahi">
@@ -48,24 +48,7 @@
 
 
 
-<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
-	<dialect type="sahi">
-		<accessor type="assertExists" value="heading1(&quot;Book your perfect stay with over a million properties worldwide Take your pick from hotels, apartments and more – with tons of great deals!&quot;)" selected="true"/>
-		<accessor type="assertExists" value="heading1(&quot;index-heading&quot;)" selected="false"/>
-		<accessor type="assertExists" value="heading1(0)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//div[@id='basiclayout']/h1&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//h1&quot;" selected="false"/>
-	</dialect>
-	<dialect type="flextesting">
-		<accessor type="assertExists" attribute='' value='' selected="false"/>
-	</dialect>
-</step>
-
-
-
-<step action="selectWindow" value="&quot;Booking.com: 1,368,506 hotels worldwide. 122+ million hotel reviews.&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+<step action="selectWindow" value="&quot;Booking.com: 1,368,506 hotels worldwide. 122+ million hotel reviews.&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
 	<dialect type="sahi">
 		<accessor type="selectWindow" value='' selected="false"/>
 	</dialect>
@@ -76,7 +59,7 @@
 
 
 
-<step action="setSelected" value="&quot;4&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+<step action="setSelected" value="&quot;4&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
 	<dialect type="sahi">
 		<accessor type="setSelected" value="select(&quot;no_rooms&quot;)" selected="true"/>
 		<accessor type="setSelected" value="select(&quot;no_rooms&quot;)" selected="false"/>
@@ -91,7 +74,7 @@
 
 
 
-<step action="setSelected" value="&quot;8&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+<step action="setSelected" value="&quot;8&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
 	<dialect type="sahi">
 		<accessor type="setSelected" value="select(&quot;group_adults&quot;)" selected="true"/>
 		<accessor type="setSelected" value="select(&quot;group_adults&quot;)" selected="false"/>
@@ -106,7 +89,7 @@
 
 
 
-<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
 	<dialect type="sahi">
 		<accessor type="assertExists" value="heading1(&quot;Book your perfect stay with over a million properties worldwide Take your pick from hotels, apartments and more – with tons of great deals!&quot;)" selected="true"/>
 		<accessor type="assertExists" value="heading1(&quot;index-heading&quot;)" selected="false"/>
@@ -123,24 +106,7 @@
 
 
 
-<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
-	<dialect type="sahi">
-		<accessor type="assertExists" value="heading1(&quot;Book your perfect stay with over a million properties worldwide Take your pick from hotels, apartments and more – with tons of great deals!&quot;)" selected="true"/>
-		<accessor type="assertExists" value="heading1(&quot;index-heading&quot;)" selected="false"/>
-		<accessor type="assertExists" value="heading1(0)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//div[@id='basiclayout']/h1&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//h1&quot;" selected="false"/>
-	</dialect>
-	<dialect type="flextesting">
-		<accessor type="assertExists" attribute='' value='' selected="false"/>
-	</dialect>
-</step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
 	<dialect type="sahi">
 		<accessor type="click" value="radio(&quot;sb_travel_purpose[1]&quot;)" selected="true"/>
 		<accessor type="click" value="radio(&quot;leisure&quot;)" selected="false"/>
