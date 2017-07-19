@@ -1,0 +1,18 @@
+var $storedVars = new Array()
+var $_FnV_textbox_firstname_='_sahi._textbox(\"firstname\")',$_FnV_textbox_lastname_='_sahi._textbox(\"lastname\")';
+
+ var $_FnV_textbox_reg_email__='_sahi._textbox(\"reg_email__\")',$_FnV_password_reg_passwd_='_sahi._password(\"reg_passwd__\")',$_FnV_select_birthday_d_='_sahi._select(\"birthday_day\")',$_FnV_select_birthday_m_='_sahi._select(\"birthday_month\")';   
+function create_user($_FnP_123758964, $_FnP_abc123, $_FnP_5, $_FnP_Apr, $_FnP_Roe, $_FnP_John)
+ {
+
+_sahi._setValue($_FnV_textbox_reg_email__,$_FnP_123758964);
+  _sahi._setValue($_FnV_password_reg_passwd_,$_FnP_abc123);    _sahi._setSelected($_FnV_select_birthday_d_,$_FnP_5);    _sahi._setSelected($_FnV_select_birthday_m_,$_FnP_Apr);   _sahi._setValue($_FnV_textbox_firstname_,$_FnP_John);  _sahi._setValue($_FnV_textbox_lastname_,$_FnP_Roe); 
+}
+
+
+_navigateTo("http://www.facebook.com");
+_setValue(_textbox("firstname"),"John");
+_setValue(_textbox("lastname"),"Roe");
+create_user("+13799546146245","abc123","5","Apr","John","Roe");
+_setSelected(_select("birthday_year"),"1985");
+_click(_link("Create a Page"));

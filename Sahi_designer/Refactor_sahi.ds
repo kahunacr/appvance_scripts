@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase name='Refactor_sahi' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+<accessorprefs values=""/>
+<dpl filename="" exectype="" errorhandling="stop"/>
+<functions>
+<variables value="var $_FnV_textbox_firstname_='textbox(\&quot;firstname\&quot;)',$_FnV_textbox_lastname_='textbox(\&quot;lastname\&quot;)';
+var $_FnV_textbox_reg_email__='textbox(\&quot;reg_email__\&quot;)',$_FnV_password_reg_passwd_='password(\&quot;reg_passwd__\&quot;)',$_FnV_select_birthday_d_='select(\&quot;birthday_day\&quot;)',$_FnV_select_birthday_m_='select(\&quot;birthday_month\&quot;)';
+ 
+"/>
+<function name="create_user">
+<parameter value="$_FnP_123758964, $_FnP_abc123, $_FnP_5, $_FnP_Apr, $_FnP_Roe, $_FnP_John"/>
+<statements value="
+{
+ setValue($_FnV_textbox_reg_email__,$_FnP_123758964);
+ setValue($_FnV_password_reg_passwd_,$_FnP_abc123);  
+ setSelected($_FnV_select_birthday_d_,$_FnP_5);  
+ setSelected($_FnV_select_birthday_m_,$_FnP_Apr); 
+ setValue($_FnV_textbox_firstname_,$_FnP_John);
+ setValue($_FnV_textbox_lastname_,$_FnP_Roe);
+}"/>
+</function>
+</functions>
+
+
+
+<step action="navigateTo" value="&quot;http://www.facebook.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;John&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;firstname&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_1&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(0)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_1']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_0']/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;Roe&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;lastname&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_3&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(1)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_3']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_2']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[1]/div[1]/div[2]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="create_user" value="&quot;+13799546146245&quot;,&quot;abc123&quot;,&quot;5&quot;,&quot;Apr&quot;,&quot;John&quot;,&quot;Roe&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type='' value='' selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="false"/>
+	</dialect>
+	<dialect type="flextesting">
+		<accessor type='' attribute='' value='' selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;1985&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;birthday_year&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;year&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(2)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;_5dba[2]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='year']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//span[@id='u_0_f']/span/select[3]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//select[3]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Create a Page&quot;)" selected="true"/>
+		<accessor type="click" value="link(12)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//a[contains(text(),'Create a Page')]&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='reg_pages_msg']/a&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/pages/create/?ref_type=registration_form')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>
