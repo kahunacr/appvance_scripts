@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='SERVER/C:/Karthik_work/DS3_DS/DPL_DATA.csv' exectype='' errorhandling=''/>
+<step action='navigateTo' value='&quot;https://www.facebook.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='store' value='23' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='store' value='val' selected='true'/>
+   <accessor type='store' value='' selected='false'/>
+</dialect>
+</step>
+<step action='if' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='if' value='val&gt;20' selected='true'/>
+   <accessor type='if' value='' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='$Pass' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='_textbox(&quot;u_0_i&quot;)' selected='true'/>
+   <accessor type='setValue' value='_textbox(&quot;lastname&quot;)' selected='false'/>
+   <accessor type='setValue' value='_byXPath(&apos;//*[@id=&quot;u_0_i&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='_textbox(0,_in(_div(&quot;Surname[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='_textbox(1)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='$Name' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='_textbox(&quot;u_0_l&quot;)' selected='true'/>
+   <accessor type='setValue' value='_textbox(&quot;reg_email__&quot;)' selected='false'/>
+   <accessor type='setValue' value='_byXPath(&apos;//*[@id=&quot;u_0_l&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='_textbox(0,_in(_div(&quot;Mobile number or email address[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='_textbox(2)' selected='false'/>
+</dialect>
+</step>
+<step action='endif' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='endif' value='' selected='true'/>
+   <accessor type='endif' value='' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='$LastName' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='_password(&quot;u_0_s&quot;)' selected='true'/>
+   <accessor type='setValue' value='_password(&quot;reg_passwd__&quot;)' selected='false'/>
+   <accessor type='setValue' value='_byXPath(&apos;//*[@id=&quot;u_0_s&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='_password(0,_in(_div(&quot;New password[2]&quot;)))' selected='false'/>
+   <accessor type='setValue' value='_password(&quot;inputtext _58mg _5dba _2ph-&quot;)' selected='false'/>
+   <accessor type='setValue' value='_password(1)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='$setvalue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='_select(&quot;day&quot;)' selected='true'/>
+   <accessor type='setSelected' value='_select(&quot;birthday_day&quot;)' selected='false'/>
+   <accessor type='setSelected' value='_select(&quot;Day&quot;)' selected='false'/>
+   <accessor type='setSelected' value='_byXPath(&apos;//*[@id=&quot;day&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='_select(&quot;_5dba&quot;)' selected='false'/>
+   <accessor type='setSelected' value='_select(0)' selected='false'/>
+</dialect>
+</step>
+</testcase>
