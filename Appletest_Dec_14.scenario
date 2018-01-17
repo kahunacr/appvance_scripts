@@ -125,7 +125,7 @@
     </controller>
     <testcase name="Untitled1">
       <test>
-        <run name="Untitled1" langtype="ds" resource="AppleTest_Dec_14.ds" testclass="sahi" method="firefox"/>
+        <run name="Untitled1" langtype="ds" resource="AppleTest_Dec_14.ds" testclass="sahi" method="chrome"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
