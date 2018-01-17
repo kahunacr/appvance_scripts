@@ -39,7 +39,7 @@
     <bundle name="mysql" version="5.0"/>
     <bundle name="sahi" version="sahi_pro"/>
     <bundle name="ds" version="2.0"/>
-    <bundle name="seleniumrc" version="2.45"/>
+    <bundle name="seleniumrc" version="2.53"/>
     <bundle name="htmlunit" version="2.15.2648"/>
   </bundles>
   <datasources/>
