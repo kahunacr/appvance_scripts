@@ -1,124 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase name='Southwest' description='' author='' version=''>
-
-<metainfo>
-</metainfo>
-<accessorprefs values=""/>
-<dpl filename="" exectype="" errorhandling="stop"/>
-
-<step action="navigateTo" value="&quot;http://www.southwest.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
-	<dialect type="sahi">
-		<accessor type="navigateTo" value='' selected="true"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value='' selected="true"/>
-	</dialect>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling=''/>
+<step action='navigateTo' value='&quot;http://www.sahitest.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
-	<dialect type="sahi">
-		<accessor type="click" value="submit(&quot;Flight | Hotel | Car&quot;)" selected="true"/>
-		<accessor type="click" value="submit(&quot;swa-header-link--plan-a-trip&quot;)" selected="false"/>
-		<accessor type="click" value="submit(&quot;swa-header--link swa-header--plan-a-trip swa-header--nav-button jb-swa-header--plan-a-trip&quot;)" selected="false"/>
-		<accessor type="click" value="submit(0)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//button[@id='swa-header-link--plan-a-trip']&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//div[2]/button[1]&quot;" selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;https://www.apple.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;Book a Hotel&quot;)" selected="true"/>
-		<accessor type="click" value="link(15)" selected="false"/>
-		<accessor type="click" value="link(&quot;https://www.southwesthotels.com/index.html?label=SWA-GSUBNAV-HOTEL-BOOK&amp;clk=GSUBNAV-HOTEL-BOOK&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;swa-header--overlay-list-link[8]&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//a[contains(text(),'Book a Hotel')]&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, 'https://www.southwesthotels.com/index.html?label=SWA-GSUBNAV-HOTEL-BOOK&amp;clk=GSUBNAV-HOTEL-BOOK')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//div[2]/ul/li[1]/a&quot;" selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;https://www.flipkart.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="selectWindow" value="&quot;Booking.com: 1,368,506 hotels worldwide. 122+ million hotel reviews.&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
-	<dialect type="sahi">
-		<accessor type="selectWindow" value='' selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value='' selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;https://www.youtube.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="setSelected" value="&quot;4&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
-	<dialect type="sahi">
-		<accessor type="setSelected" value="select(&quot;no_rooms&quot;)" selected="true"/>
-		<accessor type="setSelected" value="select(&quot;no_rooms&quot;)" selected="false"/>
-		<accessor type="setSelected" value="select(0)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//select[@id='no_rooms']&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//form[@id='frm']/div[5]/div/div/div[1]/select&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//select&quot;" selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;https://www.google.co.in/?gfe_rd=cr&amp;dcr=0&amp;ei=voVhWuPRMu7x8Aem9p3QDQ&amp;gws_rd=ssl&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="setSelected" value="&quot;8&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
-	<dialect type="sahi">
-		<accessor type="setSelected" value="select(&quot;group_adults&quot;)" selected="true"/>
-		<accessor type="setSelected" value="select(&quot;group_adults&quot;)" selected="false"/>
-		<accessor type="setSelected" value="select(1)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//select[@id='group_adults']&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//form[@id='frm']/div[5]/div/div/div[2]/select&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//div[2]/select&quot;" selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;https://www.google.co.in/search?q=sahitest%2Fdemo%2Ftraining%2Flogin.htm&amp;oq=sahitest%2Fdemo%2Ftraining%2Flogin.htm&amp;aqs=chrome..69i57j69i58.8513j0j4&amp;sourceid=chrome&amp;ie=UTF-8&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="assertExists" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
-	<dialect type="sahi">
-		<accessor type="assertExists" value="heading1(&quot;Book your perfect stay with over a million properties worldwide Take your pick from hotels, apartments and more – with tons of great deals!&quot;)" selected="true"/>
-		<accessor type="assertExists" value="heading1(&quot;index-heading&quot;)" selected="false"/>
-		<accessor type="assertExists" value="heading1(0)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//div[@id='basiclayout']/h1&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//h1&quot;" selected="false"/>
-	</dialect>
-	<dialect type="flextesting">
-		<accessor type="assertExists" attribute='' value='' selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;https://www.google.co.in/search?q=www.sahitest%2Fdemo%2Ftraining%2Flogin.htm&amp;oq=www.sahitest%2Fdemo%2Ftraining%2Flogin.htm&amp;aqs=chrome..69i57j69i58.16489j0j9&amp;sourceid=chrome&amp;ie=UTF-8&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
-	<dialect type="sahi">
-		<accessor type="click" value="radio(&quot;sb_travel_purpose[1]&quot;)" selected="true"/>
-		<accessor type="click" value="radio(&quot;leisure&quot;)" selected="false"/>
-		<accessor type="click" value="radio(&quot;b-booker-type__input b-booker-type__input_leisure-booker&quot;)" selected="false"/>
-		<accessor type="click" value="radio(1)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//input[@name='sb_travel_purpose' and @value='leisure']&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//form[@id='frm']/div[4]/div/div/fieldset/label[2]/input&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//label[2]/input&quot;" selected="false"/>
-	</dialect>
+<step action='navigateTo' value='&quot;http://sahitest.com/demo/training/login.htm&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
 </testcase>
