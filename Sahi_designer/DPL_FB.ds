@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase name='DPL_FB' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+<accessorprefs values=""/>
+<dpl filename="REPOSITORY/Appvanceblr/Sahi_designer/Demo1 - Random.csv" exectype="runstepbystep" errorhandling=""/>
+
+<step action="wait" value="5024" type="web" desc='' isThinkTime="true" isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="navigateTo" value="&quot;http://www.facebook.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="79499" type="web" desc='' isThinkTime="true" isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="$Username" type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;firstname&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_l&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(0)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_l']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_k']/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="3938" type="web" desc='' isThinkTime="true" isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="$corejava" type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;lastname&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_n&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(1)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-[1]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_n']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_m']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[1]/div[1]/div[2]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="14003" type="web" desc='' isThinkTime="true" isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="$Ruby" type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;reg_email__&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;u_0_q&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(2)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;inputtext _58mg _5dba _2ph-[2]&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_q']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_p']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[2]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="4997" type="web" desc='' isThinkTime="true" isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="$Password" type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="setValue" value="password(&quot;reg_passwd__&quot;)" selected="true"/>
+		<accessor type="setValue" value="password(&quot;u_0_x&quot;)" selected="false"/>
+		<accessor type="setValue" value="password(1)" selected="false"/>
+		<accessor type="setValue" value="password(&quot;inputtext _58mg _5dba _2ph-&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_x']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//div[@id='u_0_w']/div[1]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div[5]/div/div[1]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="2942" type="web" desc='' isThinkTime="true" isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="setSelected" value="&quot;9&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="11">
+	<dialect type="sahi">
+		<accessor type="setSelected" value="select(&quot;birthday_day&quot;)" selected="true"/>
+		<accessor type="setSelected" value="select(&quot;day&quot;)" selected="false"/>
+		<accessor type="setSelected" value="select(0)" selected="false"/>
+		<accessor type="setSelected" value="select(&quot;_5dba&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//select[@id='day']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//span[@id='u_0_z']/span/select[1]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//select[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="wait" value="2960" type="web" desc='' isThinkTime="true" isCommented='false' sequence="12">
+	<dialect type="sahi">
+		<accessor type="wait" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="13">
+	<dialect type="sahi">
+		<accessor type="click" value="radio(&quot;u_0_9&quot;)" selected="true"/>
+		<accessor type="click" value="radio(&quot;sex[1]&quot;)" selected="false"/>
+		<accessor type="click" value="radio(&quot;2&quot;)" selected="false"/>
+		<accessor type="click" value="radio(1)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='u_0_9']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//span[@id='u_0_11']/span[2]/input&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//span[2]/input&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>
