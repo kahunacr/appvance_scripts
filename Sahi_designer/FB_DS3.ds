@@ -6,7 +6,7 @@
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
 </step>
-<step action='setValue' value='&quot;a&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='$Username' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(0)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;u_0_l&quot;)' selected='false'/>
@@ -19,7 +19,7 @@
    <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_l&quot;]&apos;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='&quot;apple123&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='$corejava' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(1)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;u_0_n&quot;)' selected='false'/>
@@ -31,7 +31,7 @@
    <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_n&quot;]&apos;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='&quot;98564512&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='$Ruby' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(2)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;u_0_q&quot;)' selected='false'/>
@@ -43,7 +43,7 @@
    <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_q&quot;]&apos;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='&quot;hjdkvdfkm56454/*&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='$Password' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='password(1)' selected='true'/>
    <accessor type='setValue' value='password(&quot;u_0_x&quot;)' selected='false'/>
