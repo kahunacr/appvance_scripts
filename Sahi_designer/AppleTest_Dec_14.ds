@@ -1,150 +1,98 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase name='AppleTest_Dec_14' description='' author='' version=''>
-
-<metainfo>
-</metainfo>
-
-<dpl filename="" exectype="" errorhandling="stop"/>
-
-<step action="navigateTo" value="&quot;http://www.apple.com&quot;" type="web" desc="Step1" isThinkTime='false' isCommented='false' sequence="0">
-	<dialect type="sahi">
-		<accessor type="navigateTo" value='' selected="true"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value='' selected="true"/>
-	</dialect>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling=''/>
+<step action='navigateTo' value='&quot;https://www.apple.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc="Step2" isThinkTime='false' isCommented='false' sequence="1">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;Mac&quot;)" selected="true"/>
-		<accessor type="click" value="link(5)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/mac/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-mac&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//a[@onclick='s_objectID=\&quot;http://www.apple.com/mac/_1\&quot;;return this.s_oc?this.s_oc(e):true']&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[2]/a&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/mac/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//ul[2]/li[2]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-tv&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;/tv/&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;TV&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-tv&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav/div/ul[2]/li[6]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-tv&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-tv&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(10)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc="Step3" isThinkTime='false' isCommented='false' sequence="2">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;iPad&quot;)" selected="true"/>
-		<accessor type="click" value="link(6)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/ipad/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-ipad&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[3]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/ipad/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//ul[2]/li[3]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-watch&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-watch&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;/watch/&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;Watch&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[5]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-watch&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-watch&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(9)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;iPhone&quot;)" selected="true"/>
-		<accessor type="click" value="link(7)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/iphone/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-iphone&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[4]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/iphone/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//li[4]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;/ipad/&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;iPad&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-ipad&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-ipad&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[3]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-ipad&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-ipad&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(7)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;Watch&quot;)" selected="true"/>
-		<accessor type="click" value="link(8)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/watch/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-watch&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[5]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/watch/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//li[5]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;Mac&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;/mac/&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-mac&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-mac&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[2]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-mac&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-mac&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(6)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;TV&quot;)" selected="true"/>
-		<accessor type="click" value="link(9)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/tv/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-tv&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[6]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/tv/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//li[6]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-music&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-music&apos;]&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//nav/div/ul[2]/li[7]/a&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;Music&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;/music/&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-music&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-music&quot;)' selected='false'/>
+   <accessor type='click' value='link(11)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;iPhone&quot;)" selected="true"/>
-		<accessor type="click" value="link(8)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/iphone/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-iphone&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[4]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/iphone/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//li[4]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[5]/a&apos;)' selected='true'/>
+   <accessor type='click' value='link(&quot;Watch&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-watch&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-watch&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;/watch/&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-watch&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-watch&quot;)' selected='false'/>
+   <accessor type='click' value='link(9)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;Mac&quot;)" selected="true"/>
-		<accessor type="click" value="link(5)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/mac/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-mac&quot;)" selected="false"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[2]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/mac/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//ul[2]/li[2]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byJQuery(&apos;#ac-globalnav &gt; .ac-gn-content &gt; .ac-gn-list &gt; .ac-gn-item.ac-gn-item-menu.ac-gn-music &gt; .ac-gn-link.ac-gn-link-music&apos;)' selected='true'/>
+   <accessor type='click' value='link(&quot;TV&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-tv&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-tv&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;/tv/&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-tv&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-tv&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[6]/a&apos;)' selected='false'/>
+   <accessor type='click' value='link(10)' selected='false'/>
+</dialect>
 </step>
-
-
-
-<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
-	<dialect type="sahi">
-		<accessor type="click" value="link(&quot;Mac&quot;)" selected="false"/>
-		<accessor type="click" value="link(5)" selected="false"/>
-		<accessor type="click" value="link(&quot;http://www.apple.com/mac/&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-mac&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;ipad&quot;)" selected="false"/>
-		<accessor type="click" value="link(&quot;iPad&quot;)" selected="true"/>
-	</dialect>
-	<dialect type="selenium">
-		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[2]/a&quot;" selected="true"/>
-		<accessor attribute='' value="&quot;//a[contains(@href, '/mac/')]&quot;" selected="false"/>
-		<accessor attribute='' value="&quot;//ul[2]/li[2]/a&quot;" selected="false"/>
-	</dialect>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(11)' selected='true'/>
+   <accessor type='click' value='link(&quot;Music&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-music&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-music&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;/music/&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-music&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-music&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[7]/a&apos;)' selected='false'/>
+</dialect>
 </step>
-
-
 </testcase>
