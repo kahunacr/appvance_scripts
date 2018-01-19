@@ -31,7 +31,7 @@
    <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_n&quot;]&apos;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='$Ruby' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='$Ruby' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(2)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;u_0_q&quot;)' selected='false'/>
@@ -67,6 +67,20 @@
    <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;birthday_day&quot;]&apos;)' selected='false'/>
    <accessor type='setSelected' value='byXPath(&apos;//div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[6]/div[2]/span/span/select[1]&apos;)' selected='false'/>
    <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;day&quot;]&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='&quot;apple125468*/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;pass&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;inputtext&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;pass&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;pass&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[1]/div[2]/div/div/div/div/div[2]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;pass&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@id=&quot;pass&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@class=&quot;inputtext&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@name=&quot;pass&quot;]&apos;)' selected='false'/>
 </dialect>
 </step>
 <step action='setSelected' value='&quot;6&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
