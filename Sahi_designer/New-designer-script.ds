@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase name='New-designer-script' description='' author='' version=''>
+
+<metainfo>
+</metainfo>
+<accessorprefs values=""/>
+<dpl filename="" exectype="" errorhandling=""/>
+
+<step action="navigateTo" value="&quot;http://www.apple.com&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="0">
+	<dialect type="sahi">
+		<accessor type="navigateTo" value='' selected="true"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value='' selected="true"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="1">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;iPhone&quot;)" selected="true"/>
+		<accessor type="click" value="link(8)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-iphone&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[4]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/iphone/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[4]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="2">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Watch&quot;)" selected="true"/>
+		<accessor type="click" value="link(9)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-watch&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[5]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/watch/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[5]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="3">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-ipad&quot;)" selected="true"/>
+		<accessor type="click" value="$(&quot;.ac-gn-link.ac-gn-link-ipad&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;iPad&quot;)" selected="false"/>
+		<accessor type="click" value="link(7)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[3]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/ipad/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//ul[2]/li[3]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="4">
+	<dialect type="sahi">
+		<accessor type="click" value="$(&quot;.ac-gn-link.ac-gn-link-mac&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;\n					Mac\n				&quot;)" selected="false"/>
+		<accessor type="click" value="link(6)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-mac&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[2]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/mac/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//ul[2]/li[2]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="5">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;\n					TV\n				&quot;)" selected="true"/>
+		<accessor type="click" value="link(10)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-tv&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[6]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/tv/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[6]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="6">
+	<dialect type="sahi">
+		<accessor type="click" value="byXPath(&quot;html/body/nav/div/ul[2]/li[7]/a&quot;)" selected="true"/>
+		<accessor type="click" value="link(&quot;Music&quot;)" selected="false"/>
+		<accessor type="click" value="link(11)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-music&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[7]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/music/')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[7]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="7">
+	<dialect type="sahi">
+		<accessor type="click" value="link(12)" selected="true"/>
+		<accessor type="click" value="link(&quot;Support&quot;)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-support&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[8]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, 'https://support.apple.com')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[8]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="8">
+	<dialect type="sahi">
+		<accessor type="click" value="link(&quot;Search apple.com&quot;)" selected="true"/>
+		<accessor type="click" value="link(12)" selected="false"/>
+		<accessor type="click" value="link(&quot;ac-gn-link ac-gn-link-search&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//nav[@id='ac-globalnav']/div/ul[2]/li[9]/a&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//a[contains(@href, '/kb/index?page=search&amp;locale=en_US')]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//li[9]/a&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="setValue" value="&quot;iPod&quot;" type="web" desc='' isThinkTime='false' isCommented='false' sequence="9">
+	<dialect type="sahi">
+		<accessor type="setValue" value="textbox(&quot;q&quot;)" selected="true"/>
+		<accessor type="setValue" value="textbox(&quot;ac-gn-searchform-input&quot;)" selected="false"/>
+		<accessor type="setValue" value="textbox(0)" selected="false"/>
+		<accessor type="setValue" value="textbox(&quot;ac-gn-searchform-input&quot;)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//input[@id='ac-gn-searchform-input']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='ac-gn-searchform']/div/input[1]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/input[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+
+<step action="click" value='' type="web" desc='' isThinkTime='false' isCommented='false' sequence="10">
+	<dialect type="sahi">
+		<accessor type="click" value="submit(&quot;ac-gn-searchform-submit&quot;)" selected="true"/>
+		<accessor type="click" value="submit(&quot;ac-gn-searchform-submit&quot;)" selected="false"/>
+		<accessor type="click" value="submit(0)" selected="false"/>
+	</dialect>
+	<dialect type="selenium">
+		<accessor attribute='' value="&quot;//button[@id='ac-gn-searchform-submit']&quot;" selected="true"/>
+		<accessor attribute='' value="&quot;//form[@id='ac-gn-searchform']/div/button[1]&quot;" selected="false"/>
+		<accessor attribute='' value="&quot;//div/button[1]&quot;" selected="false"/>
+	</dialect>
+</step>
+
+
+</testcase>
