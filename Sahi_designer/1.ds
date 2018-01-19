@@ -1,9 +1,146 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling=''/>
-<step action='navigateTo' value='&quot;http://www.sahitest.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='navigateTo' value='&quot;https://www.southwest.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='selectWindow' value='&quot;Southwest Airlines | Book Flights, Airline Tickets, Airfare&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+<step action='wait' value='86978' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='submit(&quot;swa-header-link--plan-a-trip&quot;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;swa-header--link swa-header--plan-a-trip swa-header--nav-button jb-swa-header--plan-a-trip&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Flight | Hotel | Car&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;swa-header-link--plan-a-trip&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;swa-header--link swa-header--plan-a-trip swa-header--nav-button jb-swa-header--plan-a-trip&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Flight | Hotel | Car&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[1]/div/div/div[2]/button[1]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;swa-header-link--plan-a-trip&apos;)&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='2977' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;swa-header--overlay-list-link[7]&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;https://www.southwesthotels.com/index.html?label=SWA-GSUBNAV-HOTEL-BOOK&amp;clk=GSUBNAV-HOTEL-BOOK&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;Book a Hotel&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Book a Hotel&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/ul/li[1]/a&apos;)' selected='false'/>
+   <accessor type='click' value='link(14)' selected='false'/>
+</dialect>
+</step>
+<step action='selectWindow' value='&quot;Southwest Airlines: 1,613,434 hotels worldwide. 142+ million hotel reviews.&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+<step action='wait' value='66781' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;6&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;group_adults&quot;)' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;group_adults&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;group_adults&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[4]/div/div/div/div[1]/div/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&quot;id(&apos;group_adults&apos;)&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(0)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='6203' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;3&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;group_children&quot;)' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;group_children&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;group_children&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[4]/div/div/div/div[2]/div[1]/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&quot;id(&apos;group_children&apos;)&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(1)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='3317' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;3&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;no_rooms&quot;)' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;no_rooms&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;no_rooms&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[4]/div/div/div/div[3]/div/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&quot;id(&apos;no_rooms&apos;)&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(5)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='2992' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;3&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;age&quot;)' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;age&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[4]/div/div/div/div[2]/div[2]/div[1]/div/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='select(2)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='1900' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;4&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;age[1]&quot;)' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[4]/div/div/div/div[2]/div[2]/div[2]/div/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='select(3)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='2135' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;2&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;age[2]&quot;)' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[4]/div/div/div/div[2]/div[2]/div[3]/div/select&apos;)' selected='false'/>
+   <accessor type='setSelected' value='select(4)' selected='false'/>
+</dialect>
+</step>
+<step action='wait' value='6501' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='wait' value='' selected='true'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;b-button__text&quot;)' selected='true'/>
+   <accessor type='click' value='span(&quot;Search&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;b-button__text&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Search&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/div/div[3]/div[1]/div[1]/div[1]/form/div[5]/div[2]/button/span[1]&apos;)' selected='false'/>
+   <accessor type='click' value='span(615)' selected='false'/>
 </dialect>
 </step>
 </testcase>
