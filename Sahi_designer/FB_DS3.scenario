@@ -30,6 +30,7 @@
   </basics>
   <resources>
     <resource name="DPL_DATA(3).csv" type="csv" path="SERVER/C:/Karthik_work/DS3_DS/DPL_DATA(3).csv"/>
+    <resource name="FB_DS3.ds" type="ds" path="{scenario}/FB_DS3.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="https://localhost:8443/TMServer/ws/TestNode"/>
