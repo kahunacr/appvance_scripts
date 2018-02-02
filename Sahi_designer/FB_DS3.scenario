@@ -42,7 +42,13 @@
     <bundle name="seleniumrc" version="2.53"/>
     <bundle name="htmlunit" version="2.15.2648"/>
   </bundles>
-  <datasources/>
+  <datasources>
+    <dpl name="Untitled1" type="HashDPL" langtype="java" method="setup">
+      <argument name="resource" dpl="Resources" method="getResourceByName">
+        <argument name="file" value="DPL_DATA(3).csv"/>
+      </argument>
+    </dpl>
+  </datasources>
   <options>
     <options type="global">
       <opt name="trustAllSSLCertificates" value="false"/>
