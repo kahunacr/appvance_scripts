@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='REPOSITORY/Appvanceblr/Sahi_designer/Demo1 - Random.csv' exectype='' errorhandling=''/>
+<dpl filename='' exectype='' errorhandling=''/>
 <step action='navigateTo' value='&quot;https://www.facebook.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
@@ -31,7 +31,7 @@
    <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_n&quot;]&apos;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='$Ruby' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='setValue' value='$Ruby' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(2)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;u_0_q&quot;)' selected='false'/>
