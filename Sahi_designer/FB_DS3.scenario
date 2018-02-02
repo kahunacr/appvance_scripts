@@ -131,7 +131,9 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds3" resource="FB_DS3.ds" method="ds" testclass="Chrome"/>
+        <run name="Untitled1" langtype="ds3" resource="FB_DS3.ds" method="ds" testclass="Chrome">
+          <argument name="Untitled1" method="getNextData" dpl="Untitled1"/>
+        </run>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
