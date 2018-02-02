@@ -29,7 +29,7 @@
     <links/>
   </basics>
   <resources>
-    <resource name="DPL_FB.ds" type="ds" path="{scenario}/DPL_FB.ds"/>
+    <resource name="FB_DS3.ds" type="ds" path="{scenario}/FB_DS3.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="https://localhost:8443/TMServer/ws/TestNode"/>
@@ -125,7 +125,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds3" resource="DPL_FB.ds" method="ds" testclass="Chrome"/>
+        <run name="Untitled1" langtype="ds3" resource="FB_DS3.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
