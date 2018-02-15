@@ -54,9 +54,9 @@
       <opt name="SummaryStepIsEmpty" value="false"/>
       <opt name="DynamicIpAddress" value="false"/>
       <opt name="EnableSavingLogs" value="true"/>
-      <opt name="PercentageLogsSaved" value="0"/>
+      <opt name="PercentageLogsSaved" value="100"/>
       <opt name="AlwaysSaveLogOnFailure" value="true"/>
-      <opt name="maxSizeReponseSavings" value="true"/>
+      <opt name="maxSizeReponseSavings" value="false"/>
       <opt name="sizeValueResponseSavings" value="0"/>
       <opt name="SleepTime" value="0"/>
       <opt name="FixedSleepTime" value="0"/>
@@ -121,7 +121,7 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round testtype="users" totalexecutions="1" name="1 Executions Controller"/>
+      <round iterations="1" totalusers="1"/>
     </controller>
     <testcase name="Testcase1">
       <test>
@@ -132,9 +132,9 @@
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
   <monitoring enablednodes="true" enabledtarget="false"/>
-  <execution type="loadtest" subtype="load">
-    <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
-      <testcase name="Testcase1" users="5"/>
+  <execution type="functionaltest" subtype="functional">
+    <iteration name="Iteration1" controller="Iteration1">
+      <testcase name="Testcase1" users="1"/>
     </iteration>
   </execution>
   <logs/>
