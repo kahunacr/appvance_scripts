@@ -38,9 +38,9 @@
     <bundle name="hibernate" version="3.0"/>
     <bundle name="mysql" version="5.0"/>
     <bundle name="sahi" version="sahi_pro"/>
-    <bundle name="ds" version="2.0"/>
     <bundle name="seleniumrc" version="2.45"/>
     <bundle name="htmlunit" version="2.15.2648"/>
+    <bundle name="ds" version="3.0"/>
   </bundles>
   <datasources/>
   <options>
@@ -125,7 +125,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Home" langtype="ds" resource="FoxNews.ds" testclass="sahi" method="firefox"/>
+        <run name="Home" langtype="ds3" resource="apple_ds3ds.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
