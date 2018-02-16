@@ -26,7 +26,7 @@
     <creator/>
     <versions/>
     <categorization/>
-    <links/>
+    <links>    </links>
   </basics>
   <resources>
     <resource name="DPL_DATA(3).csv" type="csv" path="SERVER/C:/Karthik_work/DS3_DS/DPL_DATA(3).csv"/>
@@ -61,10 +61,10 @@
       <opt name="SummaryStepIsEmpty" value="false"/>
       <opt name="DynamicIpAddress" value="false"/>
       <opt name="EnableSavingLogs" value="true"/>
-      <opt name="PercentageLogsSaved" value="100"/>
+      <opt name="PercentageLogsSaved" value="10"/>
       <opt name="AlwaysSaveLogOnFailure" value="true"/>
-      <opt name="maxSizeReponseSavings" value="false"/>
-      <opt name="sizeValueResponseSavings" value="0"/>
+      <opt name="maxSizeReponseSavings" value="true"/>
+      <opt name="sizeValueResponseSavings" value="64"/>
       <opt name="SleepTime" value="0"/>
       <opt name="FixedSleepTime" value="0"/>
       <opt name="MinSleepTime" value="0"/>
@@ -106,6 +106,7 @@
       <opt name="domComplete" value="true"/>
       <opt name="replaceNextStepReady" value="true"/>
       <opt name="ajaxTimeout" value="10"/>
+      <opt name="InitialURL" value="http://www.apple.com"/>
     </options>
     <options type="har">
       <opt name="connectionResetMarksTestcaseFailure" value="false"/>
@@ -128,7 +129,9 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round iterations="1" totalusers="1"/>
+      <round name="Executions per User">
+        <testcase name="Testcase1" executions="1"/>
+      </round>
     </controller>
     <testcase name="Testcase1">
       <test>
@@ -141,9 +144,9 @@
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
   </templates>
   <monitoring enablednodes="true" enabledtarget="false"/>
-  <execution type="functionaltest" subtype="functional">
-    <iteration name="Iteration1" controller="Iteration1">
-      <testcase name="Testcase1" users="1"/>
+  <execution type="loadtest" subtype="performance">
+    <iteration name="Iteration1" controller="Iteration1" completiontype="exacttestcaseexecutions">
+      <testcase name="Testcase1" users="3"/>
     </iteration>
   </execution>
   <logs/>
