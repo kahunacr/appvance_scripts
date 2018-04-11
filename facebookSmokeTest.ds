@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling=''/>
+<step action='navigateTo' value='&quot;https://www.facebook.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='&quot;something&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;firstname&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;inputtext _58mg _5dba _2ph-&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_h&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;firstname&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@class=&quot;inputtext _58mg _5dba _2ph-&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;u_0_h&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;u_0_h&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='&quot;smoketest&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;lastname&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;inputtext _58mg _5dba _2ph-[1]&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;u_0_j&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;lastname&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;u_0_j&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(1)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;u_0_j&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='&quot;Oct&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;month&quot;)' selected='true'/>
+   <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;_5dba[1]&quot;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;month&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;birthday_month&quot;]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&apos;//div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[6]/div[2]/span/span/select[2]&apos;)' selected='false'/>
+   <accessor type='setSelected' value='byXPath(&quot;id(&apos;month&apos;)&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(1)' selected='false'/>
+</dialect>
+</step>
+</testcase>
