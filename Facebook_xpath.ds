@@ -33,7 +33,7 @@
 </step>
 <step action='setSelected' value='&quot;Jul&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setSelected' value='new' selected='true'/>
+   <accessor type='setSelected' value='byXPath(&#8220;//*@data-fullfieldid=&apos;BO:93ffc8980cfe1c0a497a094662aa6f27d1821d02bb,FI:93ffc70c6a179e7135177f4034812c1acaf01b23d8&apos;/input&#8221;)' selected='true'/>
    <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
    <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='false'/>
    <accessor type='setSelected' value='select(&quot;_5dba[1]&quot;)' selected='false'/>
@@ -43,7 +43,7 @@
    <accessor type='setSelected' value='byXPath(&quot;id(&apos;month&apos;)&quot;)' selected='false'/>
    <accessor type='setSelected' value='select(1)' selected='false'/>
    <accessor type='setSelected' value='select(&quot;month&quot;)' selected='false'/>
-   <accessor type='setSelected' value='byXPath(&#8220;//*@data-fullfieldid=&apos;BO:93ffc8980cfe1c0a497a094662aa6f27d1821d02bb,FI:93ffc70c6a179e7135177f4034812c1acaf01b23d8&apos;/input&#8221;)' selected='false'/>
+   <accessor type='setSelected' value='new' selected='false'/>
 </dialect>
 </step>
 <step action='setSelected' value='&quot;1913&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
