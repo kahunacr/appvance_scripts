@@ -29,7 +29,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource name="apple_ds3Test.ds" type="ds" path="REPOSITORY/AppvanceSmoketestRepo/apple_ds3Test.ds"/>
+    <resource name="apple_ds3Test.ds" type="ds" path="{scenario}/apple_ds3Test.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
