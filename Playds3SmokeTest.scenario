@@ -29,7 +29,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource name="apple_ds3Test.ds" type="ds" path="{scenario}/apple_ds3Test.ds"/>
+    <resource name="facebookSmokeTest.ds" type="ds" path="{scenario}/facebookSmokeTest.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -126,7 +126,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds3" resource="apple_ds3Test.ds" method="ds" testclass="Firefox"/>
+        <run name="Untitled1" langtype="ds3" resource="facebookSmokeTest.ds" method="ds" testclass="Firefox"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
