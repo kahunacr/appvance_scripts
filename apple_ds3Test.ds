@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='' errorhandling=''/>
+<dpl filename='&quot;&quot;' exectype='' errorhandling=''/>
 <step action='navigateTo' value='&quot;https://www.apple.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
@@ -8,13 +8,14 @@
 </step>
 <step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-mac&quot;]&apos;)' selected='true'/>
-   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[2]/a&apos;)' selected='false'/>
-   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-mac&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-mac&apos;]&quot;)' selected='false'/>
-   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-mac&quot;)' selected='false'/>
-   <accessor type='click' value='link(&quot;/mac/&quot;)' selected='false'/>
-   <accessor type='click' value='link(&quot;Mac&quot;)' selected='false'/>
-   <accessor type='click' value='link(6)' selected='false'/>
+   <accessor type='click' value='link(/ac-gn-link ac-gn-link-iphone/)' selected='true'/>
+   <accessor type='click' value='link(&quot;/iphone/&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;iPhone&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-iphone&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//nav/div/ul[2]/li[4]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-iphone&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-iphone&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(8)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-iphone&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='&quot;&quot;' type='web' desc='Music' isThinkTime='false' isCommented='false' sequence='0'>
@@ -41,18 +42,6 @@
 </step>
 <step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='link(/ac-gn-link ac-gn-link-iphone/)' selected='true'/>
-   <accessor type='click' value='link(&quot;/iphone/&quot;)' selected='false'/>
-   <accessor type='click' value='link(&quot;iPhone&quot;)' selected='false'/>
-   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-iphone&quot;]&apos;)' selected='false'/>
-   <accessor type='click' value='byXPath(&apos;//nav/div/ul[2]/li[4]/a&apos;)' selected='false'/>
-   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-iphone&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-iphone&apos;]&quot;)' selected='false'/>
-   <accessor type='click' value='link(8)' selected='false'/>
-   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-iphone&quot;)' selected='false'/>
-</dialect>
-</step>
-<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
    <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-mac&quot;]&apos;)' selected='true'/>
    <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[2]/a&apos;)' selected='false'/>
    <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-mac&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-mac&apos;]&quot;)' selected='false'/>
@@ -72,6 +61,17 @@
    <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-iphone&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-iphone&apos;]&quot;)' selected='false'/>
    <accessor type='click' value='link(8)' selected='false'/>
    <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-iphone&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;ac-gn-link ac-gn-link-mac&quot;]&apos;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//nav[1]/div/ul[2]/li[2]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;ac-globalnav&apos;)/div[@class=&apos;ac-gn-content&apos;]/ul[@class=&apos;ac-gn-list&apos;]/li[@class=&apos;ac-gn-item ac-gn-item-menu ac-gn-mac&apos;]/a[@class=&apos;ac-gn-link ac-gn-link-mac&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;ac-gn-link ac-gn-link-mac&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;/mac/&quot;)' selected='false'/>
+   <accessor type='click' value='link(&quot;Mac&quot;)' selected='false'/>
+   <accessor type='click' value='link(6)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
