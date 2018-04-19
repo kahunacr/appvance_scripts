@@ -34,9 +34,8 @@
     <options type="apc">
       <opt name="SummaryStepIsEmpty" value="false" />
       <opt name="DynamicIpAddress" value="false" />
-      <opt name="EnableSavingLogs" value="true" />
-      <opt name="PercentageLogsSaved" value="100" />
-      <opt name="AlwaysSaveLogOnFailure" value="true" />
+      <opt name="EnableSavingLogs" value="false" />
+      <opt name="PercentageLogsSaved" value="0" />
       <opt name="maxSizeReponseSavings" value="false" />
       <opt name="sizeValueResponseSavings" value="0" />
       <opt name="SleepTime" value="0" />
