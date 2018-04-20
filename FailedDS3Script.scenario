@@ -1,4 +1,4 @@
-<testscenario xmlns="www.pushtotest.com/tm5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd" version="2.0">
+<testscenario xmlns="www.pushtotest.com/tm5" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd">
   <basics>
     <name>FailedDS3Script.scenario</name>
     <defaultdirectory />
@@ -105,11 +105,11 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round iterations="1" totalusers="1" />
+      <round totalusers="1" iterations="1" />
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds3" resource="cisco.ds" method="ds" testclass="IE" />
+        <run name="Untitled1" testclass="IE" method="ds" resource="cisco.ds" langtype="ds3" />
       </test>
     </testcase>
     <assertsuite name="Optional" xmlns="www.pushtotest.com/tm5" />
@@ -118,7 +118,7 @@
   <monitoring enablednodes="true" enabledtarget="false" />
   <execution type="functionaltest" subtype="functional">
     <iteration name="Iteration1" controller="Iteration1">
-      <testcase name="Testcase1" users="1" totalexecutions="1" />
+      <testcase name="Testcase1" totalexecutions="1" users="1" />
     </iteration>
   </execution>
   <logs />
