@@ -27,11 +27,11 @@
     <versions/>
     <categorization/>
     <include/>
-    <links/>
+    <links>  </links>
   </basics>
   <resources>
-    <resource name="dpl.jmx" type="jmx" path="SERVER/C:/Sachin_Work/DS3_DS/Jmeter_3_1/dpl.jmx"/>
-    <resource name="Jmeter_DPL.csv" type="csv" path="SERVER/C:/Sachin_Work/DS3_DS/Jmeter_3_1/Jmeter_DPL.csv"/>
+    <resource name="dpl.jmx" type="jmx" path="{scenario}/dpl.jmx"/>
+    <resource name="Jmeter_DPL.csv" type="csv" path="{scenario}/Jmeter_DPL.csv"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
