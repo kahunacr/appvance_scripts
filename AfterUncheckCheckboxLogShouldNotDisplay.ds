@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling=''/>
+<step action='navigateTo' value='&quot;http://localhost:8080/UI/index.html&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='&quot;appvance&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='textbox(&quot;username&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;col-md-8 text-field&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;username&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;username&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@class=&quot;col-md-8 text-field&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/div/div[2]/div[1]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;username&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='&quot;appvance&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;password&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;col-md-8 text-field&quot;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@id=&quot;password&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//*[@name=&quot;password&quot;]&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&apos;//div[2]/div/div/div[2]/div[2]/input&apos;)' selected='false'/>
+   <accessor type='setValue' value='byXPath(&quot;id(&apos;password&apos;)&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;login&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;login&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@name=&quot;login&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div/div/div[2]/input&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;login&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='button(0)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='button(&quot;cancelPassChange&quot;)' selected='true'/>
+   <accessor type='click' value='button(&quot;No&quot;)' selected='false'/>
+   <accessor type='click' value='button(&quot;btn btn-warning&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;cancelPassChange&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;btn btn-warning&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[4]/div/div/div[2]/table/tbody/tr[2]/td/div/input[2]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;cancelPassChange&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//input[@id=&quot;cancelPassChange&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//tbody//tr[2]//td[1]//div//input[@class=&quot;btn btn-warning&quot;]&apos;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Play a Scenario&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Play a Scenario&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div[4]/div[1]/div[3]/div/a/div[2]/span&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;page-wrapper&apos;)/div[@class=&apos;row&apos;]/div[@class=&apos;col-lg-3 col-md-6&apos;]/div[1]/a[@class=&apos;panel-yellow&apos;]/div[@class=&apos;panel-footer&apos;]/span[@class=&apos;pull-left&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='span(17)' selected='false'/>
+   <accessor type='click' value='span(&quot;pull-left[2]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;Browse Files&quot;)' selected='true'/>
+   <accessor type='click' value='link(&quot;javascript:openFile(&apos;__browse__&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;pull-right btn btn-gradient-blue&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Browse Files&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div[4]/div/div/div/div/div/div/div/div/div/div/div[1]/div/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;info&apos;)/div[@class=&apos;wells&apos;]/div[@class=&apos;row form-group&apos;]/div[@class=&apos;col-lg-12 col-md-12 col-sm-12&apos;]/div[1]/div[@class=&apos;row&apos;]/div[@class=&apos;pull-right align-right padding-r-0 btn-group&apos;]/a[@class=&apos;pull-right btn btn-gradient-blue&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='link(37)' selected='false'/>
+   <accessor type='click' value='link(&quot;pull-right btn btn-gradient-blue&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='italic(&quot;pull-left fa fa-angle-down expand-collapse-icon&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;pull-left fa fa-angle-down expand-collapse-icon&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[2]/div[1]/div[3]/div/div/div[2]/div[1]/span/i[1]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;quickAccess&apos;)/span[1]/i[@class=&apos;pull-left fa fa-angle-down expand-collapse-icon&apos;]&quot;)' selected='false'/>
+   <accessor type='click' value='italic(4)' selected='false'/>
+</dialect>
+</step>
+<step action='doubleClick' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='doubleClick' value='cell(&quot;REPOSITORY&quot;)' selected='true'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//*[@class=&quot;medium item-names folder&quot;]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//div[2]/div[1]/div[3]/div/div/div[3]/table/tbody/tr[1]/td[1]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&quot;id(&apos;fileManagerOverlay&apos;)/div[@class=&apos;file-manager&apos;]/div[@class=&apos;file-manage-container nav-added&apos;]/div[@class=&apos;file-tree-container&apos;]/table[1]/tbody[1]/tr[@class=&apos;folder-row&apos;]/td[@class=&apos;medium item-names folder&apos;]&quot;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//tbody//tr[1]//td[1][@class=&quot;medium item-names folder&quot;]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='cell(0)' selected='false'/>
+   <accessor type='doubleClick' value='cell(&quot;medium item-names folder&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='doubleClick' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='doubleClick' value='cell(&quot;appvance_scripts&quot;)' selected='true'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//*[@class=&quot;medium item-names folder&quot;]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//div[2]/div[1]/div[3]/div/div/div[3]/table/tbody/tr[1]/td[1]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&quot;id(&apos;fileManagerOverlay&apos;)/div[@class=&apos;file-manager&apos;]/div[@class=&apos;file-manage-container nav-added&apos;]/div[@class=&apos;file-tree-container&apos;]/table[1]/tbody[1]/tr[@class=&apos;folder-row&apos;]/td[@class=&apos;medium item-names folder&apos;]&quot;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//tbody//tr[1]//td[1][@class=&quot;medium item-names folder&quot;]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='cell(0)' selected='false'/>
+   <accessor type='doubleClick' value='cell(&quot;medium item-names folder&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='doubleClick' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='doubleClick' value='cell(&quot;FailedDS3Script.scenario&quot;)' selected='true'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//div[2]/div[1]/div[3]/div/div/div[3]/table/tbody/tr[18]/td[1]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&quot;id(&apos;fileManagerOverlay&apos;)/div[@class=&apos;file-manager&apos;]/div[@class=&apos;file-manage-container nav-added&apos;]/div[@class=&apos;file-tree-container&apos;]/table[1]/tbody[1]/tr[@class=&apos;file-row highlighted&apos;]/td[@class=&apos;medium item-names file&apos;]&quot;)' selected='false'/>
+   <accessor type='doubleClick' value='byXPath(&apos;//tbody//tr[18]//td[1][@class=&quot;medium item-names file&quot;]&apos;)' selected='false'/>
+   <accessor type='doubleClick' value='cell(51)' selected='false'/>
+   <accessor type='doubleClick' value='cell(&quot;medium item-names file[7]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='span(&quot;Play Scenario&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot; Play Scenario &quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[4]/div[4]/div/div/div[1]/section[2]/a[1]/span&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;btnPlay&apos;)/span[1]&quot;)' selected='false'/>
+   <accessor type='click' value='span(15)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='link(&quot;Test case(s) Executions&quot;)' selected='true'/>
+   <accessor type='click' value='byXPath(&apos;//*[text()=&quot;Test case(s) Executions&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[4]/div[4]/div/div/div[2]/div/ul/li[3]/a&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;page-wrapper&apos;)/div[@class=&apos;row&apos;]/div[@class=&apos;col-lg-12&apos;]/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body&apos;]/ul[@class=&apos;nav nav-tabs&apos;]/li[3]/a[1]&quot;)' selected='false'/>
+   <accessor type='click' value='link(42)' selected='false'/>
+   <accessor type='click' value='link(&quot;#[14]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='&quot;&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='div(&quot;txOutput&quot;)' selected='true'/>
+   <accessor type='click' value='div(&quot;panel-body panel-body-noheader panel-body-noborder&quot;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@id=&quot;txOutput&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//*[@class=&quot;panel-body panel-body-noheader panel-body-noborder&quot;]&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&apos;//div[4]/div[4]/div/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[1]/div&apos;)' selected='false'/>
+   <accessor type='click' value='byXPath(&quot;id(&apos;txOutput&apos;)&quot;)' selected='false'/>
+   <accessor type='click' value='div(126)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='&quot;No data to display&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='div(&quot;txOutput&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='div(&quot;txOutput&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(&quot;panel-body panel-body-noheader panel-body-noborder&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//*[@id=&quot;txOutput&quot;]&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//*[@class=&quot;panel-body panel-body-noheader panel-body-noborder&quot;]&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&apos;//div[4]/div[4]/div/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[1]/div&apos;)' selected='false'/>
+   <accessor type='assertContainsText' value='byXPath(&quot;id(&apos;txOutput&apos;)&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='div(126)' selected='false'/>
+</dialect>
+</step>
+</testcase>
