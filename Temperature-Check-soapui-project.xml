@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="44a13275-810c-4245-9a20-d837ec354bde" activeEnvironment="Default" name="Temperature Check" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="true"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="true"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" id="a8eb060c-f3b0-4f61-b521-5a6858d2b4e9" wsaVersion="NONE" name="ConvertTemperatureSoap" type="wsdl" bindingName="{http://www.webserviceX.NET/}ConvertTemperatureSoap" soapVersion="1_1" anonymous="optional" definition="http://www.webservicex.net/ConvertTemperature.asmx?WSDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://www.webservicex.net/ConvertTemperature.asmx?WSDL"><con:part><con:url>http://www.webservicex.net/ConvertTemperature.asmx?WSDL</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://www.webserviceX.NET/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET/">
+      <s:element name="ConvertTemp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Temperature" type="s:double"/>
+            <s:element minOccurs="1" maxOccurs="1" name="FromUnit" type="tns:TemperatureUnit"/>
+            <s:element minOccurs="1" maxOccurs="1" name="ToUnit" type="tns:TemperatureUnit"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="TemperatureUnit">
+        <s:restriction base="s:string">
+          <s:enumeration value="degreeCelsius"/>
+          <s:enumeration value="degreeFahrenheit"/>
+          <s:enumeration value="degreeRankine"/>
+          <s:enumeration value="degreeReaumur"/>
+          <s:enumeration value="kelvin"/>
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="ConvertTempResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertTempResult" type="s:double"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="double" type="s:double"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConvertTempSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertTemp"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertTempResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpGetIn">
+    <wsdl:part name="Temperature" type="s:string"/>
+    <wsdl:part name="FromUnit" type="s:string"/>
+    <wsdl:part name="ToUnit" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpGetOut">
+    <wsdl:part name="Body" element="tns:double"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpPostIn">
+    <wsdl:part name="Temperature" type="s:string"/>
+    <wsdl:part name="FromUnit" type="s:string"/>
+    <wsdl:part name="ToUnit" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpPostOut">
+    <wsdl:part name="Body" element="tns:double"/>
+  </wsdl:message>
+  <wsdl:portType name="ConvertTemperatureSoap">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempSoapIn"/>
+      <wsdl:output message="tns:ConvertTempSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ConvertTemperatureHttpGet">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempHttpGetIn"/>
+      <wsdl:output message="tns:ConvertTempHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ConvertTemperatureHttpPost">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempHttpPostIn"/>
+      <wsdl:output message="tns:ConvertTempHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ConvertTemperatureSoap" type="tns:ConvertTemperatureSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ConvertTemp">
+      <soap:operation soapAction="http://www.webserviceX.NET/ConvertTemp" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConvertTemperatureSoap12" type="tns:ConvertTemperatureSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ConvertTemp">
+      <soap12:operation soapAction="http://www.webserviceX.NET/ConvertTemp" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConvertTemperatureHttpGet" type="tns:ConvertTemperatureHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="ConvertTemp">
+      <http:operation location="/ConvertTemp"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConvertTemperatureHttpPost" type="tns:ConvertTemperatureHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="ConvertTemp">
+      <http:operation location="/ConvertTemp"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConvertTemperature">
+    <wsdl:port name="ConvertTemperatureSoap" binding="tns:ConvertTemperatureSoap">
+      <soap:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ConvertTemperatureSoap12" binding="tns:ConvertTemperatureSoap12">
+      <soap12:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ConvertTemperatureHttpGet" binding="tns:ConvertTemperatureHttpGet">
+      <http:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ConvertTemperatureHttpPost" binding="tns:ConvertTemperatureHttpPost">
+      <http:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://www.webservicex.net/ConvertTemperature.asmx</con:endpoint></con:endpoints><con:operation id="3ae1f6df-94cf-40a3-a64e-42eb896bf5c4" isOneWay="false" action="http://www.webserviceX.NET/ConvertTemp" name="ConvertTemp" bindingOperationName="ConvertTemp" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0690ddce-271e-456f-aead-0ae17956432f" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/ConvertTemperature.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ConvertTemp>\r
+         <web:Temperature>70</web:Temperature>\r
+         <web:FromUnit>degreeFahrenheit</web:FromUnit>\r
+         <web:ToUnit>degreeCelsius</web:ToUnit>\r
+      </web:ConvertTemp>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConvertTemp"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="9b370b6a-3f89-4e74-ab16-06a81b714a55" wsaVersion="NONE" name="ConvertTemperatureSoap12" type="wsdl" bindingName="{http://www.webserviceX.NET/}ConvertTemperatureSoap12" soapVersion="1_2" anonymous="optional" definition="http://www.webservicex.net/ConvertTemperature.asmx?WSDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://www.webservicex.net/ConvertTemperature.asmx?WSDL"><con:part><con:url>http://www.webservicex.net/ConvertTemperature.asmx?WSDL</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://www.webserviceX.NET/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET/">
+      <s:element name="ConvertTemp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Temperature" type="s:double"/>
+            <s:element minOccurs="1" maxOccurs="1" name="FromUnit" type="tns:TemperatureUnit"/>
+            <s:element minOccurs="1" maxOccurs="1" name="ToUnit" type="tns:TemperatureUnit"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="TemperatureUnit">
+        <s:restriction base="s:string">
+          <s:enumeration value="degreeCelsius"/>
+          <s:enumeration value="degreeFahrenheit"/>
+          <s:enumeration value="degreeRankine"/>
+          <s:enumeration value="degreeReaumur"/>
+          <s:enumeration value="kelvin"/>
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="ConvertTempResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertTempResult" type="s:double"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="double" type="s:double"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConvertTempSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertTemp"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertTempResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpGetIn">
+    <wsdl:part name="Temperature" type="s:string"/>
+    <wsdl:part name="FromUnit" type="s:string"/>
+    <wsdl:part name="ToUnit" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpGetOut">
+    <wsdl:part name="Body" element="tns:double"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpPostIn">
+    <wsdl:part name="Temperature" type="s:string"/>
+    <wsdl:part name="FromUnit" type="s:string"/>
+    <wsdl:part name="ToUnit" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="ConvertTempHttpPostOut">
+    <wsdl:part name="Body" element="tns:double"/>
+  </wsdl:message>
+  <wsdl:portType name="ConvertTemperatureSoap">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempSoapIn"/>
+      <wsdl:output message="tns:ConvertTempSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ConvertTemperatureHttpGet">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempHttpGetIn"/>
+      <wsdl:output message="tns:ConvertTempHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ConvertTemperatureHttpPost">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempHttpPostIn"/>
+      <wsdl:output message="tns:ConvertTempHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ConvertTemperatureSoap" type="tns:ConvertTemperatureSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ConvertTemp">
+      <soap:operation soapAction="http://www.webserviceX.NET/ConvertTemp" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConvertTemperatureSoap12" type="tns:ConvertTemperatureSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ConvertTemp">
+      <soap12:operation soapAction="http://www.webserviceX.NET/ConvertTemp" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConvertTemperatureHttpGet" type="tns:ConvertTemperatureHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="ConvertTemp">
+      <http:operation location="/ConvertTemp"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConvertTemperatureHttpPost" type="tns:ConvertTemperatureHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="ConvertTemp">
+      <http:operation location="/ConvertTemp"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConvertTemperature">
+    <wsdl:port name="ConvertTemperatureSoap" binding="tns:ConvertTemperatureSoap">
+      <soap:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ConvertTemperatureSoap12" binding="tns:ConvertTemperatureSoap12">
+      <soap12:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ConvertTemperatureHttpGet" binding="tns:ConvertTemperatureHttpGet">
+      <http:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ConvertTemperatureHttpPost" binding="tns:ConvertTemperatureHttpPost">
+      <http:address location="http://www.webservicex.net/ConvertTemperature.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://Taufiq:8088/mockConvertTemperatureSoap12</con:endpoint><con:endpoint>http://www.webservicex.net/ConvertTemperature.asmx</con:endpoint></con:endpoints><con:operation id="3a698873-c410-4217-bdd9-a974d9e4df3c" isOneWay="false" action="http://www.webserviceX.NET/ConvertTemp" name="ConvertTemp" bindingOperationName="ConvertTemp" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="08a532c8-48ef-4229-96ae-79642cfab2fb" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://Taufiq:8088/mockConvertTemperatureSoap12</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:ConvertTemp>\r
+         <web:Temperature>30</web:Temperature>\r
+         <web:FromUnit>degreeCelsius</web:FromUnit>\r
+         <web:ToUnit>degreeFahrenheit</web:ToUnit>\r
+      </web:ConvertTemp>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConvertTemperatureSoap/ConvertTempRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite id="f3a383a3-563d-4d09-85f2-0d16e41bcf16" name="FahrenheitToCelsius"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="ac732838-82a5-4d0a-983e-bd0c2f74ff9c" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="ConvertTemp TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="7f3fc7dd-0b2f-4cdb-ae68-e4067b21c0b0" name="ConvertTemp"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ConvertTemperatureSoap</con:interface><con:operation>ConvertTemp</con:operation><con:request name="ConvertTemp" id="dfdb7b2c-efe7-4613-bb96-bcc773492f4a"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/ConvertTemperature.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:ConvertTemp>
+         <web:Temperature>70</web:Temperature>
+         <web:FromUnit>degreeFahrenheit</web:FromUnit>
+         <web:ToUnit>degreeCelsius</web:ToUnit>
+      </web:ConvertTemp>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig action="http://www.webserviceX.NET/ConvertTemp" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="bc3e9685-fdc5-4fa2-8f09-531e273d3987" name="CelsiusToFahrenheit"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="aba7bf46-cc29-41f1-a4ee-bd2f863e799e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="ConvertTemp TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="054c4de7-d59a-4481-82a7-fe532df24d81" name="ConvertTemp"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ConvertTemperatureSoap12</con:interface><con:operation>ConvertTemp</con:operation><con:request name="ConvertTemp" id="6a34374a-a449-4603-8a73-0564ad6f4d6b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/ConvertTemperature.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET/">
+   <soap:Header/>
+   <soap:Body>
+      <web:ConvertTemp>
+         <web:Temperature>30</web:Temperature>
+         <web:FromUnit>degreeCelsius</web:FromUnit>
+         <web:ToUnit>degreeFahrenheit</web:ToUnit>
+      </web:ConvertTemp>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig action="http://www.webserviceX.NET/ConvertTemperatureSoap/ConvertTempRequest" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:mockService id="6e24826e-8208-4eab-8938-fb2870901a9f" port="8088" path="/mockConvertTemperatureSoap12" host="Taufiq" name="Temperature_Mock"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:mockOperation name="ConvertTemp" id="5b309165-9604-4673-acdf-99505ef48f17" interface="ConvertTemperatureSoap12" operation="ConvertTemp"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Response 1" id="10918d21-f26b-47de-b9ce-b8a3218ff08f" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET/">
+   <soap:Header/>
+   <soap:Body>
+      <web:ConvertTempResponse>
+         <web:ConvertTempResult>105</web:ConvertTempResult>
+      </web:ConvertTempResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConvertTemperatureSoap/ConvertTempResponse"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
