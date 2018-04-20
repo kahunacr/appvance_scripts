@@ -26,11 +26,10 @@
     <creator/>
     <versions/>
     <categorization/>
-    <include/>
-    <links/>
+    <links>  </links>
   </basics>
   <resources>
-    <resource name="DemoSiteRecording Controller4.jmx" type="jmx" path="SERVER/C:/Sachin_Work/DS3_DS/Jmeter4/DemoSiteRecording Controller4.jmx"/>
+    <resource name="DemoSiteRecording Controller4.jmx" type="jmx" path="{scenario}/DemoSiteRecording Controller4.jmx"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -85,6 +84,7 @@
       <opt name="async" value="false"/>
     </options>
     <options type="ds3">
+      <opt name="failOnStatusCodes" value="true"/>
       <opt name="reuseBrowser" value="false"/>
       <opt name="takeSnapshotDS3" value="false"/>
       <opt name="saveRequestAndResponseDS3" value="true"/>
@@ -135,7 +135,7 @@
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="functionaltest" subtype="functional">
     <iteration name="Iteration1" controller="Iteration1">
-      <testcase name="Testcase1" users="1"/>
+      <testcase name="Testcase1" users="1" totalexecutions="1"/>
     </iteration>
   </execution>
   <logs/>
