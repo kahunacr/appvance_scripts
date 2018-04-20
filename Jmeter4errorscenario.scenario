@@ -30,7 +30,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="SERVER/C:/Sachin_Work/DS3_DS/Jmeter4/JsonAssertionErrorNew.jmx"/>
+    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="{scenario}/JsonAssertionErrorNew.jmx"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
