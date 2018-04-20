@@ -20,7 +20,7 @@
 -->
 <testscenario xmlns="www.pushtotest.com/tm5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd" version="2.0">
   <basics>
-    <name>NewJmeter4errorscenario.scenario</name>
+    <name>Jmeter4errorscenario.scenario</name>
     <defaultdirectory/>
     <basicName/>
     <creator/>
