@@ -103,7 +103,10 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round totalexecutions="5" name="5 Executions Controller"/>
+      <round name="Executions per User">
+        <testcase name="Testcase1" executions="5"/>
+        <testcase name="Testcase2" executions="5"/>
+      </round>
     </controller>
     <testcase name="Testcase1">
       <test>
@@ -120,9 +123,9 @@
   </templates>
   <monitoring enablednodes="true" enabledtarget="false"/>
   <execution type="loadtest" subtype="load">
-    <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
-      <testcase name="Testcase1" users="1"/>
-      <testcase name="Testcase2" users="1" totalexecutions="1"/>
+    <iteration name="Iteration1" controller="Iteration1" completiontype="exacttestcaseexecutions">
+      <testcase name="Testcase1" users="1" totalexecutions="5"/>
+      <testcase name="Testcase2" users="1" totalexecutions="5"/>
     </iteration>
   </execution>
   <logs/>
