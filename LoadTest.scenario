@@ -1,0 +1,125 @@
+<testscenario xmlns="www.pushtotest.com/tm5" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd">
+  <basics>
+    <name>LoadTest.scenario</name>
+    <defaultdirectory />
+    <basicName />
+    <creator />
+    <versions />
+    <categorization />
+    <include />
+    <links />
+  </basics>
+  <resources>
+    <resource type="ds" name="facebookSmokeTest.ds" path="REPOSITORY/appvance_scripts/facebookSmokeTest.ds" />
+  </resources>
+  <testnodes>
+    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode" />
+  </testnodes>
+  <bundles>
+    <bundle name="hibernate" version="3.0" />
+    <bundle name="mysql" version="5.1.39" />
+    <bundle name="oracle" version="10.2.0.5" />
+    <bundle name="ds" version="3.0" />
+  </bundles>
+  <datasources />
+  <options>
+    <options type="global">
+      <opt name="trustAllSSLCertificates" value="false" />
+      <opt name="ntlmEnabled" value="false" />
+      <opt name="EnableHttpTimingDetailsLogging" value="false" />
+      <opt name="ConsoleAsProxy" value="false" />
+    </options>
+    <options type="apc">
+      <opt name="SummaryStepIsEmpty" value="false" />
+      <opt name="DynamicIpAddress" value="false" />
+      <opt name="EnableSavingLogs" value="true" />
+      <opt name="PercentageLogsSaved" value="10" />
+      <opt name="AlwaysSaveLogOnFailure" value="true" />
+      <opt name="maxSizeReponseSavings" value="true" />
+      <opt name="sizeValueResponseSavings" value="64" />
+      <opt name="SleepTime" value="0" />
+      <opt name="FixedSleepTime" value="0" />
+      <opt name="MinSleepTime" value="0" />
+      <opt name="MaxSleepTime" value="0" />
+      <opt name="ThinkTime" value="default" />
+      <opt name="FixedThinkTime" value="0" />
+      <opt name="StandardDeviation" value="0" />
+      <opt name="ThinkTimeMin" value="0" />
+      <opt name="ThinkTimeMax" value="0" />
+      <opt name="ReportThinkTime" value="false" />
+      <opt name="AddThinkTimeToStep" value="false" />
+      <opt name="IntervalTime" value="0" />
+      <opt name="FixedIntervalTime" value="0" />
+      <opt name="MinIntervalTime" value="0" />
+      <opt name="MaxIntervalTime" value="0" />
+      <opt name="RampUpUsers" value="0" />
+      <opt name="RampUpSeconds" value="0" />
+      <opt name="MaxRampUpTime" value="0" />
+      <opt name="RampDownUsers" value="0" />
+      <opt name="RampDownSeconds" value="0" />
+      <opt name="MaxRampDownTime" value="0" />
+      <opt name="global_concurrent_users" value="0" />
+      <opt name="testnode_concurrent_users" value="0" />
+    </options>
+    <options type="commandline">
+      <opt name="async" value="false" />
+    </options>
+    <options type="ds3">
+      <opt name="failOnStatusCodes" value="true" />
+      <opt name="reuseBrowser" value="false" />
+      <opt name="takeSnapshotDS3" value="false" />
+      <opt name="saveRequestAndResponseDS3" value="true" />
+      <opt name="optionsTimings" value="actionDuration" />
+      <opt name="replaceSameNavTimesDS3" value="replaceNextStepReady" />
+    </options>
+    <options type="sahi">
+      <opt name="clearCache" value="true" />
+      <opt name="takeSnapshot" value="false" />
+      <opt name="debugModeSahi" value="false" />
+      <opt name="domComplete" value="true" />
+      <opt name="replaceNextStepReady" value="true" />
+      <opt name="ajaxTimeout" value="10" />
+    </options>
+    <options type="har">
+      <opt name="connectionResetMarksTestcaseFailure" value="false" />
+      <opt name="markRequestAsSteps" value="false" />
+      <opt name="useHarResponses" value="false" />
+      <opt name="printDebugInfo" value="false" />
+      <opt name="doNotStopOnFailure" value="false" />
+    </options>
+    <options type="testng">
+      <opt name="TestNGtryToCompleteEntireSuite" value="false" />
+    </options>
+    <options type="lr">
+      <opt name="saveCompleteLrOutputLog" value="false" />
+    </options>
+    <options type="selenium">
+      <opt name="rc" value="false" />
+      <opt name="synchronized" value="false" />
+    </options>
+    <options type="seleniumrc">
+      <opt name="serverport" value="4444" />
+    </options>
+  </options>
+  <templates>
+    <controller name="Iteration1">
+      <round name="2 Executions Controller" totalexecutions="2" />
+    </controller>
+    <testcase name="Testcase1">
+      <test>
+        <run name="Untitled1" testclass="Firefox" method="ds" resource="facebookSmokeTest.ds" langtype="ds3" />
+      </test>
+    </testcase>
+    <assertsuite name="Optional" xmlns="www.pushtotest.com/tm5" />
+    <storesuite name="Optional" xmlns="www.pushtotest.com/tm5" />
+  </templates>
+  <monitoring enablednodes="true" enabledtarget="false" />
+  <execution type="loadtest" subtype="load">
+    <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
+      <testcase name="Testcase1" totalexecutions="1" users="1" />
+    </iteration>
+  </execution>
+  <logs />
+  <integrations xmlns="www.pushtotest.com/tm5" />
+  <notifications />
+</testscenario>
