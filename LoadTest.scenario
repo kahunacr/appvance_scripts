@@ -110,11 +110,6 @@
         <run name="Untitled1" testclass="Firefox" method="ds" resource="facebookSmokeTest.ds" langtype="ds3" />
       </test>
     </testcase>
-    <testcase name="Testcase2">
-      <test>
-        <run name="Untitled1" testclass="Firefox" method="ds" resource="cisco.ds" langtype="ds3" />
-      </test>
-    </testcase>
     <assertsuite name="Optional" xmlns="www.pushtotest.com/tm5" />
     <storesuite name="Optional" xmlns="www.pushtotest.com/tm5" />
   </templates>
@@ -122,7 +117,6 @@
   <execution type="loadtest" subtype="load">
     <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
       <testcase name="Testcase1" users="1" />
-      <testcase name="Testcase2" totalexecutions="1" users="1" />
     </iteration>
   </execution>
   <logs />
