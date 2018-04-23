@@ -1,4 +1,4 @@
-<testscenario xmlns="www.pushtotest.com/tm5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd" version="2.0">
+<testscenario xmlns="www.pushtotest.com/tm5" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd">
   <basics>
     <name>LoadTest.scenario</name>
     <defaultdirectory />
@@ -110,12 +110,12 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" testclass="Firefox" method="ds" resource="facebookSmokeTest.ds" langtype="ds3" />
+        <run name="Untitled1" langtype="ds3" resource="facebookSmokeTest.ds" method="ds" testclass="Firefox" />
       </test>
     </testcase>
     <testcase name="Testcase2">
       <test>
-        <run name="Untitled1" testclass="Firefox" method="ds" resource="cisco.ds" langtype="ds3" />
+        <run name="Untitled1" langtype="ds3" resource="cisco.ds" method="ds" testclass="Firefox" />
       </test>
     </testcase>
     <assertsuite name="Optional" xmlns="www.pushtotest.com/tm5" />
@@ -123,9 +123,9 @@
   </templates>
   <monitoring enablednodes="true" enabledtarget="false" />
   <execution type="loadtest" subtype="load">
-    <iteration name="Iteration1" completiontype="exacttestcaseexecutions" controller="Iteration1">
-      <testcase name="Testcase1" totalexecutions="2" users="1" />
-      <testcase name="Testcase2" totalexecutions="2" users="1" />
+    <iteration name="Iteration1" controller="Iteration1" completiontype="exacttestcaseexecutions">
+      <testcase name="Testcase1" users="1" totalexecutions="2" />
+      <testcase name="Testcase2" users="1" totalexecutions="2" />
     </iteration>
   </execution>
   <logs />
