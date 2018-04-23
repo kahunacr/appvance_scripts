@@ -6,8 +6,7 @@
     <creator />
     <versions />
     <categorization />
-    <include />
-    <links />
+    <links>    </links>
   </basics>
   <resources>
     <resource type="ds" name="facebookSmokeTest.ds" path="REPOSITORY/appvance_scripts/facebookSmokeTest.ds" />
@@ -103,7 +102,7 @@
   </options>
   <templates>
     <controller name="Iteration1">
-      <round name="2 Executions Controller" totalexecutions="2" />
+      <round name="5 Executions Controller" totalexecutions="5" />
     </controller>
     <testcase name="Testcase1">
       <test>
@@ -116,7 +115,7 @@
   <monitoring enablednodes="true" enabledtarget="false" />
   <execution type="loadtest" subtype="load">
     <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
-      <testcase name="Testcase1" totalexecutions="1" users="1" />
+      <testcase name="Testcase1" users="1" />
     </iteration>
   </execution>
   <logs />
