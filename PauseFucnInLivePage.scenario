@@ -1,4 +1,4 @@
-<testscenario xmlns="www.pushtotest.com/tm5" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd">
+<testscenario xmlns="www.pushtotest.com/tm5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.pushtotest.com/XSD/testscenario.xsd" version="2.0">
   <basics>
     <name>PauseFucnInLivePage.scenario</name>
     <defaultdirectory />
@@ -9,7 +9,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource type="har" name="www.apple.com.har" path="SERVER/C:/GIT060418/ds/DSClient/test/com/appvance/ds/ui/www.apple.com.har" />
+    <resource type="har" name="apple.har" path="{scenario}/apple.har" />
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode" />
@@ -106,7 +106,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="har" resource="www.apple.com.har" />
+        <run name="Untitled1" resource="apple.har" langtype="har" />
       </test>
     </testcase>
     <assertsuite name="Optional" xmlns="www.pushtotest.com/tm5" />
@@ -114,7 +114,7 @@
   </templates>
   <monitoring enablednodes="true" enabledtarget="false" />
   <execution type="loadtest" subtype="load">
-    <iteration name="Iteration1" controller="Iteration1" completiontype="totalexecutions">
+    <iteration name="Iteration1" completiontype="totalexecutions" controller="Iteration1">
       <testcase name="Testcase1" users="1" />
     </iteration>
   </execution>
