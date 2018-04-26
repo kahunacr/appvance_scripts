@@ -26,16 +26,14 @@
     <creator/>
     <versions/>
     <categorization/>
-    <include/>
+    <include>{scenario}/SERVER/C:/UTP_Sprint9/utp/test/SmokeTest/include/cloudhostInclude.scenario</include>
     <links>  </links>
   </basics>
   <resources>
     <resource name="dpl.jmx" type="jmx" path="{scenario}/dpl.jmx"/>
     <resource name="Jmeter_DPL.csv" type="csv" path="{scenario}/Jmeter_DPL.csv"/>
   </resources>
-  <testnodes>
-    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
-  </testnodes>
+  <testnodes/>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
     <bundle name="mysql" version="5.1.39"/>
