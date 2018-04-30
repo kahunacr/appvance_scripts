@@ -9,7 +9,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource type="ds" name="ValidationsuiteDisabledForPerf2.13.ds" path="SERVER/C:/GIT060418/utp/test/SmokeTest/scenarios/UITests/ValidationsuiteDisabledForPerf2.13.ds" />
+    <resource type="jmx" name="SampleProject.jmx" path="SERVER/C:/GIT060418/utp/test/SmokeTest/scenarios/jmeter/jmeter2.13/SampleProject.jmx" />
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode" />
