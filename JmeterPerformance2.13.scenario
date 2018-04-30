@@ -9,7 +9,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource type="jmx" name="SampleProject.jmx" path="SERVER/C:/GIT060418/utp/test/SmokeTest/scenarios/jmeter/jmeter2.13/SampleProject.jmx" />
+    <resource type="ds" name="ValidationsuiteDisabledForPerf2.13.ds" path="SERVER/C:/GIT060418/utp/test/SmokeTest/scenarios/UITests/ValidationsuiteDisabledForPerf2.13.ds" />
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode" />
@@ -108,7 +108,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="jmeter" resource="SampleProject.jmx" />
+        <run name="Untitled1" resource="SampleProject.jmx" langtype="jmeter" />
       </test>
     </testcase>
     <assertsuite name="Optional" xmlns="www.pushtotest.com/tm5" />
@@ -117,7 +117,7 @@
   <monitoring enablednodes="true" enabledtarget="false" />
   <execution type="loadtest" subtype="performance">
     <iteration name="Iteration1" controller="Iteration1" completiontype="exacttestcaseexecutions">
-      <testcase name="Testcase1" totalexecutions="2" users="1" />
+      <testcase name="Testcase1" users="1" totalexecutions="2" />
     </iteration>
   </execution>
   <logs />
