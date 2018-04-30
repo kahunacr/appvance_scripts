@@ -9,7 +9,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource type="jmx" name="SampleProject.jmx" path="{scenario}/../../GIT060418/utp/test/SmokeTest/scenarios/jmeter/jmeter2.13/SampleProject.jmx" />
+    <resource type="properties" name="JmeterPerformance2.13.scenario" path="{scenario}/JmeterPerformance2.13.scenario" />
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode" />
