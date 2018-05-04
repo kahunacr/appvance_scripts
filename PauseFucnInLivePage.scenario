@@ -6,6 +6,7 @@
     <creator />
     <versions />
     <categorization />
+    <include>SERVER/C:/GIT_sprint9/utp/test/SmokeTest/include/cloudhostInclude.scenario</include>
     <links>    </links>
   </basics>
   <resources>
