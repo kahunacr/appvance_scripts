@@ -11,7 +11,9 @@
   <resources>
     <resource type="har" name="apple.har" path="{scenario}/apple.har" />
   </resources>
-  <testnodes />
+  <testnodes>
+    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
+  </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0" />
     <bundle name="mysql" version="5.1.39" />
