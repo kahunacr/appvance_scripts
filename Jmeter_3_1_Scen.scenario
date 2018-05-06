@@ -26,15 +26,14 @@
     <creator/>
     <versions/>
     <categorization/>
+    <include>SERVER/Users/oscar/GIT/utp/test/SmokeTest/include/cloudhostInclude.scenario</include>
     <links>  </links>
   </basics>
   <resources>
     <resource name="dpl.jmx" type="jmx" path="{scenario}/dpl.jmx"/>
     <resource name="Jmeter_DPL.csv" type="csv" path="{scenario}/Jmeter_DPL.csv"/>
   </resources>
-  <testnodes>
-    <node name="localhost-1" location="http://localhost:8080/TMServer/ws/TestNode"/>
-  </testnodes>
+  <testnodes/>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
     <bundle name="mysql" version="5.1.39"/>
@@ -105,6 +104,7 @@
       <opt name="domComplete" value="true"/>
       <opt name="replaceNextStepReady" value="true"/>
       <opt name="ajaxTimeout" value="10"/>
+      <opt name="InitialURL" value="http://www.apple.com"/>
     </options>
     <options type="har">
       <opt name="connectionResetMarksTestcaseFailure" value="false"/>
