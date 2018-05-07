@@ -26,14 +26,13 @@
     <creator/>
     <versions/>
     <categorization/>
+    <include>/builds/appvance/utp/test/SmokeTest/include/cloudhostInclude.scenario</include>
     <links>    </links>
   </basics>
   <resources>
-    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="{scenario}/JsonAssertionErrorNew.jmx"/>
+    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="REPOSITORY/appvance_scripts/JsonAssertionErrorNew.jmx"/>
   </resources>
-  <testnodes>
-    <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
-  </testnodes>
+  <testnodes/>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
     <bundle name="mysql" version="5.1.39"/>
