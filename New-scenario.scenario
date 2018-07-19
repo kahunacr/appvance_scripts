@@ -30,7 +30,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="REPOSITORY/appvance_scripts/JsonAssertionErrorNew.jmx"/>
+    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="{scenario}/JsonAssertionErrorNew.jmx"/>
   </resources>
   <testnodes>
     <node name="localhost-1" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -128,7 +128,7 @@
     </controller>
     <testcase name="Testcase1">
       <test>
-        <run name="Untitled1" langtype="ds3" resource="deleteme.ds" method="ds" testclass="Firefox"/>
+        <run name="Untitled1" langtype="jmeter" resource="JsonAssertionErrorNew.jmx"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
