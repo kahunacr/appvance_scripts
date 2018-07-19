@@ -31,7 +31,6 @@
   </basics>
   <resources>
     <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="REPOSITORY/appvance_scripts/JsonAssertionErrorNew.jmx"/>
-    <resource name="deleteme.ds" type="ds" path="{scenario}/deleteme.ds"/>
   </resources>
   <testnodes>
     <node name="localhost-1" location="http://localhost:8080/TMServer/ws/TestNode"/>
@@ -41,7 +40,6 @@
     <bundle name="mysql" version="5.1.39"/>
     <bundle name="oracle" version="10.2.0.5"/>
     <bundle name="jmeter" version="4.0"/>
-    <bundle name="ds" version="3.0"/>
   </bundles>
   <datasources/>
   <options>
