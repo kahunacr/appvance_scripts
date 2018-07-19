@@ -158,7 +158,7 @@
 </step>
 <step action='doubleClick' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='doubleClick' value='cell(&quot;Jmeter4errorscenario.scenario&quot;)' selected='true'/>
+   <accessor type='doubleClick' value='cell(&quot;New-scenario.scenario&quot;)' selected='true'/>
    <accessor type='doubleClick' value='byXPath(&apos;//div[3]/div[1]/div[3]/div/div/div[3]/table/tbody/tr[15]/td[1]&apos;)' selected='false'/>
    <accessor type='doubleClick' value='byXPath(&apos;//tbody//tr[15]//td[1][@class=&quot;medium item-names file&quot;]&apos;)' selected='false'/>
    <accessor type='doubleClick' value='cell(42)' selected='false'/>
@@ -166,6 +166,7 @@
    <accessor type='doubleClick' value='cell(&quot;DPLEnabledSOAP.scenario&quot;)' selected='false'/>
    <accessor type='doubleClick' value='cell(&quot;JmeterLess4-scenario.scenario&quot;)' selected='false'/>
    <accessor type='doubleClick' value='cell(&quot;Jmeter_3_1_Scen.scenario&quot;)' selected='false'/>
+   <accessor type='doubleClick' value='cell(&quot;Jmeter4errorscenario.scenario&quot;)' selected='false'/>
 </dialect>
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
