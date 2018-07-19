@@ -32,7 +32,7 @@
     <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="REPOSITORY/appvance_scripts/JsonAssertionErrorNew.jmx"/>
   </resources>
   <testnodes>
-    <node name="localhost-1"/>
+    <node name="localhost-1" location="http://localhost:8080/TMServer/ws/TestNode"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
