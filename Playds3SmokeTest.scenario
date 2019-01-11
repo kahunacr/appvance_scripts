@@ -77,6 +77,7 @@
       <opt name="RampDownUsers" value="0"/>
       <opt name="RampDownSeconds" value="0"/>
       <opt name="MaxRampDownTime" value="0"/>
+      <opt name="tolerance" value="0"/>
       <opt name="global_concurrent_users" value="0"/>
       <opt name="testnode_concurrent_users" value="0"/>
     </options>
@@ -86,7 +87,10 @@
     <options type="ds3">
       <opt name="failOnStatusCodes" value="true"/>
       <opt name="reuseBrowser" value="false"/>
-      <opt name="takeSnapshotDS3" value="false"/>
+      <opt name="takeSnapshotDS3" value="true"/>
+      <opt name="takeScriptSnapshot" value="true"/>
+      <opt name="attachDSFile" value="true"/>
+      <opt name="attachInstantReplay" value="true"/>
       <opt name="saveRequestAndResponseDS3" value="true"/>
       <opt name="optionsTimings" value="actionDuration"/>
       <opt name="replaceSameNavTimesDS3" value="replaceNextStepReady"/>
