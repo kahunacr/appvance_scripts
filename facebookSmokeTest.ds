@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='' errorhandling=''/>
-<step action='navigateTo' value='&quot;https://www.facebook.com/&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<fallback useFallback='false'/>
+<shadowdom useShadowDOM='false'/>
+<step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
 </step>
-<step action='setValue' value='&quot;something&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"something"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;firstname&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;inputtext _58mg _5dba _2ph-&quot;)' selected='false'/>
@@ -19,7 +21,7 @@
    <accessor type='setValue' value='textbox(&quot;u_0_h&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='&quot;smoketest&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"smoketest"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='textbox(&quot;lastname&quot;)' selected='true'/>
    <accessor type='setValue' value='textbox(&quot;inputtext _58mg _5dba _2ph-[1]&quot;)' selected='false'/>
@@ -31,7 +33,7 @@
    <accessor type='setValue' value='textbox(&quot;u_0_j&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='setSelected' value='&quot;Oct&quot;' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setSelected' value='"oct"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setSelected' value='select(&quot;month&quot;)' selected='true'/>
    <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
