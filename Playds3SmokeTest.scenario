@@ -125,7 +125,7 @@
         <assert type="equals" value="0" target="size" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="12052" target="duration" format="DEFAULT"/>
+        <assert type="equals" value="12494" target="duration" format="DEFAULT"/>
       </assertentry>
     </assertsuite>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
