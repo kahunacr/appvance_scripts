@@ -26,14 +26,15 @@
     <creator/>
     <versions/>
     <categorization/>
-    <include>SERVER/Users/oscar/GIT/utp/test/SmokeTest/include/cloudhostInclude.scenario</include>
     <links>  </links>
   </basics>
   <resources>
     <resource name="dpl.jmx" type="jmx" path="{scenario}/dpl.jmx"/>
     <resource name="Jmeter_DPL.csv" type="csv" path="{scenario}/Jmeter_DPL.csv"/>
   </resources>
-  <testnodes/>
+  <testnodes>
+    <node name="localhost-1" location="http://localhost:8080/TMServer/ws/TestNode"/>
+  </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>
     <bundle name="mysql" version="5.1.39"/>
@@ -83,6 +84,7 @@
       <opt name="RampDownUsers" value="0"/>
       <opt name="RampDownSeconds" value="0"/>
       <opt name="MaxRampDownTime" value="0"/>
+      <opt name="tolerance" value="0"/>
       <opt name="global_concurrent_users" value="0"/>
       <opt name="testnode_concurrent_users" value="0"/>
     </options>
@@ -90,9 +92,13 @@
       <opt name="async" value="false"/>
     </options>
     <options type="ds3">
+      <opt name="PrepareDomains" value="www.apple.com"/>
       <opt name="failOnStatusCodes" value="true"/>
       <opt name="reuseBrowser" value="false"/>
       <opt name="takeSnapshotDS3" value="false"/>
+      <opt name="takeScriptSnapshot" value="true"/>
+      <opt name="attachDSFile" value="true"/>
+      <opt name="attachInstantReplay" value="true"/>
       <opt name="saveRequestAndResponseDS3" value="true"/>
       <opt name="optionsTimings" value="actionDuration"/>
       <opt name="replaceSameNavTimesDS3" value="replaceNextStepReady"/>
