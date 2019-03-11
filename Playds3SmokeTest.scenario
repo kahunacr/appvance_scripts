@@ -75,8 +75,7 @@
       <opt name="attachDSFile" value="true"/>
       <opt name="attachInstantReplay" value="true"/>
       <opt name="saveRequestAndResponseDS3" value="true"/>
-      <opt name="optionsTimings" value="actionDuration"/>
-      <opt name="replaceSameNavTimesDS3" value="replaceNextStepReady"/>
+      <opt name="optionsTimings" value="nextStepReady"/>
     </options>
     <options type="sahi">
       <opt name="clearCache" value="true"/>
@@ -112,7 +111,7 @@
     <controller name="Iteration1">
       <round iterations="1" totalusers="1"/>
     </controller>
-    <testcase name="Testcase1">
+    <testcase name="Testcase1" importance="normal">
       <test>
         <run name="Untitled1" langtype="ds3" resource="facebookSmokeTest.ds" method="ds" testclass="Firefox"/>
       </test>
@@ -125,7 +124,7 @@
         <assert type="equals" value="0" target="size" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="12398" target="duration" format="DEFAULT"/>
+        <assert type="equals" value="14325" target="duration" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="true" target="exists" format="DEFAULT"/>
@@ -134,7 +133,16 @@
         <assert type="equals" value="0" target="size" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="14325" target="duration" format="DEFAULT"/>
+        <assert type="equals" value="42117" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="14116" target="duration" format="DEFAULT"/>
       </assertentry>
     </assertsuite>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
