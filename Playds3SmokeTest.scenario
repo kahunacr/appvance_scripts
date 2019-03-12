@@ -124,15 +124,6 @@
         <assert type="equals" value="0" target="size" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="14325" target="duration" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="0" target="size" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="42117" target="duration" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
@@ -143,6 +134,195 @@
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="14116" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="11841" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="12324" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="7129" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="7415" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="9845" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="9537" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="12126" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="8024" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="9451" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="7507" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="10200" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="9041" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="7947" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="10854" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="10013" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="7908" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="7490" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="15083" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="9713" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="12106" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="11631" target="duration" format="DEFAULT"/>
       </assertentry>
     </assertsuite>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
