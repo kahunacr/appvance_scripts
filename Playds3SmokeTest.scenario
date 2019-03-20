@@ -118,12 +118,6 @@
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional">
       <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="12324" target="duration" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="0" target="size" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
@@ -386,6 +380,27 @@
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="11319" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1) Untitled1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1.2) Navigate to https://www.facebook.com/">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1.2) Navigate to https://www.facebook.com/">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1.2) Navigate to https://www.facebook.com/">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1.2) Navigate to https://www.facebook.com/">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1.2) Navigate to https://www.facebook.com/">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="step" testcase="Testcase1" step="1.2) Navigate to https://www.facebook.com/">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
       </assertentry>
     </assertsuite>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
