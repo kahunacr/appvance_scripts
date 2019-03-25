@@ -30,7 +30,7 @@
     <links>    </links>
   </basics>
   <resources>
-    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="REPOSITORY/appvance_scripts/JsonAssertionErrorNew.jmx"/>
+    <resource name="JsonAssertionErrorNew.jmx" type="jmx" path="{scenario}/JsonAssertionErrorNew.jmx"/>
   </resources>
   <testnodes/>
   <bundles>
@@ -76,6 +76,7 @@
       <opt name="RampDownUsers" value="0"/>
       <opt name="RampDownSeconds" value="0"/>
       <opt name="MaxRampDownTime" value="0"/>
+      <opt name="tolerance" value="0"/>
       <opt name="global_concurrent_users" value="0"/>
       <opt name="testnode_concurrent_users" value="0"/>
     </options>
@@ -86,9 +87,11 @@
       <opt name="failOnStatusCodes" value="true"/>
       <opt name="reuseBrowser" value="false"/>
       <opt name="takeSnapshotDS3" value="false"/>
+      <opt name="takeScriptSnapshot" value="false"/>
+      <opt name="attachDSFile" value="false"/>
+      <opt name="attachInstantReplay" value="false"/>
       <opt name="saveRequestAndResponseDS3" value="true"/>
-      <opt name="optionsTimings" value="actionDuration"/>
-      <opt name="replaceSameNavTimesDS3" value="replaceNextStepReady"/>
+      <opt name="optionsTimings" value="nextStepReady"/>
     </options>
     <options type="sahi">
       <opt name="clearCache" value="true"/>
@@ -123,7 +126,7 @@
     <controller name="Iteration1">
       <round iterations="1" totalusers="1"/>
     </controller>
-    <testcase name="Testcase1">
+    <testcase name="Testcase1" importance="normal">
       <test>
         <run name="Untitled1" langtype="jmeter" resource="JsonAssertionErrorNew.jmx"/>
       </test>
