@@ -26,7 +26,7 @@
     <creator/>
     <versions/>
     <categorization/>
-    <include>/builds/appvance/utp/test/SmokeTest/include/cloudhostInclude.scenario</include>
+    <include>SERVER/C:/Users/kenne/Desktop/repos/aiq/test/SmokeTest/include/cloudhostInclude.scenario</include>
     <links>    </links>
   </basics>
   <resources>
