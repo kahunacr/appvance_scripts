@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='' errorhandling=''/>
+<dpl filename='' exectype='' errorhandling='' type='HashDPL'/>
 <fallback useFallback='false'/>
 <shadowdom useShadowDOM='false'/>
 <step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
@@ -35,7 +35,7 @@
 </step>
 <step action='setSelected' value='"oct"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setSelected' value='select(&quot;month&quot;)' selected='true'/>
+   <accessor type='setSelected' value='new' selected='true'/>
    <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
    <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='false'/>
    <accessor type='setSelected' value='select(&quot;_5dba[1]&quot;)' selected='false'/>
@@ -44,6 +44,7 @@
    <accessor type='setSelected' value='byXPath(&apos;//div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[6]/div[2]/span/span/select[2]&apos;)' selected='false'/>
    <accessor type='setSelected' value='byXPath(&quot;id(&apos;month&apos;)&quot;)' selected='false'/>
    <accessor type='setSelected' value='select(1)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;month&quot;)' selected='false'/>
 </dialect>
 </step>
 </testcase>
