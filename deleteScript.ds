@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase  name= '' description='' author='' version=''>
+<dpl filename='' exectype='' errorhandling='' type='null'/>
+<fallback useFallback='false'/>
+<shadowdom useShadowDOM='false'/>
+<step action='navigateTo' value='"https://demosite.appvance.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='clickXY' value='"34,58"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='clickXY' value='image(&quot;Ruby on Rails Tote&quot;)' selected='true'/>
+   <accessor type='clickXY' value='image(&quot;https://demosite.appvance.com/spree/products/21/small/ror_tote.jpeg?1527769324&quot;)' selected='false'/>
+   <accessor type='clickXY' value='image(1)' selected='false'/>
+</dialect>
+</step>
+</testcase>
