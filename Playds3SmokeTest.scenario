@@ -127,15 +127,6 @@
         <assert type="equals" value="0" target="size" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="8024" target="duration" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
-        <assert type="equals" value="0" target="size" format="DEFAULT"/>
-      </assertentry>
-      <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="9451" target="duration" format="DEFAULT"/>
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
@@ -467,6 +458,15 @@
       </assertentry>
       <assertentry type="testcase" testcase="Testcase1">
         <assert type="equals" value="2917" target="duration" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="true" target="exists" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="0" target="size" format="DEFAULT"/>
+      </assertentry>
+      <assertentry type="testcase" testcase="Testcase1">
+        <assert type="equals" value="2604" target="duration" format="DEFAULT"/>
       </assertentry>
     </assertsuite>
     <storesuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
