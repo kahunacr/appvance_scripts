@@ -33,18 +33,78 @@
    <accessor type='setValue' value='textbox(&quot;u_0_j&quot;)' selected='false'/>
 </dialect>
 </step>
-<step action='setSelected' value='"oct"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='setValue' value='"12345678"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='setSelected' value='new' selected='true'/>
-   <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
-   <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;_2ph- _58mg _5dba inputtext[2]&quot;)' selected='true'/>
+   <accessor type='setValue' value='textbox(&quot;u_0_o&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(&quot;reg_email__&quot;)' selected='false'/>
+   <accessor type='setValue' value='textbox(2)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"123smoketest456"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;_2ph- _58mg _5dba inputtext&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;u_0_v&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(&quot;reg_passwd__&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(1)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='"29"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;Day&quot;)' selected='true'/>
+   <accessor type='setSelected' value='select(&quot;_5dba&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;day&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;birthday_day&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='"Month"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='true'/>
    <accessor type='setSelected' value='select(&quot;_5dba[1]&quot;)' selected='false'/>
-   <accessor type='setSelected' value='byXPath(&apos;//*[@id=&quot;month&quot;]&apos;)' selected='false'/>
-   <accessor type='setSelected' value='byXPath(&apos;//*[@name=&quot;birthday_month&quot;]&apos;)' selected='false'/>
-   <accessor type='setSelected' value='byXPath(&apos;//div[1]/div[3]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div/div[1]/form/div[1]/div[6]/div[2]/span/span/select[2]&apos;)' selected='false'/>
-   <accessor type='setSelected' value='byXPath(&quot;id(&apos;month&apos;)&quot;)' selected='false'/>
-   <accessor type='setSelected' value='select(1)' selected='false'/>
    <accessor type='setSelected' value='select(&quot;month&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(1)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='"1999"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;Year&quot;)' selected='true'/>
+   <accessor type='setSelected' value='select(&quot;_5dba[2]&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;year&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;birthday_year&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(2)' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='click' value='radio(&quot;sex[1]&quot;)' selected='true'/>
+   <accessor type='click' value='radio(&quot;2&quot;)' selected='false'/>
+   <accessor type='click' value='radio(1)' selected='false'/>
+   <accessor type='click' value='radio(&quot;u_0_7&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='setSelected' value='"Jan"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='true'/>
+   <accessor type='setSelected' value='select(&quot;_5dba[1]&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;month&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(&quot;birthday_month&quot;)' selected='false'/>
+   <accessor type='setSelected' value='select(1)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"qwerty@qwerty.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='emailbox(&quot;inputtext&quot;)' selected='true'/>
+   <accessor type='setValue' value='emailbox(&quot;email&quot;)' selected='false'/>
+   <accessor type='setValue' value='emailbox(0)' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"123qwerty"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='setValue' value='password(&quot;inputtext&quot;)' selected='true'/>
+   <accessor type='setValue' value='password(&quot;pass&quot;)' selected='false'/>
+   <accessor type='setValue' value='password(0)' selected='false'/>
 </dialect>
 </step>
 </testcase>
