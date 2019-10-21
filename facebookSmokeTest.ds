@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcase  name= '' description='' author='' version=''>
-<dpl filename='REPOSITORY/appvance_scripts/facebook.csv' exectype='runstepbystep' errorhandling='' type='HashDPL'/>
+<dpl filename='&quot;&quot;' exectype='runstepbystep' errorhandling='' type='HashDPL'/>
 <fallback useFallback='false'/>
 <step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
