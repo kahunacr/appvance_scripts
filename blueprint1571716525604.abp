@@ -1,0 +1,127 @@
+{
+    "sitemapActions": [],
+    "requests": {},
+    "type": ["Tags"],
+    "visualHints": true,
+    "states": [
+        {
+            "children": {"0": [1]},
+            "urlVariants": ["Blank"],
+            "pageLocators": "",
+            "id": 0,
+            "fields": [],
+            "url": "Blank"
+        },
+        {
+            "children": {},
+            "urlVariants": ["Still Blank"],
+            "pageLocators": "",
+            "id": 1,
+            "fields": [],
+            "url": "Still Blank"
+        }
+    ],
+    "duration": 5000,
+    "proxyPort": 9090,
+    "mobileConfigurations": [],
+    "browser": "Chrome",
+    "root": 1,
+    "setupJS": "",
+    "statesCounter": [],
+    "lastActionId": 1,
+    "proxyAddress": "127.0.0.1",
+    "nwLibraries": [],
+    "dplType": "HashDPL",
+    "sitemap": "",
+    "stLibraries": [],
+    "validDomains": ["https://demosite.appvance.com"],
+    "threads": 1,
+    "ignoreURLs": [],
+    "version": 207,
+    "rootURL": "https://demosite.appvance.com/",
+    "delay": 10,
+    "executions": [{
+        "processedStates": [],
+        "extractors": [],
+        "validators": [],
+        "bindings": [],
+        "duration": 5000,
+        "dataSetNames": ["Default"],
+        "bindingsWithoutCustomActions": [],
+        "usePreviousBindings": false,
+        "prunePages": [],
+        "id": 0,
+        "bindingsWithCustomActions": [],
+        "sitemapHashcodes": [],
+        "pruneActions": [],
+        "pruned": 0,
+        "templates": [],
+        "start": 1571716524037,
+        "unprocessedActions": [],
+        "smartTags": [],
+        "actionsFound": 1,
+        "stop": 1571716644261,
+        "lastResume": 0,
+        "networkValidations": [],
+        "useOneDataSet": false,
+        "name": "a",
+        "autoValidations": [],
+        "failedActions": [{
+            "mcIndex": -1,
+            "dataSetName": "Default",
+            "actions": [{
+                "stateId": 0,
+                "actionId": 1,
+                "message": 856031255
+            }]
+        }],
+        "statesFound": [],
+        "inconsistentActions": []
+    }],
+    "prune": true,
+    "dataSets": [{
+        "values": {"baseURL": "https://demosite.appvance.com"},
+        "name": "Default",
+        "used": true
+    }],
+    "messages": [{
+        "value": "Failure during setup: java.lang.NullPointerException\n\tat com.appvance.ds.config.HttpResponse.toStringContent(HttpResponse.java:139)\n\tat com.appvance.ds.client.NetworkClient.getString(NetworkClient.java:108)\n\tat com.appvance.ds.client.DSConnectionClient.doGet(DSConnectionClient.java:26)\n\tat com.appvance.ds.client.DSPlaybackClient.makePlaybackSession(DSPlaybackClient.java:887)\n\tat com.appvance.aitestgen.engine.DSManager.<init>(DSManager.java:52)\n\tat com.appvance.aitestgen.thread.WebExtractorThread.createClient(WebExtractorThread.java:60)\n\tat com.appvance.aitestgen.thread.WebExtractorThread.process(WebExtractorThread.java:130)\n\tat com.appvance.aitestgen.thread.BaseExtractorThread.run(BaseExtractorThread.java:130)\n",
+        "key": 856031255
+    }],
+    "locations": [],
+    "actions": [
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {"0": [0]},
+            "shortestPath": [],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 0,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 0,
+                "action": "//Open",
+                "value": ""
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 1,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 0,
+                "action": "navigateTo",
+                "value": "$baseURL"
+            }]
+        }
+    ],
+    "selfHealing": true
+}
