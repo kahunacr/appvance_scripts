@@ -1,9 +1,1952 @@
 {
     "sitemapActions": [],
-    "requests": {},
+    "requests": {
+        "1471770254": {
+            "startedDateTime": "2019-10-23T20:43:18.425Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/24/small/ror_baseball.jpeg?1527769327"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:43:19 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:07 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"120b-56d7f840fe82d\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 82,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/24/small/ror_baseball.jpeg/?"
+        },
+        "-1721123207": {
+            "startedDateTime": "2019-10-23T20:41:59.542Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "name": "X-CSRF-Token",
+                        "value": "W+jKLW9Fkggpzuo3RDWHCaufE11HAst0HtiSN6+nsTBHoU6p+R9WNK7yo1f44gAKKHbplgiYlpuQ553nxRqqSw=="
+                    },
+                    {
+                        "name": "X-Requested-With",
+                        "value": "XMLHttpRequest"
+                    },
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "cors"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/cart_link"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:02 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "value": "nosniff"
+                    },
+                    {
+                        "name": "X-Runtime",
+                        "value": "0.020400"
+                    },
+                    {
+                        "name": "X-Request-Id",
+                        "value": "777b3a2d-b251-4f35-a399-f6fb50bf993e"
+                    },
+                    {
+                        "name": "X-Powered-By",
+                        "value": "Phusion Passenger 5.1.2"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie,Accept-Encoding"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "W/\"32a14804eb0e8e6accec33378ac0a4ad-gzip\""
+                    },
+                    {
+                        "name": "Status",
+                        "value": "200 OK"
+                    },
+                    {
+                        "name": "Content-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=91"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "text/html; charset=utf-8"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 23,
+            "encodedURL": "https://demosite.appvance.com:443/cart_link/?"
+        },
+        "-792140994": {
+            "startedDateTime": "2019-10-23T20:41:59.508Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/40/small/spree_spaghetti.jpeg?1527769342"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:00 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:22 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"3ac-56d7f84f65edf\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=96"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 2,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/40/small/spree_spaghetti.jpeg/?"
+        },
+        "-475788877": {
+            "startedDateTime": "2019-10-23T20:42:36.453Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/36/small/spree_tote_front.jpeg?1527769338"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:19 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"ea5-56d7f84c07a4d\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=97"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 29,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/36/small/spree_tote_front.jpeg/?"
+        },
+        "-1433747912": {
+            "startedDateTime": "2019-10-23T20:43:18.532Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/34/small/ruby_baseball.png?1527769335"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:43:19 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:16 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"29f2-56d7f84996a86\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=97"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/png"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 3,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/34/small/ruby_baseball.png/?"
+        },
+        "-672973080": {
+            "startedDateTime": "2019-10-23T20:42:36.339Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/23/small/ror_bag.jpeg?1527769326"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:36 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:06 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"13c6-56d7f8403b33f\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 62,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/23/small/ror_bag.jpeg/?"
+        },
+        "-1937591592": {
+            "startedDateTime": "2019-10-23T20:41:59.472Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/bitnami/banner.js"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:00 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 27 Feb 2017 09:04:34 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"467-5497f5e38ac80-gzip\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Accept-Encoding"
+                    },
+                    {
+                        "name": "Content-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=99"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "application/javascript"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 3,
+            "encodedURL": "https://demosite.appvance.com:443/bitnami/banner.js/?"
+        },
+        "1979324364": {
+            "startedDateTime": "2019-10-23T20:42:36.382Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/33/small/apache_baseball.png?1527769334"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:36 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:14 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"23fa-56d7f847f4b2c\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=98"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/png"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 3,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/33/small/apache_baseball.png/?"
+        },
+        "1161752489": {
+            "startedDateTime": "2019-10-23T20:42:36.450Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/35/small/spree_bag.jpeg?1527769337"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:18 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"1112-56d7f84b1c4c2\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=97"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 28,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/35/small/spree_bag.jpeg/?"
+        },
+        "150825930": {
+            "startedDateTime": "2019-10-23T20:43:18.414Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/21/small/ror_tote.jpeg?1527769324"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:43:19 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:05 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"1227-56d7f83eb39c2\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 83,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/21/small/ror_tote.jpeg/?"
+        },
+        "-1318321165": {
+            "startedDateTime": "2019-10-23T20:41:45.453Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/assets/spree/frontend/all-0281369d41354ab55fdb55cdccf3c49ba18178485a8e2a8acb9148a19a26c362.js"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:41:59 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie,Accept-Encoding"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 16 Apr 2018 11:28:02 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"28bf2-569f583c23480-gzip\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Content-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "application/javascript"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 79,
+            "encodedURL": "https://demosite.appvance.com:443/assets/spree/frontend/all-0281369d41354ab55fdb55cdccf3c49ba18178485a8e2a8acb9148a19a26c362.js/?"
+        },
+        "-1510618304": {
+            "startedDateTime": "2019-10-23T20:41:59.194Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Upgrade-Insecure-Requests",
+                        "value": "1"
+                    },
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "navigate"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:41:59 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "value": "nosniff"
+                    },
+                    {
+                        "name": "X-Runtime",
+                        "value": "0.064020"
+                    },
+                    {
+                        "name": "X-Request-Id",
+                        "value": "897d952c-13cb-4947-939d-bc05900809d8"
+                    },
+                    {
+                        "name": "X-Powered-By",
+                        "value": "Phusion Passenger 5.1.2"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie,Accept-Encoding"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "W/\"a5855b511e5a87c8544059dc931fd6f5-gzip\""
+                    },
+                    {
+                        "name": "Status",
+                        "value": "200 OK"
+                    },
+                    {
+                        "name": "Content-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "text/html; charset=utf-8"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 128,
+            "encodedURL": "https://demosite.appvance.com:443/?"
+        },
+        "1288951113": {
+            "startedDateTime": "2019-10-23T20:41:59.342Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "text/css,*/*;q=0.1"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/assets/spree/frontend/all-dcce360e77937eb06679c31bcd694097abc747ae87d2bc292fddd5318b67ceff.css"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:41:59 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie,Accept-Encoding"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 16 Apr 2018 11:28:02 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"1e9f6-569f583c23480-gzip\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Content-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=99"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "text/css"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 12,
+            "encodedURL": "https://demosite.appvance.com:443/assets/spree/frontend/all-dcce360e77937eb06679c31bcd694097abc747ae87d2bc292fddd5318b67ceff.css/?"
+        },
+        "-1288136179": {
+            "startedDateTime": "2019-10-23T20:41:59.509Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/41/small/spree_jersey.jpeg?1527769343"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:00 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:23 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"965-56d7f85039d6c\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=95"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 2,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/41/small/spree_jersey.jpeg/?"
+        },
+        "-1889587220": {
+            "startedDateTime": "2019-10-23T20:42:36.556Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "cors"
+                    },
+                    {
+                        "name": "Origin",
+                        "value": "https://demosite.appvance.com"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "*/*"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/assets/spree/frontend/all-dcce360e77937eb06679c31bcd694097abc747ae87d2bc292fddd5318b67ceff.css"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 16 Apr 2018 11:27:50 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"466c-569f5830b1980\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=97"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "font/woff2"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 4,
+            "encodedURL": "https://demosite.appvance.com:443/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2/?"
+        },
+        "-868919334": {
+            "startedDateTime": "2019-10-23T20:42:36.456Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/bitnami/images/corner-logo.png"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 27 Feb 2017 09:04:34 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"66f0-5497f5e38ac80\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=89"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/png"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 30,
+            "encodedURL": "https://demosite.appvance.com:443/bitnami/images/corner-logo.png/?"
+        },
+        "987769135": {
+            "startedDateTime": "2019-10-23T20:43:18.429Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/26/small/ror_jr_spaghetti.jpeg?1527769328"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:43:19 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:09 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"963-56d7f8428232a\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 72,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/26/small/ror_jr_spaghetti.jpeg/?"
+        },
+        "-1381668017": {
+            "startedDateTime": "2019-10-23T20:42:36.363Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/29/small/ror_ringer.jpeg?1527769331"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:11 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"ca9-56d7f844be736\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 68,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/29/small/ror_ringer.jpeg/?"
+        },
+        "1475116488": {
+            "startedDateTime": "2019-10-23T20:42:01.831Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/assets/favicon-92e86d463e909754599d66730477622cd3dd0b9bff58c47c9c38bebceb8073e5.ico"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:02 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 16 Apr 2018 11:27:54 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"47e-569f583482280\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=92"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/x-icon"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 2,
+            "encodedURL": "https://demosite.appvance.com:443/assets/favicon-92e86d463e909754599d66730477622cd3dd0b9bff58c47c9c38bebceb8073e5.ico/?"
+        },
+        "-856155202": {
+            "startedDateTime": "2019-10-23T20:42:36.282Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/assets/logo/spree_50-0ae687ccd486b63b01687b1df9e5394430f6fce3ab40c28250b179be4363ddc1.png"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:36 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 16 Apr 2018 11:27:54 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"872f-569f583482280\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=100"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/png"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 69,
+            "encodedURL": "https://demosite.appvance.com:443/assets/logo/spree_50-0ae687ccd486b63b01687b1df9e5394430f6fce3ab40c28250b179be4363ddc1.png/?"
+        },
+        "-1246081489": {
+            "startedDateTime": "2019-10-23T20:42:36.453Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/bitnami/images/close.png"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Mon, 27 Feb 2017 09:04:34 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"810-5497f5e38ac80\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=98"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/png"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 29,
+            "encodedURL": "https://demosite.appvance.com:443/bitnami/images/close.png/?"
+        },
+        "-1778906236": {
+            "startedDateTime": "2019-10-23T20:42:36.454Z",
+            "request": {
+                "headers": [
+                    {
+                        "name": "Sec-Fetch-Mode",
+                        "value": "no-cors"
+                    },
+                    {
+                        "name": "Accept",
+                        "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                    },
+                    {
+                        "name": "Sec-Fetch-Site",
+                        "value": "same-origin"
+                    },
+                    {
+                        "name": "Referer",
+                        "value": "https://demosite.appvance.com/"
+                    },
+                    {
+                        "name": "Accept-Encoding",
+                        "value": "gzip"
+                    },
+                    {
+                        "name": "Accept-Language",
+                        "value": "en-US,en;q=0.9"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "method": "GET",
+                "url": "https://demosite.appvance.com:443/spree/products/38/small/spree_ringer_t.jpeg?1527769340"
+            },
+            "response": {
+                "headers": [
+                    {
+                        "name": "Date",
+                        "value": "Wed, 23 Oct 2019 20:42:37 GMT"
+                    },
+                    {
+                        "name": "Server",
+                        "value": "Apache"
+                    },
+                    {
+                        "name": "Vary",
+                        "value": "Cookie"
+                    },
+                    {
+                        "name": "Last-Modified",
+                        "value": "Thu, 31 May 2018 12:22:20 GMT"
+                    },
+                    {
+                        "name": "ETag",
+                        "value": "\"aa8-56d7f84dc6e65\""
+                    },
+                    {
+                        "name": "Accept-Ranges",
+                        "value": "bytes"
+                    },
+                    {
+                        "name": "Keep-Alive",
+                        "value": "timeout=5, max=96"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg"
+                    },
+                    {
+                        "name": "Cache-Control",
+                        "value": "no-cache, no-store, must-revalidate"
+                    },
+                    {
+                        "name": "Pragma",
+                        "value": "no-cache"
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment"
+                    }
+                ],
+                "httpVersion": "HTTP/1.1",
+                "statusText": "OK",
+                "status": 200
+            },
+            "time": 32,
+            "encodedURL": "https://demosite.appvance.com:443/spree/products/38/small/spree_ringer_t.jpeg/?"
+        }
+    },
     "type": ["Tags"],
     "visualHints": true,
     "states": [
+        {
+            "children": {},
+            "urlVariants": ["Still Blank"],
+            "pageLocators": "",
+            "id": 1,
+            "fields": [],
+            "url": "Still Blank"
+        },
         {
             "children": {"0": [1]},
             "urlVariants": ["Blank"],
@@ -13,22 +1956,354 @@
             "url": "Blank"
         },
         {
-            "children": {},
-            "urlVariants": ["Still Blank"],
-            "pageLocators": "",
-            "id": 1,
-            "fields": [],
-            "url": "Still Blank"
+            "children": {"0": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+            ]},
+            "urlVariants": ["https://demosite.appvance.com/"],
+            "pageLocators": "div(\"bitnami-banner\")form(\"navbar-form\")link(\"/\")link(\"/?page=2\")link(\"/?page=2[1]\")link(\"/?page=2[2]\")link(\"/[1]\")link(\"/[2]\")link(\"/bitnami/index.html\")link(\"/login\")link(\"/products/apache-baseball-jersey\")link(\"/products/ruby-baseball-jersey\")link(\"/products/ruby-on-rails-bag\")link(\"/products/ruby-on-rails-baseball-jersey\")link(\"/products/ruby-on-rails-jr-spaghetti\")link(\"/products/ruby-on-rails-ringer-t-shirt\")link(\"/products/ruby-on-rails-tote\")link(\"/products/spree-bag\")link(\"/products/spree-baseball-jersey\")link(\"/products/spree-jr-spaghetti\")link(\"/products/spree-ringer-t-shirt\")link(\"/products/spree-tote\")link(\"cart-info empty\")link(\"list-group-item\")link(\"list-group-item[1]\")link(\"list-group-item[2]\")link(\"list-group-item[3]\")link(\"list-group-item[4]\")link(\"list-group-item[5]\")link(\"list-group-item[6]\")searchbox(\"form-control\")select(\"form-control\")submit(\"btn btn-success\")",
+            "id": -580412809,
+            "fields": [
+                {
+                    "name": "div(\"bitnami-banner\")",
+                    "type": "Hover"
+                },
+                {
+                    "name": "form(\"navbar-form\")",
+                    "type": "Form"
+                },
+                {
+                    "name": "link(\"/\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/?page=2\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/?page=2[1]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/?page=2[2]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/[1]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/[2]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/login\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/apache-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-bag\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-jr-spaghetti\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-ringer-t-shirt\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-tote\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-bag\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-jr-spaghetti\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-ringer-t-shirt\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-tote\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"cart-info empty\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[1]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[2]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[3]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[4]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[5]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[6]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "searchbox(\"form-control\")",
+                    "type": "Text"
+                },
+                {
+                    "name": "select(\"form-control\")",
+                    "type": "Select"
+                },
+                {
+                    "name": "submit(\"btn btn-success\")",
+                    "type": "Action"
+                }
+            ],
+            "url": "https://demosite.appvance.com/"
+        },
+        {
+            "children": {"0": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56
+            ]},
+            "urlVariants": ["https://demosite.appvance.com/"],
+            "pageLocators": "div(\"bitnami-banner\")form(\"navbar-form\")image(\"https://demosite.appvance.com/bitnami/images/close.png\")link(\"/\")link(\"/?page=2\")link(\"/?page=2[1]\")link(\"/?page=2[2]\")link(\"/[1]\")link(\"/[2]\")link(\"/bitnami/index.html\")link(\"/login\")link(\"/products/apache-baseball-jersey\")link(\"/products/ruby-baseball-jersey\")link(\"/products/ruby-on-rails-bag\")link(\"/products/ruby-on-rails-baseball-jersey\")link(\"/products/ruby-on-rails-jr-spaghetti\")link(\"/products/ruby-on-rails-ringer-t-shirt\")link(\"/products/ruby-on-rails-tote\")link(\"/products/spree-bag\")link(\"/products/spree-baseball-jersey\")link(\"/products/spree-jr-spaghetti\")link(\"/products/spree-ringer-t-shirt\")link(\"/products/spree-tote\")link(\"cart-info empty\")link(\"list-group-item\")link(\"list-group-item[1]\")link(\"list-group-item[2]\")link(\"list-group-item[3]\")link(\"list-group-item[4]\")link(\"list-group-item[5]\")link(\"list-group-item[6]\")searchbox(\"form-control\")select(\"form-control\")submit(\"btn btn-success\")",
+            "id": -931129489,
+            "fields": [
+                {
+                    "name": "div(\"bitnami-banner\")",
+                    "type": "Hover"
+                },
+                {
+                    "name": "form(\"navbar-form\")",
+                    "type": "Form"
+                },
+                {
+                    "name": "image(\"https://demosite.appvance.com/bitnami/images/close.png\")",
+                    "type": "Action"
+                },
+                {
+                    "name": "link(\"/\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/?page=2\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/?page=2[1]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/?page=2[2]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/[1]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/[2]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/login\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/apache-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-bag\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-jr-spaghetti\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-ringer-t-shirt\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/ruby-on-rails-tote\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-bag\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-baseball-jersey\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-jr-spaghetti\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-ringer-t-shirt\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"/products/spree-tote\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"cart-info empty\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[1]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[2]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[3]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[4]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[5]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "link(\"list-group-item[6]\")",
+                    "type": "Navigation"
+                },
+                {
+                    "name": "searchbox(\"form-control\")",
+                    "type": "Text"
+                },
+                {
+                    "name": "select(\"form-control\")",
+                    "type": "Select"
+                },
+                {
+                    "name": "submit(\"btn btn-success\")",
+                    "type": "Action"
+                }
+            ],
+            "url": "https://demosite.appvance.com/"
         }
     ],
-    "duration": 4000,
+    "duration": 149144,
     "proxyPort": 9090,
     "mobileConfigurations": [],
     "browser": "Chrome",
     "root": 1,
     "setupJS": "",
-    "statesCounter": [],
-    "lastActionId": 1,
+    "statesCounter": [
+        1,
+        1,
+        0
+    ],
+    "lastActionId": 57,
     "proxyAddress": "127.0.0.1",
     "nwLibraries": [],
     "dplType": "HashDPL",
@@ -41,41 +2316,917 @@
     "rootURL": "https://demosite.appvance.com/",
     "delay": 10,
     "executions": [{
-        "processedStates": [],
+        "processedStates": [
+            15241962,
+            1587224473,
+            1041355154,
+            1983916358,
+            1992901711,
+            1642286948,
+            -2077437915,
+            594060130,
+            539581105,
+            215482817,
+            -890704911,
+            1797634366,
+            -1536271760,
+            -292936150,
+            -1861077328,
+            -825672854,
+            -1893452927,
+            1766510572,
+            -1046849485,
+            -393310556,
+            806799803,
+            -74674910,
+            911197437,
+            1398153188,
+            1917405310,
+            -1393585580,
+            1800663791,
+            1239154535,
+            1547465343,
+            2125758455,
+            -1190650036,
+            1739507046,
+            598231525,
+            1186042620,
+            -294977478,
+            636568739,
+            -43449412,
+            -729950933,
+            2091729652,
+            -1698447719,
+            -617695630,
+            -2064270424,
+            -76698830,
+            -1316366488,
+            2126656550,
+            423595225,
+            -552638743,
+            902748073,
+            915353210,
+            -1848943299,
+            1946468988,
+            1664010583,
+            1671930974,
+            737565834,
+            353312754,
+            1266455169
+        ],
         "extractors": [],
         "validators": [],
-        "bindings": [],
-        "duration": 4000,
+        "bindings": [
+            {
+                "visualHintPath": "{abp}/-580412809.jpg",
+                "stateId": -580412809,
+                "selectWindow": "",
+                "customActions": {},
+                "scale": 1.25,
+                "bindingId": 980239995,
+                "fields": [
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 453,
+                        "name": "form(\"navbar-form\")",
+                        "x": 890,
+                        "h": 34,
+                        "action": "formSubmit",
+                        "y": 28,
+                        "type": "Form",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 200,
+                        "name": "searchbox(\"form-control\")",
+                        "x": 1054,
+                        "h": 34,
+                        "action": "setValue",
+                        "y": 28,
+                        "type": "Text",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "values": [
+                            "All departments",
+                            "Categories",
+                            "Brands"
+                        ],
+                        "w": 145,
+                        "name": "select(\"form-control\")",
+                        "x": 905,
+                        "h": 34,
+                        "action": "setSelected",
+                        "y": 28,
+                        "type": "Select",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 70,
+                        "name": "submit(\"btn btn-success\")",
+                        "x": 1259,
+                        "h": 34,
+                        "action": "click",
+                        "y": 28,
+                        "type": "Action",
+                        "elementType": "tag"
+                    }
+                ],
+                "actions": [{
+                    "stateId": 0,
+                    "actionId": 1
+                }]
+            },
+            {
+                "visualHintPath": "{abp}/-931129489.jpg",
+                "stateId": -931129489,
+                "selectWindow": "",
+                "customActions": {},
+                "scale": 1.25,
+                "bindingId": -892442323,
+                "fields": [
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 453,
+                        "name": "form(\"navbar-form\")",
+                        "x": 890,
+                        "h": 34,
+                        "action": "formSubmit",
+                        "y": 28,
+                        "type": "Form",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 12,
+                        "name": "image(\"https://demosite.appvance.com/bitnami/images/close.png\")",
+                        "x": 1502,
+                        "h": 12,
+                        "action": "click",
+                        "y": 634,
+                        "type": "Action",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 200,
+                        "name": "searchbox(\"form-control\")",
+                        "x": 1054,
+                        "h": 34,
+                        "action": "setValue",
+                        "y": 28,
+                        "type": "Text",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "values": [
+                            "All departments",
+                            "Categories",
+                            "Brands"
+                        ],
+                        "w": 145,
+                        "name": "select(\"form-control\")",
+                        "x": 905,
+                        "h": 34,
+                        "action": "setSelected",
+                        "y": 28,
+                        "type": "Select",
+                        "elementType": "tag"
+                    },
+                    {
+                        "oncePerApp": false,
+                        "actionsCreated": 0,
+                        "w": 70,
+                        "name": "submit(\"btn btn-success\")",
+                        "x": 1259,
+                        "h": 34,
+                        "action": "click",
+                        "y": 28,
+                        "type": "Action",
+                        "elementType": "tag"
+                    }
+                ],
+                "actions": [
+                    {
+                        "stateId": 0,
+                        "actionId": 1
+                    },
+                    {
+                        "stateId": -580412809,
+                        "actionId": 29
+                    }
+                ]
+            }
+        ],
+        "duration": 149152,
         "dataSetNames": ["Default"],
-        "bindingsWithoutCustomActions": [],
+        "bindingsWithoutCustomActions": [
+            980239995,
+            -892442323
+        ],
         "usePreviousBindings": false,
-        "prunePages": [],
+        "prunePages": [{
+            "pruned": 0,
+            "stateId": -580412809,
+            "count": -2147483648,
+            "pageURL": "https://demosite.appvance.com/"
+        }],
         "id": 0,
         "bindingsWithCustomActions": [],
         "sitemapHashcodes": [],
-        "pruneActions": [],
+        "pruneActions": [
+            {
+                "pruned": 0,
+                "resultState": -580412809,
+                "count": 1,
+                "action": "navigateTo($baseURL);\n",
+                "actionId": 1
+            },
+            {
+                "pruned": 0,
+                "resultState": -931129489,
+                "count": 2,
+                "action": "mouseOver(div(\"bitnami-banner\"));\n",
+                "actionId": 29
+            }
+        ],
         "pruned": 0,
         "templates": [],
         "start": 1571194761987,
-        "unprocessedActions": [],
+        "unprocessedActions": [
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 3
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 4
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 5
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 6
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 7
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 8
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 9
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 10
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 11
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 12
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 13
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 14
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 15
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 16
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 17
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 18
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 19
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 20
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 21
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 22
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 23
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 24
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 25
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 26
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 27
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 28
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 30
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 31
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 32
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 33
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 34
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 35
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 36
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 37
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 38
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 39
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 40
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 41
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 42
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 43
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 44
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 45
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 46
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 47
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 48
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 49
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 50
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 51
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 52
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 53
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 54
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 55
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 29
+                },
+                {
+                    "stateId": -931129489,
+                    "actionId": 56
+                }
+            ],
+            [
+                {
+                    "stateId": 0,
+                    "actionId": 1
+                },
+                {
+                    "stateId": -580412809,
+                    "actionId": 2
+                }
+            ]
+        ],
         "smartTags": [],
-        "actionsFound": 1,
-        "stop": 1571194883116,
+        "actionsFound": 56,
+        "stop": 1571863444264,
         "lastResume": 0,
         "networkValidations": [],
         "useOneDataSet": false,
         "name": "a",
-        "autoValidations": [],
-        "failedActions": [{
-            "mcIndex": -1,
-            "dataSetName": "Default",
-            "actions": [{
-                "stateId": 0,
-                "actionId": 1,
-                "message": 856031255
-            }]
-        }],
-        "statesFound": [],
+        "failedActions": [],
+        "statesFound": [
+            -580412809,
+            -931129489
+        ],
         "inconsistentActions": []
     }],
     "prune": true,
@@ -90,6 +3241,77 @@
     }],
     "locations": [],
     "actions": [
+        {
+            "oncePerApp": false,
+            "requestList": [{
+                "executionId": 0,
+                "requests": [
+                    -1510618304,
+                    1288951113,
+                    -1318321165,
+                    -856155202,
+                    150825930,
+                    -1937591592,
+                    -672973080,
+                    1471770254,
+                    987769135,
+                    -1381668017,
+                    -1433747912,
+                    1979324364,
+                    -1288136179,
+                    -792140994,
+                    -1778906236,
+                    -475788877,
+                    1161752489,
+                    -1246081489,
+                    -868919334,
+                    -1721123207,
+                    -1889587220,
+                    1475116488
+                ]
+            }],
+            "children": {"0": [-580412809]},
+            "shortestPath": [],
+            "timesVisited": [{
+                "executionId": 0,
+                "times": 1
+            }],
+            "apiRequestList": [{
+                "executionId": 0,
+                "requests": [
+                    -1510618304,
+                    1288951113,
+                    -1318321165,
+                    -856155202,
+                    150825930,
+                    -1937591592,
+                    -672973080,
+                    1471770254,
+                    987769135,
+                    -1381668017,
+                    -1433747912,
+                    1979324364,
+                    -1288136179,
+                    -792140994,
+                    -1778906236,
+                    -475788877,
+                    1161752489,
+                    -1246081489,
+                    -868919334,
+                    -1721123207,
+                    -1889587220,
+                    1475116488
+                ]
+            }],
+            "recurrenceProbability": 0,
+            "id": 1,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 0,
+                "action": "navigateTo",
+                "value": "$baseURL"
+            }]
+        },
         {
             "oncePerApp": false,
             "requestList": [],
@@ -110,16 +3332,1390 @@
             "oncePerApp": false,
             "requestList": [],
             "children": {},
-            "shortestPath": [],
+            "shortestPath": [1],
             "timesVisited": [],
             "apiRequestList": [],
             "recurrenceProbability": 0,
-            "id": 1,
+            "id": 2,
             "subActions": [{
                 "oncePerApp": false,
-                "actionsCreated": 0,
-                "action": "navigateTo",
-                "value": "$baseURL"
+                "actionsCreated": 1,
+                "w": 116,
+                "name": "link(\"/\")",
+                "x": 189,
+                "h": 16,
+                "action": "click",
+                "y": 35,
+                "href": "https://demosite.appvance.com/",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 3,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 64,
+                "name": "link(\"/login\")",
+                "x": 826,
+                "h": 50,
+                "action": "click",
+                "y": 20,
+                "href": "https://demosite.appvance.com/login",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 4,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 67,
+                "name": "link(\"/[1]\")",
+                "x": 204,
+                "h": 50,
+                "action": "click",
+                "y": 100,
+                "href": "https://demosite.appvance.com/",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 5,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 131,
+                "name": "link(\"cart-info empty\")",
+                "x": 1198,
+                "h": 50,
+                "action": "click",
+                "y": 100,
+                "href": "https://demosite.appvance.com/cart",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 6,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 209,
+                "href": "https://demosite.appvance.com/t/bags",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 7,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[1]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 250,
+                "href": "https://demosite.appvance.com/t/mugs",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 8,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[2]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 291,
+                "href": "https://demosite.appvance.com/t/clothing",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 9,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[3]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 382,
+                "href": "https://demosite.appvance.com/t/ruby",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 10,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[4]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 423,
+                "href": "https://demosite.appvance.com/t/apache",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 11,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[5]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 464,
+                "href": "https://demosite.appvance.com/t/spree",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 12,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[6]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 505,
+                "href": "https://demosite.appvance.com/t/rails",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 13,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 117,
+                "name": "link(\"/products/ruby-on-rails-tote\")",
+                "x": 518,
+                "h": 76,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-tote",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 14,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 115,
+                "name": "link(\"/products/ruby-on-rails-bag\")",
+                "x": 738,
+                "h": 76,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-bag",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 15,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 144,
+                "name": "link(\"/products/ruby-on-rails-baseball-jersey\")",
+                "x": 943,
+                "h": 96,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 16,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 105,
+                "name": "link(\"/products/ruby-on-rails-jr-spaghetti\")",
+                "x": 1182,
+                "h": 96,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-jr-spaghetti",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 17,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 148,
+                "name": "link(\"/products/ruby-on-rails-ringer-t-shirt\")",
+                "x": 502,
+                "h": 96,
+                "action": "click",
+                "y": 468,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-ringer-t-shirt",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 18,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 135,
+                "name": "link(\"/products/ruby-baseball-jersey\")",
+                "x": 728,
+                "h": 74,
+                "action": "click",
+                "y": 466,
+                "href": "https://demosite.appvance.com/products/ruby-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 19,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 150,
+                "name": "link(\"/products/apache-baseball-jersey\")",
+                "x": 940,
+                "h": 74,
+                "action": "click",
+                "y": 466,
+                "href": "https://demosite.appvance.com/products/apache-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 20,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 140,
+                "name": "link(\"/products/spree-baseball-jersey\")",
+                "x": 1164,
+                "h": 76,
+                "action": "click",
+                "y": 468,
+                "href": "https://demosite.appvance.com/products/spree-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 21,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 119,
+                "name": "link(\"/products/spree-jr-spaghetti\")",
+                "x": 517,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-jr-spaghetti",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 22,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 127,
+                "name": "link(\"/products/spree-ringer-t-shirt\")",
+                "x": 732,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-ringer-t-shirt",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 23,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 100,
+                "name": "link(\"/products/spree-tote\")",
+                "x": 965,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-tote",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 24,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 100,
+                "name": "link(\"/products/spree-bag\")",
+                "x": 1184,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-bag",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 25,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 33,
+                "name": "link(\"/[2]\")",
+                "x": 482,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 26,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 33,
+                "name": "link(\"/?page=2\")",
+                "x": 514,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/?page=2",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 27,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 63,
+                "name": "link(\"/?page=2[1]\")",
+                "x": 547,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/?page=2",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [1],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 28,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 64,
+                "name": "link(\"/?page=2[2]\")",
+                "x": 610,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/?page=2",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [{
+                "executionId": 0,
+                "requests": [
+                    -856155202,
+                    -1433747912,
+                    1979324364,
+                    -1288136179,
+                    150825930,
+                    -792140994,
+                    -1778906236,
+                    -672973080,
+                    -475788877,
+                    1161752489,
+                    1471770254,
+                    -1246081489,
+                    -868919334,
+                    987769135,
+                    -1381668017,
+                    1288951113,
+                    -1889587220
+                ]
+            }],
+            "children": {"0": [-931129489]},
+            "shortestPath": [1],
+            "timesVisited": [{
+                "executionId": 0,
+                "times": 2
+            }],
+            "apiRequestList": [{
+                "executionId": 0,
+                "requests": [
+                    -856155202,
+                    -1433747912,
+                    1979324364,
+                    -1288136179,
+                    150825930,
+                    -792140994,
+                    -1778906236,
+                    -672973080,
+                    -475788877,
+                    1161752489,
+                    1471770254,
+                    -1246081489,
+                    -868919334,
+                    987769135,
+                    -1381668017,
+                    1288951113,
+                    -1889587220
+                ]
+            }],
+            "recurrenceProbability": 0,
+            "id": 29,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 120,
+                "name": "div(\"bitnami-banner\")",
+                "x": 1399,
+                "h": 80,
+                "action": "mouseOver",
+                "y": 631,
+                "type": "Hover",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 30,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 116,
+                "name": "link(\"/\")",
+                "x": 189,
+                "h": 16,
+                "action": "click",
+                "y": 35,
+                "href": "https://demosite.appvance.com/",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 31,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 64,
+                "name": "link(\"/login\")",
+                "x": 826,
+                "h": 50,
+                "action": "click",
+                "y": 20,
+                "href": "https://demosite.appvance.com/login",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 32,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 67,
+                "name": "link(\"/[1]\")",
+                "x": 204,
+                "h": 50,
+                "action": "click",
+                "y": 100,
+                "href": "https://demosite.appvance.com/",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 33,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 131,
+                "name": "link(\"cart-info empty\")",
+                "x": 1198,
+                "h": 50,
+                "action": "click",
+                "y": 100,
+                "href": "https://demosite.appvance.com/cart",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 34,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 209,
+                "href": "https://demosite.appvance.com/t/bags",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 35,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[1]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 250,
+                "href": "https://demosite.appvance.com/t/mugs",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 36,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[2]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 291,
+                "href": "https://demosite.appvance.com/t/clothing",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 37,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[3]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 382,
+                "href": "https://demosite.appvance.com/t/ruby",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 38,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[4]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 423,
+                "href": "https://demosite.appvance.com/t/apache",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 39,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[5]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 464,
+                "href": "https://demosite.appvance.com/t/spree",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 40,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 262,
+                "name": "link(\"list-group-item[6]\")",
+                "x": 189,
+                "h": 42,
+                "action": "click",
+                "y": 505,
+                "href": "https://demosite.appvance.com/t/rails",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 41,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 117,
+                "name": "link(\"/products/ruby-on-rails-tote\")",
+                "x": 518,
+                "h": 76,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-tote",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 42,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 115,
+                "name": "link(\"/products/ruby-on-rails-bag\")",
+                "x": 738,
+                "h": 76,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-bag",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 43,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 144,
+                "name": "link(\"/products/ruby-on-rails-baseball-jersey\")",
+                "x": 943,
+                "h": 96,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 44,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 105,
+                "name": "link(\"/products/ruby-on-rails-jr-spaghetti\")",
+                "x": 1182,
+                "h": 96,
+                "action": "click",
+                "y": 226,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-jr-spaghetti",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 45,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 148,
+                "name": "link(\"/products/ruby-on-rails-ringer-t-shirt\")",
+                "x": 502,
+                "h": 96,
+                "action": "click",
+                "y": 468,
+                "href": "https://demosite.appvance.com/products/ruby-on-rails-ringer-t-shirt",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 46,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 135,
+                "name": "link(\"/products/ruby-baseball-jersey\")",
+                "x": 728,
+                "h": 74,
+                "action": "click",
+                "y": 466,
+                "href": "https://demosite.appvance.com/products/ruby-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 47,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 150,
+                "name": "link(\"/products/apache-baseball-jersey\")",
+                "x": 940,
+                "h": 74,
+                "action": "click",
+                "y": 466,
+                "href": "https://demosite.appvance.com/products/apache-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 48,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 140,
+                "name": "link(\"/products/spree-baseball-jersey\")",
+                "x": 1164,
+                "h": 76,
+                "action": "click",
+                "y": 468,
+                "href": "https://demosite.appvance.com/products/spree-baseball-jersey",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 49,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 119,
+                "name": "link(\"/products/spree-jr-spaghetti\")",
+                "x": 517,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-jr-spaghetti",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 50,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 127,
+                "name": "link(\"/products/spree-ringer-t-shirt\")",
+                "x": 732,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-ringer-t-shirt",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 51,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 100,
+                "name": "link(\"/products/spree-tote\")",
+                "x": 965,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-tote",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 52,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 100,
+                "name": "link(\"/products/spree-bag\")",
+                "x": 1184,
+                "h": 76,
+                "action": "click",
+                "y": 710,
+                "href": "https://demosite.appvance.com/products/spree-bag",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 53,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 33,
+                "name": "link(\"/[2]\")",
+                "x": 482,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 54,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 33,
+                "name": "link(\"/?page=2\")",
+                "x": 514,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/?page=2",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 55,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 63,
+                "name": "link(\"/?page=2[1]\")",
+                "x": 547,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/?page=2",
+                "type": "Navigation",
+                "elementType": "tag"
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [
+                1,
+                29
+            ],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "recurrenceProbability": 0,
+            "id": 56,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 1,
+                "w": 64,
+                "name": "link(\"/?page=2[2]\")",
+                "x": 610,
+                "h": 34,
+                "action": "click",
+                "y": 915,
+                "href": "https://demosite.appvance.com/?page=2",
+                "type": "Navigation",
+                "elementType": "tag"
             }]
         }
     ],
