@@ -133,10 +133,10 @@
   </execution>
   <logs>
     <log type="database">
-      <opt name="hibernate.connection.username" value="utp"/>
-      <opt name="hibernate.connection.password" value="utp"/>
-      <opt name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/utp?useSSL=false"/>
-      <opt name="hibernate.default_schema" value="utp"/>
+      <opt name="hibernate.connection.username" value="aiq"/>
+      <opt name="hibernate.connection.password" value="aiq"/>
+      <opt name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/aiq?useSSL=false"/>
+      <opt name="hibernate.default_schema" value="aiq"/>
       <opt name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
     </log>
   </logs>
