@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<cloud type="EC2" version="1">
-	<config-param key="AIQProtocol" value="http"/>
+	<config-param key="AIQProtocol" value="https"/>
 	<config-param key="AIQPort" value="8080"/>
-	<config-param key="AccountName" value="appvance"/>
-	<config-param key="AWSKey" value="AKIAJ6Q6MFVSZYGJZINA"/>
-	<config-param key="AWSSecretAcessKey" value="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"/>
-	<config-param key="AMI" value="ami-0e419f667f88144a4"/>
-	<config-param key="InstanceType" value="t2.micro"/>
-	<config-param key="KeyPair" value="AppvanceCloud"/>
-	<config-param key="Security" value="sg-23aad15a"/>
-	<config-param key="AWSRegion" value="us-west-2.ec2.amazonaws.com"/>
-	<config-param key="vpcId" value="vpc-f25aaf96"/>
-	<config-param key="subnetId" value="subnet-7f3d2e08"/>
+	<config-param key="AccountName" value="testsdsdsd"/>
+	<config-param key="AWSKey" value="sdsdsd"/>
+	<config-param key="AWSSecretAcessKey" value="sdsdsds"/>
+	<config-param key="AMI" value="sdsdsd"/>
+	<config-param key="InstanceType" value="t2.nano"/>
+	<config-param key="KeyPair" value="sdsdsd"/>
+	<config-param key="Security" value="sdsdsd"/>
+	<config-param key="AWSRegion" value="us-east-1.ec2.amazonaws.com"/>
+	<config-param key="vpcId" value="sdsds"/>
+	<config-param key="subnetId" value="sdsd"/>
 </cloud>
