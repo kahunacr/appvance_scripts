@@ -1,0 +1,33 @@
+{
+	"threshold": "0.75",
+	"smartTags": [
+		{
+			"name": "st_user",
+			"type": "Action",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERusername"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		}
+	],
+	"actions": [],
+	"customTags": [],
+	"validators": [],
+	"extractors": []
+}

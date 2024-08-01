@@ -1,0 +1,488 @@
+{
+	"threshold": "0.75",
+	"smartTags": [
+		{
+			"name": "st_button_div_general",
+			"type": "Action",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERbutton"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": true,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [
+				"getCheckBoxRole"
+			],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_div_dropdown_menu_element",
+			"type": "Hover",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERmenuitem"
+				},
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-action--inner gw-hasDivider"
+				},
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "aria-haspopupAPPVANCESPLITTERtrue"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_div_expand_lateral_menu",
+			"type": "Navigation",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-TreeView--expand-cmd-icon gw-icon"
+				},
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-TreeView--collapse-cmd-icon gw-icon"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_div_expand_menu",
+			"type": "Action",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-icon gw-icon--expand"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_div_label_general",
+			"type": "Navigation",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-label"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": true,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_div_lateral_menu_element",
+			"type": "Navigation",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERmenuitem"
+				},
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-action--inner"
+				},
+				{
+					"weight": 100,
+					"type": "attrDoesNotContainValue",
+					"value": "classAPPVANCESPLITTERgw-hasDivider"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_div_menu_element",
+			"type": "Navigation",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERmenuitem"
+				},
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-action--inner gw-hasDivider"
+				},
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "aria-haspopupAPPVANCESPLITTERfalse"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_role_checkbox",
+			"type": "Check",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERcheckbox"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": true,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_div_role_link",
+			"type": "Navigation",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERlink"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": true,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_input_button_general",
+			"type": "Action",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "typeAPPVANCESPLITTERbutton"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_input_checkbox_general",
+			"type": "Check",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "typeAPPVANCESPLITTERcheckbox"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_input_password_general",
+			"type": "Text",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "typeAPPVANCESPLITTERpassword"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_input_radio_button",
+			"type": "Radio",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "typeAPPVANCESPLITTERradio"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_input_select_general",
+			"type": "Select",
+			"tags": [
+				"select"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-select-wrapper"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_input_text_general",
+			"type": "Text",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "typeAPPVANCESPLITTERtext"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": true,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_tables_buttons",
+			"type": "Action",
+			"tags": [
+				"table"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "roleAPPVANCESPLITTERbutton"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": true,
+			"description": "",
+			"image": ""
+		},
+		{
+			"name": "st_tables_general",
+			"type": "Action",
+			"tags": [
+				"table"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-ListViewWidget--table gw-table"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": true,
+			"description": "Smart tag that belongs to the tables in general, not to the buttons inside it.",
+			"image": ""
+		},
+		{
+			"name": "st_td_div_lateral_folders",
+			"type": "Action",
+			"tags": [
+				"div"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "classAPPVANCESPLITTERgw-TreeView--node--text"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": true,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		}
+	],
+	"actions": [],
+	"customTags": [],
+	"validators": [],
+	"extractors": [
+		{
+			"name": "getCheckBoxRole",
+			"when": "preAction",
+			"value": "role",
+			"type": "attribute",
+			"variable": "roleValue",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
+}
