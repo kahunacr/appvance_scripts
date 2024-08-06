@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-  <testcase name='' description='script generated from Web Designer' author='cristian@libertymutual.com' version='webDesigner'>
+  <testcase name='' description='script generated from Web Designer' author='appvance' version='webDesigner'>
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
