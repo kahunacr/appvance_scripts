@@ -28,4 +28,22 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value=""]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='setValue' value='"gw"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1bb5c2c0-2569-4aa9-baa4-9702d3d53be8' uiType='base' isMasked='true'>
+      <dialect type='sahi'>
+        <accessor type='SmartTag' value='st_input_password_general(&apos;Login-LoginScreen-LoginDV-password&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='password(0, _in(div("Login-LoginScreen-LoginDV-password")))' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='password(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-password&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='password("gw-focus gw-noTrack")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="Login-LoginScreen-LoginDV-password"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("Login-LoginScreen-LoginDV-password")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;Login-LoginScreen-LoginDV-password&apos;]/div/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="gw-noTrack gw-focus"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div[2]/div[2]/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;Login-LoginScreen-LoginDV-password&apos;)/div[@class=&apos;gw-vw--value&apos;]/input[@class=&apos;gw-noTrack gw-focus&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="gw-InputWidget gw-styleTag--InputColumnWidget"] &gt; div[class="gw-value"] &gt; div[class="gw-PasswordValueWidget gw-styleTag--InputWidget gw-ValueWidget gw-editable"] &gt; div[class="gw-vw--value"] &gt; input[class="gw-noTrack gw-focus"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#Login-LoginScreen-LoginDV-password &gt; .gw-vw--value &gt; .gw-noTrack.gw-focus&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="Login-LoginScreen-LoginDV-password"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
   </testcase>
