@@ -38,4 +38,64 @@
     <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7a022df7-2de1-4cb2-9051-93355e785f43' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71045493-7602-495e-bc98-94993f44eabe' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='147cec55-53ce-4251-9dcf-8bb994ae16ca' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aebbcac0-2ebb-4390-8682-445ba2e6085b' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7bf76297-42f8-4704-a086-65e8492b92e7' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c38d1ea6-f6f4-4918-9b52-4c7e509314a1' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8b7a04bb-e151-485a-9430-a13b913d3974' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4b6c9324-f3e4-4993-b9f7-be178d2cf9de' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0ed39e63-cf3f-4c13-a1ed-0256af8c27a5' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b2669d6a-669d-4811-900f-303717d6d0cf' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f9399e68-02e9-454e-bff6-e740e6d64cba' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='91d3edfa-321a-4b60-a63d-16ca801163fc' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='76ee3c95-77b2-4867-876c-40901442fdae' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='db84c735-c685-4211-87c9-ca0d6be5b592' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='530999fe-735a-4135-bca4-1c9ee26f1d88' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='df0239d4-9344-427a-94c7-1e74c9f1f6af' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='334a6cf9-335c-4133-a346-a5379f0902d0' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9e209de6-e2bf-44c5-bec2-a2a061fb6de3' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3154f8d1-3a26-4fc7-84e1-12e3b986cd89' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2153d195-0266-4d17-9971-45ade0e021f8' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='wait' value='10000' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='acf77d2c-941f-4f2b-917a-f38160bb98dd' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
   </testcase>
