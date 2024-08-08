@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase   name= 'Demogithub3.ds' description= '' author= 'appvance' version= ''>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<shadowDOM useShadowDOM='true'/>
+<step action='addSmartTagsLibrary' value='"{ds}/../../../smart-tags/st-bl-claims-components.stags"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"su"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_input_text_general(&apos;Login-LoginScreen-LoginDV-username&apos;)' fallback='true' selected='true'/>
+   <accessor type='Parent' value='textbox(0, _in(div(&quot;Login-LoginScreen-LoginDV-username&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='textbox(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-username&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='textbox(&quot;gw-focus&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;Login-LoginScreen-LoginDV-username&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='textbox(&quot;Login-LoginScreen-LoginDV-username&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;Login-LoginScreen-LoginDV-username&apos;]/div/input&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div/div[2]/div/div/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-username&apos;)/div[@class=&apos;gw-vw--value&apos;]/input[@class=&apos;gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='textbox({&apos;aria-required&apos;:&apos;false&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;gw-InputWidget gw-styleTag--InputColumnWidget&quot;] &gt; div[class=&quot;gw-value&quot;] &gt; div[class=&quot;gw-TextValueWidget gw-styleTag--InputWidget gw-ValueWidget gw-editable&quot;] &gt; div[class=&quot;gw-vw--value&quot;] &gt; input[class=&quot;gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#Login-LoginScreen-LoginDV-username &gt; .gw-vw--value &gt; .gw-focus&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;Login-LoginScreen-LoginDV-username&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[value=&quot;&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"gw"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_input_password_general(&apos;Login-LoginScreen-LoginDV-password&apos;)' fallback='true' selected='true'/>
+   <accessor type='Parent' value='password(0, _in(div(&quot;Login-LoginScreen-LoginDV-password&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='password(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-password&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='password(&quot;gw-focus gw-noTrack&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathName' value='byXPath(&apos;//*[@name=&quot;Login-LoginScreen-LoginDV-password&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='password(&quot;Login-LoginScreen-LoginDV-password&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;Login-LoginScreen-LoginDV-password&apos;]/div/input&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;gw-noTrack gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div[2]/div[2]/div/div/input&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-password&apos;)/div[@class=&apos;gw-vw--value&apos;]/input[@class=&apos;gw-noTrack gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;gw-InputWidget gw-styleTag--InputColumnWidget&quot;] &gt; div[class=&quot;gw-value&quot;] &gt; div[class=&quot;gw-PasswordValueWidget gw-styleTag--InputWidget gw-ValueWidget gw-editable&quot;] &gt; div[class=&quot;gw-vw--value&quot;] &gt; input[class=&quot;gw-noTrack gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#Login-LoginScreen-LoginDV-password &gt; .gw-vw--value &gt; .gw-noTrack.gw-focus&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;Login-LoginScreen-LoginDV-password&quot;]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"123,2"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_button_div_general(&apos;LILog In&apos;)' fallback='true' selected='true'/>
+   <accessor type='Parent' value='div(0, _in(div(&quot;Login-LoginScreen-LoginDV-submit&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='div(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-submit&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='div(&quot;gw-action--inner gw-focus gw-hasDivider&quot;)' fallback='true' selected='false'/>
+   <accessor type='Text' value='div(&quot;LILog In[3]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;Login-LoginScreen-LoginDV-submit&apos;]/div&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;gw-action--inner gw-hasDivider gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div[3]/div[2]/div/div&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-submit&apos;)/div[@class=&apos;gw-action--inner gw-hasDivider gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='div({&apos;aria-haspopup&apos;:&apos;false&apos;})' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;gw-InputColumnWidget gw-inner--spacing--none gw-styleTag--DetailViewWidget&quot;] &gt; div[class=&quot;gw-ButtonInputWidget gw-styleTag--InputColumnWidget gw-InputWidget&quot;] &gt; div[class=&quot;gw-value&quot;] &gt; div[class=&quot;gw-ButtonValueWidget gw-styleTag--InputWidget gw-putSubMenusBelow gw-isTopLevelMenu gw-hasMinimizedView gw-action--outer&quot;] &gt; div[class=&quot;gw-action--inner gw-hasDivider gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#Login-LoginScreen-LoginDV-submit &gt; .gw-action--inner.gw-hasDivider.gw-focus&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"9,21"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_div_div_expand_menu(&apos;[1]&apos;)' fallback='true' selected='true'/>
+   <accessor type='AttrClass' value='div(&quot;gw-icon gw-icon--expand[1]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;TabBar-ClaimTab&apos;]/div[3]/div&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div/div/div[2]/div[2]/div/div[2]/div[3]/div&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;TabBar-ClaimTab&apos;)/div[@class=&apos;gw-action--expand-button&apos;]/div[@class=&apos;gw-icon gw-icon--expand&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;div[class=&quot;gw-TabBarWidget gw-styleTag--NorthPanelWidget&quot;] &gt; div[class=&quot;gw-TabBarWidget--tab-holder&quot;] &gt; div[class=&quot;gw-TabWidget gw-styleTag--TabBarWidget gw-putSubMenusBelow gw-isTopLevelMenu gw-hasChildren gw-hasMinimizedView gw-action--outer&quot;] &gt; div[class=&quot;gw-action--expand-button&quot;] &gt; div[class=&quot;gw-icon gw-icon--expand&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#TabBar-ClaimTab &gt; .gw-action--expand-button &gt; .gw-icon.gw-icon--expand&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"9,21"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='st_div_div-expand_menu(&apos;[1]&apos;)' fallback='true' selected='true'/>
+</dialect>
+</step>
+</testcase>
