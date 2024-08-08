@@ -1,0 +1,28 @@
+{
+	"threshold": "0.75",
+	"smartTags": [
+		{
+			"name": "susana",
+			"type": "Navigation",
+			"tags": [
+				"a",
+				"abbr"
+			],
+			"rules": [],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		}
+	],
+	"actions": [],
+	"customTags": [],
+	"validators": [],
+	"extractors": []
+}
