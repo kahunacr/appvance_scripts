@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+  <testcase name='' description='script generated from Web Designer' author='appvance' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='addSmartTagsLibrary' value='"{ds}/../../../smart-tags/st-bl-claims-components.stags"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='99d321c7-4ea0-4d04-aa24-3769b3050242' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fc136f18-4b70-4321-95de-9688d5b82a3d' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f74f3df4-5cf9-4e54-8fba-adf481fa080c' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3f3892da-c396-4c0d-95b6-16e1c987e7b9' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d9009e3e-0c9d-4a87-8002-416a48f47198' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='08e6fec5-3165-4b72-8960-66b1de1abf2a' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='57003ca7-0df2-49d5-9435-b366accb464b' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c0db0bf-9f59-409f-ac50-f608e704e13e' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='16a2eca4-321f-4e91-b287-fab15483ec9a' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='94fcf2d3-eb9f-493f-86e4-74a172486032' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f6049a23-024d-45c7-9e2b-43e268dc385b' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01da8024-6597-45c7-aec6-b426cb65cdaa' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aa57d3fe-ba6c-4126-8f61-18be4efdfccf' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+    <step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e4c7fac9-9bb5-46f5-8f1a-d493757b48cb' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
+  </testcase>
