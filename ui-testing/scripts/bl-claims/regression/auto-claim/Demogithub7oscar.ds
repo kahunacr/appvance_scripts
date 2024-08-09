@@ -23,8 +23,7 @@
    <accessor type='AttrName' value='textbox(&quot;Login-LoginScreen-LoginDV-username&quot;)' fallback='true' selected='false'/>
    <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;Login-LoginScreen-LoginDV-username&apos;]/div/input&quot;)' fallback='true' selected='false'/>
    <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div/div[2]/div/div/input&apos;)' fallback='true' selected='false'/>
-   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-username&apos;)/div[@class=&apos;gw-vw--value&apos;]/input[@class=&apos;gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
+\   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-username&apos;)/div[@class=&apos;gw-vw--value&apos;]/input[@class=&apos;gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
    <accessor type='Attribute' value='textbox({&apos;aria-required&apos;:&apos;false&apos;})' fallback='true' selected='false'/>
    <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;Login-LoginScreen-LoginDV-username&quot;]&apos;)' fallback='true' selected='false'/>
    <accessor type='JQuery' value='byJQuery(&apos;input[value=&quot;&quot;]&apos;)' fallback='true' selected='false'/>
@@ -40,7 +39,6 @@
    <accessor type='AttrName' value='password(&quot;Login-LoginScreen-LoginDV-password&quot;)' fallback='true' selected='false'/>
    <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;Login-LoginScreen-LoginDV-password&apos;]/div/input&quot;)' fallback='true' selected='false'/>
    <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;gw-noTrack gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div[2]/div[2]/div/div/input&apos;)' fallback='true' selected='false'/>
    <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-password&apos;)/div[@class=&apos;gw-vw--value&apos;]/input[@class=&apos;gw-noTrack gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
    <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' fallback='true' selected='false'/>
    <accessor type='JQuery' value='byJQuery(&apos;input[name=&quot;Login-LoginScreen-LoginDV-password&quot;]&apos;)' fallback='true' selected='false'/>
@@ -55,7 +53,6 @@
    <accessor type='Text' value='div(&quot;LILog In[3]&quot;)' fallback='true' selected='false'/>
    <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;Login-LoginScreen-LoginDV-submit&apos;]/div&quot;)' fallback='true' selected='false'/>
    <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;gw-action--inner gw-hasDivider gw-focus&quot;]&apos;)' fallback='true' selected='false'/>
-   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div[2]/div[2]/div[2]/div/div[4]/div[4]/div/div[2]/div/div/div[3]/div[2]/div/div&apos;)' fallback='true' selected='false'/>
    <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;Login-LoginScreen-LoginDV-submit&apos;)/div[@class=&apos;gw-action--inner gw-hasDivider gw-focus&apos;]&quot;)' fallback='true' selected='false'/>
    <accessor type='Attribute' value='div({&apos;aria-haspopup&apos;:&apos;false&apos;})' fallback='true' selected='false'/>
 </dialect>
@@ -65,7 +62,6 @@
    <accessor type='SmartTag' value='st_div_div_expand_menu(&apos;[1]&apos;)' fallback='true' selected='true'/>
    <accessor type='AttrClass' value='div(&quot;gw-icon gw-icon--expand[1]&quot;)' fallback='true' selected='false'/>
    <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;TabBar-ClaimTab&apos;]/div[3]/div&quot;)' fallback='true' selected='false'/>
-   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/form/div/div/div/div[2]/div[2]/div/div[2]/div[3]/div&apos;)' fallback='true' selected='false'/>
    <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;TabBar-ClaimTab&apos;)/div[@class=&apos;gw-action--expand-button&apos;]/div[@class=&apos;gw-icon gw-icon--expand&apos;]&quot;)' fallback='true' selected='false'/>
 </dialect>
 </step>
