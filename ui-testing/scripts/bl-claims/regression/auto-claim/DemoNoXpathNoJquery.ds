@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase   name= 'Demogithub6susana.ds' description= '' author= 'appvance' version= ''>
+<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='true'/>
+<shadowDOM useShadowDOM='true'/>
+<step action='addSmartTagsLibrary' value='"{ds}/../../../smart-tags/st-bl-claims-components.stags"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://blgw.staging.aws.lmig.com/cc/ClaimCenter.do"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='false' selected='true'/>
+</dialect>
+</step>
+<step action='setValue' value='"su"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_input_text_general(&apos;Login-LoginScreen-LoginDV-username&apos;)' fallback='true' selected='true'/>
+   <accessor type='Parent' value='textbox(0, _in(div(&quot;Login-LoginScreen-LoginDV-username&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='textbox(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-username&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='textbox(&quot;gw-focus&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='textbox(&quot;Login-LoginScreen-LoginDV-username&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='textbox({&apos;aria-required&apos;:&apos;false&apos;})' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='setValue' value='"gw"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_input_password_general(&apos;Login-LoginScreen-LoginDV-password&apos;)' fallback='true' selected='true'/>
+   <accessor type='Parent' value='password(0, _in(div(&quot;Login-LoginScreen-LoginDV-password&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='password(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-password&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='password(&quot;gw-focus gw-noTrack&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrName' value='password(&quot;Login-LoginScreen-LoginDV-password&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"123,2"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_button_div_general(&apos;LILog In&apos;)' fallback='true' selected='true'/>
+   <accessor type='Parent' value='div(0, _in(div(&quot;Login-LoginScreen-LoginDV-submit&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='div(0, _in(div({&apos;id&apos;:&apos;Login-LoginScreen-LoginDV-submit&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='div(&quot;gw-action--inner gw-focus gw-hasDivider&quot;)' fallback='true' selected='false'/>
+   <accessor type='Text' value='div(&quot;LILog In[3]&quot;)' fallback='true' selected='false'/>
+   <accessor type='Attribute' value='div({&apos;aria-haspopup&apos;:&apos;false&apos;})' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"9,21"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='SmartTag' value='st_div_div_expand_menu(&apos;[1]&apos;)' fallback='true' selected='true'/>
+   <accessor type='AttrClass' value='div(&quot;gw-icon gw-icon--expand[1]&quot;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='clickXY' value='"9,21"' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='st_div_div-expand_menu(&apos;[1]&apos;)' fallback='true' selected='true'/>
+</dialect>
+</step>
+</testcase>
