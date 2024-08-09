@@ -1,294 +1,407 @@
 {
-	"threshold": "0.75",
-	"smartTags": [
-		{
-			"name": "susana",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana2",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana3",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana4",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana5",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana6",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana7",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana8",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana9",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana10",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana11",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana12",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana13",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana14",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		},
-		{
-			"name": "susana15",
-			"type": "Navigation",
-			"tags": [
-				"a",
-				"abbr"
-			],
-			"rules": [],
-			"singleton": false,
-			"scanOncePerApp": false,
-			"scanOnePerPage": false,
-			"info": {},
-			"methods": {},
-			"validators": [],
-			"extractors": [],
-			"disabled": false,
-			"description": "",
-			"image": ""
-		}
-	],
-	"actions": [],
-	"customTags": [],
-	"validators": [],
-	"extractors": []
+    "threshold": "0.75",
+    "smartTags": [{
+            "name": "susana",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana2",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana3",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana4",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana5",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana6",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana7",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana8",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana9",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana10",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana11",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana12",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana13",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana14",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana15",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana16",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana17",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana18",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "susana19",
+            "type": "Navigation",
+            "tags": [
+                "select",
+                "div",
+                "span",
+                "abbr"
+            ],
+            "rules": [],
+            "singleton": false,
+            "scanOncePerApp": false,
+            "scanOnePerPage": false,
+            "info": {},
+            "methods": {},
+            "validators": [],
+            "extractors": [],
+            "disabled": false,
+            "description": "",
+            "image": ""
+        },
+    ],
+    "actions": [],
+    "customTags": [],
+    "validators": [],
+    "extractors": []
 }
