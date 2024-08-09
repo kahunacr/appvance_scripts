@@ -4,9 +4,7 @@
             "name": "susana",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -25,9 +23,7 @@
             "name": "susana2",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -46,9 +42,7 @@
             "name": "susana3",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -67,9 +61,7 @@
             "name": "susana4",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -88,9 +80,7 @@
             "name": "susana5",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -109,9 +99,7 @@
             "name": "susana6",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -130,9 +118,7 @@
             "name": "susana7",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -151,9 +137,7 @@
             "name": "susana8",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -172,9 +156,7 @@
             "name": "susana9",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -193,9 +175,7 @@
             "name": "susana10",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -214,9 +194,7 @@
             "name": "susana11",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -235,9 +213,7 @@
             "name": "susana12",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -256,9 +232,7 @@
             "name": "susana13",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -277,9 +251,7 @@
             "name": "susana14",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -298,9 +270,7 @@
             "name": "susana15",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -319,9 +289,7 @@
             "name": "susana16",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -340,9 +308,7 @@
             "name": "susana17",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -361,9 +327,7 @@
             "name": "susana18",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -382,9 +346,7 @@
             "name": "susana19",
             "type": "Navigation",
             "tags": [
-                "select",
                 "div",
-                "span",
                 "abbr"
             ],
             "rules": [],
@@ -398,7 +360,7 @@
             "disabled": false,
             "description": "",
             "image": ""
-        },
+        }
     ],
     "actions": [],
     "customTags": [],
